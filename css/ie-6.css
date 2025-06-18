@@ -1,0 +1,90 @@
+.header .phone {
+	font-size: 22px;
+}
+.header .facebook a {
+background: url("../images/buttons/facebook-cloud-normal.png") no-repeat scroll 0 0 transparent;
+}
+.header .facebook a:hover {
+background: url("../images/buttons/facebook-cloud-hover.png") no-repeat scroll 0 0 transparent;
+}
+.resorts-right-side .upcoming-courses-container .bottom{
+	line-height: 0px;
+}
+.lets-talk-container .lets-talk .facebook{
+	margin-left: 12px;
+}
+.meet-the-team-container .find-out-more-btn{
+	background-image: url("../images/buttons/find-out-more-normal.png");
+}
+.meet-the-team-container .find-out-more-btn:hover{
+	background: url("../images/buttons/find-out-more-hover.png") scroll no-repeat 0 0 transparent;
+}
+.block-aligner{
+	width: 289px;
+}
+.resort .features ul li{
+	background: url("../images/tick-grey.jpg") scroll no-repeat 0 0 transparent;
+}
+.resort .view-resort-btn {
+	background: url("../images/buttons/view-resort-normal.png") scroll no-repeat 0 0 transparent;
+}
+.resort .view-resort-btn:hover {
+	background: url("../images/buttons/view-resort-hover.png") scroll no-repeat 0 0 transparent;
+}
+.content .banner .video-container .watch-big a {
+    background: url("../images/buttons/watch-video-normal.png") no-repeat scroll 0 0 transparent;
+}
+.content .banner .video-container .watch-big a:hover {
+	background: url("../images/buttons/watch-video-hover.png") no-repeat scroll 0 0 transparent;
+    background-position: 0 0;
+}
+.watch-small a {
+    background: url("../images/buttons/watch-video-small-normal.png") no-repeat scroll 0 0 transparent;
+}
+.watch-small a:hover{
+	background: url("../images/buttons/watch-video-small-hover.png") no-repeat scroll 0 0 transparent;
+}
+.resorts .top .bottom-line .skiing-icon a{
+	background: url("../images/buttons/skiing-icon-normal.png") scroll no-repeat 0 0 transparent;
+}
+.resorts .top .bottom-line .skiing-icon a:hover{
+	background: url("../images/buttons/skiing-icon-hover.png") scroll no-repeat 0 0 transparent;
+}
+.resorts .top .bottom-line .skiing-icon .active{
+	background: url("../images/buttons/skiing-icon-active.png") scroll no-repeat 0 0 transparent;
+}
+.resorts .top .bottom-line .snowboarding-icon a{
+	background: url("../images/buttons/snowboarding-icon-normal.png") scroll no-repeat 0 0 transparent;
+}
+.resorts .top .bottom-line .snowboarding-icon a:hover{
+	background: url("../images/buttons/snowboarding-icon-hover.png") scroll no-repeat 0 0 transparent;
+}
+.resorts .top .bottom-line .snowboarding-icon .active{
+	background: url("../images/buttons/snowboarding-icon-active.png") scroll no-repeat 0 0 transparent;
+}
+.resorts-left-side .banner .navigation li a{
+	background: url("../images/navigation/banner-nav-normal.png") scroll no-repeat 0 0 transparent;
+}
+.resorts-left-side .banner .navigation{
+bottom: 2px;
+line-height: 0px;
+}
+.resorts-left-side .banner .navigation li a:hover,
+.resorts-left-side .banner .navigation li .active{
+	background: url("../images/navigation/banner-nav-hover.png") scroll no-repeat 0 0 transparent;
+}
+.email-signup .submit-btn{
+	background: url("../images/buttons/email-submit-normal.png") scroll no-repeat 0 0 transparent;
+}
+.email-signup .submit-btn:hover{
+	background: url("../images/buttons/email-submit-hover.png") scroll no-repeat 0 0 transparent;
+}
+.categories .submit-btn{
+	background: url("../images/buttons/category-search-norml.png") scroll no-repeat 0 0 transparent;
+}
+.categories .submit-btn:hover{
+	background: url("../images/buttons/category-search-hover.png") scroll no-repeat 0 0 transparent;
+}
+.pagination .pag-nav{
+	width: 370px;
+}

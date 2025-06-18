@@ -1,0 +1,1729 @@
+.wrapper{width:921px;margin:0 auto;}
+.pink{color:#F36;}
+.darker{color:#333;}
+.hidden{display:none;}
+.watch-small a{background:url(../images/buttons/watch-video-small.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:26px;width:98px;}
+.watch-small a:hover{background-position:0 -26px;}
+.photo-frame{background:url(../images/photo-frame.png) repeat scroll 0 0 transparent;height:90px;left:0;position:absolute;top:0;width:90px;}
+.winner-frame{background:url(../images/winner-frame.png) repeat scroll 0 0 transparent;height:92px;left:0;position:absolute;top:0;width:78px;}
+.photo-frame:hover{background-position:0 -90px;}
+.photo-shadow{background:url(../images/photo-shadow-84x84.png) no-repeat scroll 0 0 transparent;height:84px;left:0;position:absolute;top:0;width:84px;}
+.content .page-container{float:left;min-height:170px;width:100%;}
+.content .left-page{background-image:url(../images/backgrounds/right-side-top.jpg), url(../images/backgrounds/right-side-bottom.jpg), url(../images/backgrounds/right-side-y.jpg);background-position:630px top, 630px bottom, 630px 0;background-repeat:no-repeat, no-repeat, repeat-y;}
+.content .right-page{background-image:url(../images/backgrounds/left-side-top.jpg), url(../images/backgrounds/left-side-bottom.jpg), url(../images/backgrounds/left-side-y.jpg);background-position:196px top, 196px bottom, 196px 0;background-repeat:no-repeat, no-repeat, repeat-y;}
+.content .page-container .heading{float:left;height:0;margin-top:35px;overflow:hidden;}
+@font-face{font-family:"DIN Medium";src:url(DIN-Medium.ttf);}
+.header{float:left;width:920px;}
+.header .top{float:left;height:148px;width:100%;}
+.header .top .header-left-cont{float:left;height:148px;width:715px;position:relative;}
+.header .top .header-right-cont{float:left;height:148px;width:204px;}
+.header .logo{float:left;padding-top:20px;}
+.header .logo a{background:url(../images/headers/logo.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:85px;width:325px;}
+.header .tagline{color:#F36;float:left;font-size:16px;font-style:italic;line-height:25px;text-shadow:0 1px 1px rgba(0,1,1,0.46);width:300px;padding:40px 0 0 40px;}
+.header .navigation{float:left;height:20px;line-height:20px;width:716px;margin:0;padding:0;}
+.header .navigation ul{float:left;height:20px;line-height:20px;list-style:none outside none;width:100%;margin:0;padding:0;}
+.header .booking{float:right;width:199px;}
+.header .facebook{float:right;position:relative;width:204px;padding:0;}
+.header .facebook a{background:url(../images/buttons/facebook-cloud.png) no-repeat scroll 0 0 transparent;height:0;overflow:hidden;padding-top:49px;position:absolute;right:-7px;top:-4px;width:211px;}
+.header .facebook a:hover{background-position:0 -49px;}
+.header .booking a{background:url(../images/buttons/boolking-n-enquiries.jpg) no-repeat scroll 0 0 transparent;float:right;height:0;overflow:hidden;padding-top:30px;width:199px;}
+.header .booking a:hover{background-position:0 -30px;}
+.header .phone-number-cont{float:left;height:66px;width:204px;}
+.header .phone{color:#FFF;float:right;font-family:"DIN Medium","Trebuchet MS",Sans-serif,Serif;font-size:22px;font-weight:400;line-height:25px;padding-top:6px;text-align:right;text-shadow:0 1px 1px rgba(0,0,0,0.45);}
+.header .navigation li{background:url(../images/top-nav-seperator.jpg) no-repeat scroll 0 5px transparent;float:left;height:20px;line-height:20px;width:auto;padding:0 10px 0 12px;}
+.header .navigation li a{color:#FFF;float:left;font-size:13px!important;font-weight:700;line-height:20px;text-shadow:0 1px 1px rgba(0,1,1,0.32);text-transform:uppercase;margin:0;}
+.header .navigation li a:hover{color:#B7DBFF;text-decoration:none;text-shadow:0 1px 1px rgba(0,1,1,0.32);}
+.header .navigation li .active{text-shadow:0 1px 1px rgba(0,1,1,0.32), 0 0 6px #FFF;}
+.header .navigation .first{background-image:none;padding-left:0;}
+.header .navigation .ladt{padding-right:0;}
+.content{clear:both;float:left;width:100%;}
+.content .banner{background:url(../images/backgrounds/header.jpg) no-repeat scroll 0 0 transparent;clear:left;float:left;height:462px;margin-top:24px;width:920px;padding:0;}
+.content .banner .left{float:left;width:395px;padding:40px 0 0 30px;}
+.content .banner .title{color:#FFF;float:left;font-size:33px;line-height:33px;margin-bottom:10px;padding-left:5px;text-shadow:0 1px 1px rgba(0,1,1,0.36), 0 0 5px rgba(255,255,255,0.18);}
+.content .banner .info{color:#FFF;float:left;font-size:18px;line-height:29px;padding-left:5px;}
+.content .banner .buttons{clear:left;float:left;margin-top:22px;width:389px;}
+.content .banner .skier-btn{background:url(../images/buttons/skier.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:67px;width:190px;}
+.content .banner .snowboarder-btn{background:url(../images/buttons/snowboarder.jpg) no-repeat scroll 0 0 transparent;float:right;height:0;overflow:hidden;padding-top:67px;width:190px;}
+.content .banner .skier-btn:hover,.content .banner .snowboarder-btn:hover{background-position:0 -67px;}
+.content .banner .right{float:right;padding:57px 26px 0 0;}
+.content .banner .video-container{background:url(../images/header-video-container.jpg) repeat scroll 0 0 transparent;clear:right;float:right;height:260px;position:relative;width:448px;z-index:1;}
+.content .banner .video-container .contextual-links-wrapper{background:none repeat scroll 0 0 #FFF;border-radius:5px 5px 5px 5px;margin-right:5px;margin-top:7px;}
+.content .banner .video-container img{height:245px;padding-left:8px;padding-top:5px;width:433px;}
+.content .banner .video-container .watch-big{height:49px;left:100px;position:absolute;top:100px;width:244px;}
+.content .banner .video-container .watch-big a{background:url(../images/buttons/watch-video.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:49px;width:244px;}
+.content .banner .video-container .watch-big a:hover{background-position:0 -49px;}
+.content .banner .bottom{float:left;padding-top:33px;width:100%;}
+.content .banner .up{float:left;width:100%;}
+.content .banner .bottom-left{float:left;width:510px;padding:28px 0 0 21px;}
+.content .banner .bottom-left .subtitle{background:url(../images/headers/basecamp-resorts.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:25px;width:190px;}
+.content .banner .bottom-left ul{float:left;list-style:none outside none;width:100%;padding:0;}
+.content .banner .bottom-left li{background:url(../images/top-bullet.png) no-repeat scroll 1px 9px transparent;color:#F36;float:left;font-size:13px;height:24px;line-height:24px;width:140px;padding:0 0 0 15px;}
+.content .banner .bottom-left li a{color:#F36;float:left;font-size:13px;line-height:24px;}
+.content .banner .bottom-right{float:right;padding-right:23px;width:352px;}
+.content .banner .bottom-right .subtitle{background:url(../images/headers/free-brochure-request.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:64px;width:333px;}
+.content .banner .bottom-right .email-input{border-right:medium none;float:left;font-size:16px;height:31px;line-height:25px;padding-left:5px;width:222px;font-weight:bold;color:#222222;}
+.content .banner .bottom-right .request-btn{background:url(../images/buttons/request.jpg) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:33px;width:96px;}
+.content .banner .bottom-right .request-btn:hover{background-position:0 -33px;}
+.content .title{color:#004386;float:left;font-size:24px;font-weight:700;line-height:30px;text-align:center;width:100%;padding:20px 0;}
+.content .title span{color:#F36;}
+.content .previews{background:url(../images/backgrounds/video-previews.jpg) no-repeat scroll 196px 25px transparent;clear:both;float:left;padding-top:25px;position:relative;width:100%;}
+.content .preview-container{background:url(../images/backgrounds/video-preview.jpg) no-repeat scroll 0 0 transparent;float:left;height:256px;position:relative;width:228px;}
+.preview-container .corner-l{background:url(../images/prev-lcorner.png) no-repeat scroll 0 0 transparent;height:5px;left:0;position:absolute;width:194px;}
+.preview-container .corner-r{background:url(../images/prev-rcorner.png) no-repeat scroll 0 0 transparent;float:right;height:5px;width:5px;}
+.preview-container .video-container{float:left;margin-top:1px;padding-left:1px;}
+.preview-container .video-container .video{background-color:#000;border-radius:6px 6px 0 0;float:left;height:144px;overflow:hidden;position:relative;width:192px;}
+.preview-container .video-container .video img{float:left;width:192px;}
+.preview-container .video-container .video .watch-small{height:26px;left:45px;position:absolute;top:60px;width:98px;}
+.preview-container .video-container .video .watch-small a{background:url(../images/buttons/watch-video-small.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:26px;width:98px;}
+.preview-container .video-container .video .watch-small a:hover{background-position:0 -26px;}
+.preview-container .vid-title{clear:left;color:#333;float:left;font-size:14px;height:40px;line-height:16px;width:170px;padding:6px 0 0 10px;}
+.preview-container .vid-title .name{font-size:16px;font-weight:700;}
+.preview-container .vid-text{clear:left;color:#555;float:left;font-size:12px;line-height:16px;width:178px;padding:6px 0 0 10px;}
+.right-container{float:right;font-size:14px;line-height:24px;text-align:center;width:200px;padding:12px 22px 0 0;}
+.right-container a{color:#F36;font-size:14px;line-height:18px;}
+.content .course-bar{background:url(../images/backgrounds/bar.png) no-repeat scroll 0 0 transparent;clear:left;float:left;height:57px;width:100%;margin:20px 0;padding:0;}
+.content .school-trip-banner{background:url(../images/school-trips.jpg) no-repeat scroll 0 0 transparent;clear:left;float:left;height:82px;position:relative;width:100%;margin:20px 0 0;padding:0;}
+.content .school-trip-banner .find-out-more-btn{background:url(../images/buttons/find-out-more.png) no-repeat scroll 0 0 transparent;height:0;overflow:hidden;padding-top:33px;position:absolute;right:25px;top:25px;width:157px;}
+.content .school-trip-banner .find-out-more-btn:hover{background-position:0 -33px;}
+.course-bar .find-a-course{background:url(../images/headers/find-a-course.jpg) no-repeat scroll 17px 0 transparent;float:left;height:0;margin-top:18px;overflow:hidden;padding-left:17px;padding-top:20px;width:144px;}
+.course-bar .courses{float:left;}
+.course-bar .courses .select-container{float:left;margin-top:18px;padding-left:14px;width:194px;}
+.course-bar .courses .select-container select{width:194px;}
+.course-bar .search{background:url(../images/bar-seperator.jpg) no-repeat scroll 128px 0 transparent;float:left;height:57px;width:95px;padding:0 17px 0 18px;}
+.course-bar .search-btn{background:url(../images/buttons/search.jpg) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:28px;margin-top:15px;width:95px;}
+.course-bar .search-btn:hover{background-position:0 -28px;}
+.course-bar .call-now{background:url(../images/headers/call-now.png) no-repeat scroll 0 0 transparent;float:right;height:0;margin-top:10px;overflow:hidden;padding-right:44px;padding-top:37px;width:128px;}
+.content .social-media .blog{float:left;width:360px;}
+.social-media .blog .blog-header{background:url(../images/headers/recent-blog-posts.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;margin-top:2px;overflow:hidden;padding-top:50px;width:238px;}
+.social-media .blog .blog-post{float:left;line-height:20px;}
+.social-media .blog .author-photo{float:left;height:34px;margin-top:8px;position:relative;width:34px;}
+.social-media .blog .author-photo img{float:left;height:34px;width:34px;}
+.social-media .blog .post-content{float:left;padding-left:16px;width:285px;}
+.social-media .blog .blog-title{color:#004386;float:left;font-size:14px;font-weight:700;width:100%;}
+.social-media .blog .content-sample{float:left;width:100%;}
+.social-media .blog .more{color:#F36;float:left;width:100%;}
+.social-media .blog .blog-author{color:#B2B2B2;float:left;font-size:11px;text-transform:uppercase;width:100%;}
+.social-media .blog .author{color:#B2B2B2;font-size:11px;text-transform:uppercase;}
+.content .social-media{clear:left;float:left;margin-top:10px;width:100%;}
+.content .social-media .blog-post{padding:0;border:0;}
+.content .social-media .twitter{float:left;width:310px;}
+.twitter .twitter-header{background:url(../images/headers/latest-tweets.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;padding-top:48px;width:178px;}
+.twitter .tweet{float:left;line-height:20px;margin-top:10px;min-height:98px;width:281px;}
+.twitter .tweet .cloud{float:left;width:100%;background:url(../images/backgrounds/tweet-rpt.jpg) repeat-y scroll 0 0 transparent;}
+.twitter .tweet .cloud .cloud-top{float:left;height:15px;width:100%;background:url(../images/backgrounds/tweet-top.jpg) no-repeat scroll 0 0 transparent;}
+.twitter .tweet .cloud .cloud-bottom{float:left;height:38px;width:100%;background:url(../images/backgrounds/tweet-bottom.jpg) no-repeat scroll 0 0 transparent;}
+.twitter .tweet a{color:#F36;}
+.twitter .tweet .cloud-content{padding:5px 10px;}
+.twitter .tweet .time{color:#F36;float:right;text-align:right;width:100%;margin-top:14px;}
+.content .social-media .facebook{float:right;width:240px;height:290px;}
+.content .certification{float:left;margin-top:30px;width:100%;}
+.content .certification .field{background:url(../images/backgrounds/blue-field.jpg) no-repeat scroll 0 0 transparent;height:198px;width:449px;padding:0 4px;}
+.content .certification .qualifications{float:left;}
+.content .certification .qualifications .heading{background:url(../images/headers/worldwide-recognised-qualifications.jpg) no-repeat scroll 17px 0 transparent;float:left;height:0;margin-top:17px;overflow:hidden;padding-left:17px;padding-top:33px;width:414px;}
+.content .certification .qualifications .logos{background:url(../images/qualifications2.jpg) no-repeat scroll 12px 0 transparent;float:left;height:80px;margin-top:37px;width:100%;}
+.content .certification .peace-of-mind{float:right;}
+.content .certification .peace-of-mind .heading{background:url(../images/headers/peace-of-mind-when-booking.jpg) no-repeat scroll 17px 0 transparent;float:left;height:0;margin-top:17px;overflow:hidden;padding-left:17px;padding-top:33px;width:326px;}
+.content .certification .peace-of-mind .logos{background:url(../images/peace-of-mind.jpg) no-repeat scroll 65px 0 transparent;float:left;height:106px;margin-top:13px;width:100%;}
+.footer {
+background: url("../images/backgrounds/footer.png") repeat-x scroll 0 0 transparent;
+float: left;
+padding-top: 50px;
+width: 100%;
+}
+.footer .wrapper{width:922px;}
+.footer .contact-bar{background:url(../images/backgrounds/bar.png) no-repeat scroll 0 0 transparent;clear:left;float:left;height:57px;width:100%;padding:0;}
+.contact-bar .give-us-a-call{color:#F36;float:left;font-family:"DIN Medium","Trebuchet MS",sans-serif,serif;font-size:26px;height:21px;line-height:26px;padding-left:17px;padding-top:16px;text-shadow:0 1px 1px rgba(0,0,0,0.34);width:560px;}
+.contact-bar .give-us-a-call span{color:#FFF;}
+.contact-bar .send-message{float:right;margin-top:12px;padding-right:13px;}
+.footer .field{background:url(../images/backgrounds/footer-field.jpg) repeat-x scroll 0 0 #FFF;border:1px solid #DDD;border-radius:6px 6px 6px 6px;clear:both;float:left;margin-top:30px;width:870px;padding:0 26px 12px;}
+.field .list-column{float:left;padding:20px 30px 0 0;}
+.field .list-column .heading{float:left;height:0;overflow:hidden;padding-top:30px;width:100%;}
+.field .resorts{width:145px;}
+.field .resorts h2{background:url(../images/headers/resorts.jpg) no-repeat scroll 0 0 transparent;}
+.field .ski-instructor-courses{width:224px;}
+.field .ski-instructor-courses h2{background:url(../images/headers/ski-instructor-courses.jpg) no-repeat scroll 0 0 transparent;}
+.field .snowboard-instructor-courses{width:270px;padding-right:0;}
+.field .snowboard-instructor-courses h2{background:url(../images/headers/snowboard-instructor-courses.jpg) no-repeat scroll 0 0 transparent;}
+.field .list-column ul{float:left;list-style:none outside none;width:100%;margin:0;padding:0;}
+.field .list-column li{background:url(../images/top-bullet.png) no-repeat scroll 1px 9px transparent;color:#F36;float:left;height:24px;line-height:24px;padding:0 0 0 15px;}
+.field .list-column li a{color:#F36;font-size:12px;line-height:24px;}
+.field .social{float:right;padding-top:20px;width:146px;}
+.social a{float:left;height:0;margin-bottom:4px;overflow:hidden;}
+.social .fb-small{background:url(../images/fb-footer.jpg) no-repeat scroll 0 0 transparent;padding-top:67px;width:68px; }
+.social .tw-small{background:url(../images/tw-footer.jpg) no-repeat scroll 1px 0 transparent;padding-top:67px;width:68px;margin-left: 10px;}
+.social .yt-small{background:url(../images/yt-footer.jpg) no-repeat scroll 0 0 transparent;padding-top:62px;width:148px;}
+.social .li-small{background:url(../images/li-footer.jpg) no-repeat scroll 0 0 transparent;padding-top:44px;width:148px;}
+.footer .logos{background:url(../images/logos.jpg) no-repeat scroll 0 0 transparent;clear:both;float:left;height:80px;margin-top:30px;width:922px;}
+.footer .bottom{clear:both;color:#959595;float:left;line-height:25px;width:100%;margin:25px 0;}
+.footer .bottom a{color:#959595;line-height:25px;}
+.footer .bottom .copyright-links{float:left;text-align: center;width: 100%;padding-bottom: 25px;}
+.footer .bottom .copyright-links a{color:#FF3366;font-size:12px;}
+.footer .bottom .copyright-links .developers a{color:#959595;font-size:12px;}
+.footer .bottom .developers{display:inline;}
+.footer .bottom .ticket-to-ride-container{height:75px;margin: 0 auto;width: 252px;}
+.footer .bottom .ticket-to-ride-container a{ background: url("../images/ticket-to-ride-group.jpg") no-repeat scroll 0 0 transparent;font-size: 12px;height: 45px;line-height: 20px;float:left;padding: 30px 0 0;text-align: center;width: 252px;display:inline-block;}
+.footer .bottom .ticket-to-ride-container a:hover{text-decoration:none;}
+.tree-container{color:#F36;width:100%;float:left;}
+.course-page-tree-container .tree-container{color:#F36;width:100%;float:left;margin:0;}
+.course-page-tree-container .tree-container .left-tree{padding:0;padding-bottom:15px;}
+.tree-container ul{display:inline;}
+.tree-container ul li{background:url(../images/bullet.jpg) no-repeat scroll 0 6px transparent;border:medium none;display:inline;list-style:none outside none;padding-left:12px;padding-right:5px;}
+.tree-container .first{background:none repeat scroll 0 0 transparent;padding-left:0;}
+.tree-container ul li a{color:#F36;font-size:12px;line-height:20px;}
+.left-tree{float:left;padding-top:10px;width:450px;}
+.right-tree{float:right;padding-top:10px;text-align:right;width:450px;}
+.resorts-left-side{float:left;padding-top:20px;width:585px;}
+.resorts-left-side .banner{background-image:none;float:left;height:300px;margin-top:0;position:relative;width:585px;}
+.resorts-left-side .banner .navigation{bottom:0;height:49px;left:0;position:absolute;width:585px;}
+.resorts-left-side .banner .navigation ul{bottom:0;float:left;height:49px;left:0;list-style:none outside none;width:585px;}
+.resorts-left-side .banner .navigation li{float:left;}
+.resorts-left-side .banner .navigation li a{background:url(../images/navigation/banner-nav.png) repeat-x scroll 0 0 transparent;color:#FFF;float:left;font-size:12px;font-weight:700;height:33px;line-height:20px;padding-top:16px;text-align:center;text-transform:uppercase;width:133px;}
+.resorts-left-side .banner .qualifications li a{width:177px;}
+.resorts-left-side .banner .qualifications .questions a{width:179px;}
+.resorts-left-side .banner .details li a{width:106px;}
+.resorts-left-side .banner .details .questions a{width:109px;}
+.resorts-left-side .banner .navigation li a:hover,.resorts-left-side .banner .navigation li .active{background-position:0 -49px;text-decoration:none;}
+.resorts-left-side .banner .navigation .logo{background:url(../images/navigation/banner-nav-logo.png) no-repeat scroll 0 0 transparent;height:49px;width:52px;}
+.resorts-left-side .banner .banner-image{border-radius:10px 10px 0 0;}
+.resorts-left-side .banner .resort-logo{bottom:49px;height:73px;left:0;position:absolute;text-align:center;width:230px;}
+.resorts-left-side .banner .resort-logo img{bottom:10px;left:20px;position:absolute;}
+.resorts-left-side .banner .resort-tagline{bottom:49px;color:#FFF;font:italic 20px/26px "Trebuchet MS",Sans-serif;height:55px;position:absolute;right:0;text-align:center;width:330px;}
+.resorts-left-side .resort-details{float:left;position:relative;width:350px;}
+.resorts-left-side .resort-questions{width:100%;}
+.resorts-left-side .resort-details .text{float:left;width:100%;}
+.resorts-left-side .resort-details .text h1{color:#004386;font-weight:bold;}
+.resorts-left-side .title{color:#004386;float:left;font-size:22px;line-height:22px;padding-bottom:0;text-align:left;width:100%;padding-top:18px;}
+.resort-details .subtitle{float:left;font-size:14px;font-weight:700;line-height:20px;padding-top:20px;width:100%;}
+.resort-details .price{padding-top:0;}
+.resort-details .book-link{padding-bottom:20px;}
+.resort-details .subtitle span{font-weight:400;}
+.resort-details .subtitle-big{float:left;font-size:18px;font-weight:700;line-height:20px;padding-top:20px;width:100%;}
+.resort-details .info{float:left;font-size:12px;line-height:20px;text-align:justify;width:100%;}
+.resort-details .photo{float:left;height:100px;width:100px;}
+.resort-details .photo img{border:2px solid #DADADA;float:left;height:86px;width:86px;}
+.resort-details .author{color:#959595;float:left;font-size:12px;font-style:italic;line-height:20px;width:225px;}
+.resort-details .comment{font-size:12px;font-style:italic;line-height:20px;text-align:justify;}
+.resort-questions .list{float:left;list-style-type:none;padding-top:20px;width:100%;}
+.resort-questions .item{float:left;width:100%;}
+.resort-questions .item a{color:#000;font:bold 12px/22px "Trebuchet MS",Sans-serif;}
+.resort-questions .item a:hover{text-decoration:none;}
+.resort-questions .item .info{padding-bottom:20px;}
+.resorts-left-side .resort-features{float:right;width:200px;}
+.resort-features .tick-list{float:left;list-style:none inside none;padding-top:30px;width:100%;}
+.tick-list li{background:url(../images/tick.jpg) no-repeat scroll 0 0 transparent;font-size:12px;line-height:24px;padding-left:25px;}
+.resort-features .pink-list{float:left;padding-bottom:30px;width:100%;}
+.resort-features .pink-list li{background:url(../images/bullet.jpg) no-repeat scroll 0 7px transparent;color:#F36;float:left;font-size:12px;line-height:18px;padding-left:12px;width:178px;}
+.resort-features .pink-list li a{color:#F36;font-size:12px;line-height:18px;}
+.resort-features .video-container{float:left;padding-bottom:20px;}
+.resort-features .video-container .video{background:url(../images/backgrounds/small-video-container.jpg) no-repeat scroll 0 0 transparent;float:left;height:92px;position:relative;width:140px;padding:6px;}
+.resort-features .video-container .video img{float:left;height:82px;width:140px;}
+.resort-features .video-container .video .watch-small{height:26px;left:26px;position:absolute;top:36px;width:98px;}
+.resort-features .video-container .video .watch-small a{background:url(../images/watch-small.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:26px;width:98px;}
+.resorts-right-side{float:right;padding-top:20px;width:302px;}
+.upcoming-courses-container{background:url(../images/backgrounds/datelist-middle.jpg) repeat-y scroll 0 0 transparent;float:left;margin-bottom:20px;width:302px;}
+.upcoming-courses-container .upcoming-courses{background:url(../images/backgrounds/dates-bg.jpg) no-repeat scroll 0 0 transparent;float:left;min-height:424px;width:100%;}
+.upcoming-courses-container .bottom{background:url(../images/backgrounds/datelist-bottom.jpg) no-repeat scroll 0 0 transparent;float:left;height:7px;overflow:hidden;width:100%;}
+.upcoming-courses-container .upcoming-courses .heading{color:#333333;float:left;font-size:22px;height:43px;line-height:43px;text-align:center;width:100%;}
+.upcoming-courses-container .categories{float:left;height:22px;margin-bottom:0;width:300px;padding:0 1px;}
+.upcoming-courses-container .categories .skiing{background:url(../images/buttons/skiing-snowboarding.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:23px;width:148px;}
+.upcoming-courses-container .categories .skiing:hover{background-position:0 -23px;}
+.upcoming-courses-container .categories .skiing.active{background-position:0 -23px;}
+.upcoming-courses-container .categories .snowboarding{background:url(../images/buttons/skiing-snowboarding.jpg) no-repeat scroll -148px 0 transparent;float:right;height:0;overflow:hidden;padding-top:23px;width:152px;}
+.upcoming-courses-container .categories .snowboarding:hover{background-position:-148px -23px;}
+.upcoming-courses-container .categories .snowboarding.active{background-position:-148px -23px;}
+.upcoming-courses-container .date-list ul{float:left;width:298px;padding:0 2px;}
+.upcoming-courses-container .date-list .month{float:left;height:25px;left:-1px;position:relative;top:0;width:300px;}
+.upcoming-courses-container .date-list .month .header{background:url(../images/backgrounds/date-month.png) no-repeat scroll 0 0 transparent;color:#FFF;font-size:14px;height:27px;line-height:20px;position:absolute;text-shadow:0 1px 1px rgba(0,0,0,0.75);text-transform:uppercase;width:270px;padding:5px 15px 0;}
+.upcoming-courses-container .date-list .lesson{background:url("../images/dot-fdfdfd.jpg") repeat-x scroll 0 0 transparent;border-top:1px solid #E0E0E0;float:left;width:298px;}
+.skiing-snowboarding-courses{background:url(../images/ski-board-banner.jpg) no-repeat scroll 0 0 transparent;float:left;height:126px;margin-bottom:20px;padding-top:0;width:302px;}
+.skiing-snowboarding-courses:hover{background-position:0 -127px;}
+.skiing-snowboarding-courses .skiing-courses{background:url(../images/headers/banner-ski.jpg) no-repeat scroll 0 66px transparent;float:left;height:0;overflow:hidden;padding-top:125px;width:150px;}
+.skiing-snowboarding-courses .snowboarding-courses{background:url(../images/headers/banner-snowboard.jpg) no-repeat scroll 0 66px transparent;float:right;height:0;overflow:hidden;padding-top:125px;width:150px;}
+.free-borochure-container{float:left;height:144px;position:relative;width:100%;}
+.free-borochure-container .free-borochure{background:url(../images/request-brochure.png) no-repeat scroll 0 0 transparent;color:#004386;font-size:12px;height:86px;left:-3px;line-height:18px;position:absolute;top:0;width:158px;padding:48px 40px 0 110px;}
+.lets-talk-container{float:left;height:147px;position:relative;width:100%;}
+.lets-talk-container .lets-talk{color:#004386;font-size:12px;height:127px;left:-1px;line-height:18px;position:absolute;top:0;width:303px;}
+.lets-talk-container .lets-talk a{background:url(../images/lets-talk.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:127px;width:303px;}
+.lets-talk-container .lets-talk a:hover{background-position:0 -127px;}
+.meet-the-team-container{float:left;height:145px;position:relative;width:100%;}
+.meet-the-team{background:url(../images/office.png) no-repeat scroll 0 0 transparent;height:125px;left:-1px;position:absolute;top:0;width:301px;}
+.meet-the-team .header-container{float:left;width:281px;padding:15px 0 0 20px;}
+.meet-the-team .header{background:url(../images/headers/meet-the-team.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:46px;width:255px;}
+.meet-the-team .find-out-more{float:left;padding:18px 0 0 72px;}
+.meet-the-team .find-out-more-btn{background:url(../images/buttons/find-out-more.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:33px;width:157px;}
+.meet-the-team-container .find-out-more-btn:hover{background-position:0 -33px;}
+.content .resorts{background:url(../images/backgrounds/resorts-content-y.jpg) repeat-y scroll 0 0 transparent;float:left;width:921px;}
+.content .resorts .content{background:url(../images/backgrounds/resorts-content-top.jpg) repeat-y scroll 0 0 transparent;float:left;overflow:hidden;padding-left:28px;padding-top:22px;width:892px;}
+.content .resorts .bottom{background:url(../images/backgrounds/resorts-content-bottom.jpg) repeat-y scroll 0 0 transparent;float:left;height:10px;overflow:hidden;width:921px;}
+.block-row-aligner{float:left;width:100%;}
+.resorts-row{float:left;width:100%;}
+.resort-container .new .new-icon{background:url(../images/new.png) no-repeat scroll 0 0 transparent;height:57px;position:absolute;right:0;top:0;width:56px;}
+.resort-container{float:left;height:304px;position:relative;width:273px;padding:0 8px;}
+.resort-container .resort{background:url(../images/backgrounds/resort.png) no-repeat scroll 0 0 transparent;height:279px;position:relative;width:265px;padding:4px;}
+.resort .heading{color:#333;float:left;font-size:14px;font-weight:700;line-height:20px;width:231px;padding:14px 0 0 17px;}
+.resort .logo{float:left;height:85px;padding-top:6px;text-align:center;width:100%;}
+.resort .logo img{height:85px;}
+.resort .features{float:left;width:100%;padding-top:10px;}
+.resort .features ul{float:left;font-size:12px;height:88px;line-height:20px;padding-left:40px;width:225px;}
+.resort .features ul li{background:url(../images/tick.png) no-repeat scroll 0 0 transparent;float:left;height:20px;width:200px;margin:0;padding:0 0 0 25px;}
+.resort .view-resort{float:left;padding:11px 59px 0;}
+.resort .view-resort-btn{background:url(../images/buttons/view-resort.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:33px;width:147px;}
+.resort .view-resort-btn:hover{background-position:0 -33px;}
+.big-bar-container{background:url(../images/backgrounds/big-bar.jpg) no-repeat scroll 0 0 transparent;float:left;height:128px;margin-top:30px;position:relative;width:920px;}
+.big-bar{background:url(../images/backgrounds/big-bar.jpg) no-repeat scroll 0 0 transparent;height:129px;left:-5px;position:absolute;top:-1px;width:930px;}
+.big-bar .left-side{float:left;width:500px;padding:16px 0 0 26px;}
+.big-bar .right-side{float:right;width:324px;padding:37px 44px 0 0;}
+.big-bar .not-shure-which-resort{background:url(../images/headers/not-shure-which-resort.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:27px;width:100%;}
+.big-bar .chat-with-team{background:url(../images/headers/chat-with-team.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:26px;width:100%;}
+.big-bar .chat-on-facebook-btn{background:url(../images/buttons/chat-on-facebook.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:34px;width:190px;}
+.big-bar .call-44{color:#F36;float:left;font-family:"DIN Medium","Trebuchet MS",Sans-serif,Serif;font-size:18px;height:26px;line-height:25px;overflow:hidden;padding-left:23px;padding-top:5px;width:216px;}
+.big-bar .call-44 span{color:#004386;}
+.big-bar .free-brochure-request-2{background:url(../images/headers/free-brochure-request-2.jpg) no-repeat scroll 1px 0 transparent;float:left;height:0;overflow:hidden;padding-top:31px;width:240px;}
+.big-bar .email-form .input-field{float:left;height:31px;width:224px;border-color:#A6E8FF;border-style:solid;border-width:1px 0 1px 1px;font-size:16px;color:#222222;font-weight:bold;padding-left:3px;}
+.big-bar .email-form .request-btn{background:url(../images/buttons/request.png) no-repeat scroll 0 0 transparent;border:medium none;float:right;height:33px;width:96px;}
+.big-bar .email-form .request-btn:hover{background-position:0 -33px;}
+.resorts .top{background:url(../images/backgrounds/resorts-top.jpg) no-repeat scroll 0 30px #FFF;float:left;height:317px;padding-top:30px;position:relative;width:921px;}
+.resorts .top .heading{background:url(../images/headers/resorts-white-201213.jpg) no-repeat scroll 30px 29px transparent;float:left;height:0;overflow:hidden;padding-left:30px;padding-top:65px;width:390px;}
+.resorts .seasonal .heading{background:url(../images/headers/seasonal-accomodation.jpg) no-repeat scroll 30px 29px transparent;float:left;height:0;overflow:hidden;padding-left:30px;padding-top:65px;width:501px;}
+.resorts .maps{float:left;height:205px;overflow:hidden;width:871px;padding:0 25px;}
+.resorts .seasonal .maps{float:left;height:204px;overflow:hidden;width:681px;padding:0 105px;}
+.resorts .maps .map{float:left;position:relative;padding:0 5px;}
+.resorts .maps img{float:left;}
+.resorts .maps .map .map-point{left:0;position:absolute;top:0;}
+.resorts .maps .map .point{background:url(../images/point-icon.png) no-repeat scroll 0 0 transparent;height:27px;position:absolute;width:26px;}
+.resorts .maps .map .point-name{height:40px;position:absolute;width:132px;}
+.resorts .maps .map .point-name a{float:left;height:0;overflow:hidden;padding-top:40px;width:132px;}
+
+.map .whistler .point{left:23px;top:106px;}
+/*.map .kicking-horse .point{left:157px;top:78px;}*/
+.map .banff .point{left:85px;top:91px;}
+.map .meribel .point{left:167px;top:112px;}
+.map .verbier .point{left:153px;top:95px;}
+.map .bariloche .point{left:45px;top:95px;}
+.map .val-dlsere .point{left:183px;top:92px;}
+
+.map .whistler .point-name{background:url(../images/headers/icon-whistler.png) no-repeat scroll 0 0 transparent;left:53px;top:119px;z-index:1;}
+/*.map .kicking-horse .point-name{background:url(../images/headers/icon-kicking-horse.png) no-repeat scroll 0 0 transparent;left:187px;top:57px;}*/
+.map .banff .point-name{background:url(../images/headers/icon-banff.png) no-repeat scroll 0 0 transparent;left:115px;top:85px;}
+.map .meribel .point-name{background:url(../images/headers/icon-meribel.png) no-repeat scroll 0 0 transparent;left:30px;top:104px;}
+.map .verbier .point-name{background:url(../images/headers/icon-verbier.png) no-repeat scroll 0 0 transparent;left:183px;top:122px;}
+.map .bariloche .point-name{background:url(../images/headers/icon-bariloche.png) no-repeat scroll 0 0 transparent;left:-91px;top:107px;}
+.map .val-dlsere .point-name{background:url(../images/headers/icon-val-dlsere.png) no-repeat scroll 0 0 transparent;left:211px;top:63px;}
+
+.map .whistler .point-name a{background:url(../images/headers/icon-whistler.png) no-repeat scroll 0 0 transparent;}
+.map .kicking-horse .point-name a{background:url(../images/headers/icon-kicking-horse.png) no-repeat scroll 0 0 transparent;}
+.map .banff .point-name a{background:url(../images/headers/icon-banff.png) no-repeat scroll 0 0 transparent;}
+.map .meribel .point-name a{background:url(../images/headers/icon-meribel.png) no-repeat scroll 0 0 transparent;}
+.map .verbier .point-name a{background:url(../images/headers/icon-verbier.png) no-repeat scroll 0 0 transparent;}
+.map .bariloche .point-name a{background:url(../images/headers/icon-bariloche.png) no-repeat scroll 0 0 transparent;}
+.map .val-dlsere .point-name a{background:url(../images/headers/icon-val-dlsere.png) no-repeat scroll 0 0 transparent;}
+.resorts .top .bottom-line{bottom:0;left:0;position:absolute;width:871px;padding:0 25px;}
+.resorts .top .bottom-line .head{background:none repeat scroll 0 0 transparent;color:#FFF;font-family:"Trebuchet MS",Sans-serif;font-size:16px;height:18px;line-height:18px;padding-top:20px;width:150px;}
+.resorts .top .bottom-line span{float:left;padding-left:10px;}
+.resorts .top .bottom-line .skiing-icon{height:54px;margin-top:1px;width:54px;}
+.resorts .top .bottom-line .skiing-icon a{background:url(../images/buttons/skiing-icon.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:54px;width:54px;}
+.resorts .top .bottom-line .skiing-icon a:hover{background-position:0 -54px;}
+.resorts .top .bottom-line .skiing-icon .active{background-position:0 -108px;}
+.resorts .top .bottom-line .snowboarding-icon{float:left;height:54px;margin-top:1px;width:38px;}
+.resorts .top .bottom-line .snowboarding-icon a{background:url(../images/buttons/snowboarding-icon.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:54px;width:38px;}
+.resorts .top .bottom-line .snowboarding-icon a:hover{background-position:0 -54px;}
+.resorts .top .bottom-line .snowboarding-icon .active{background-position:0 -108px;}
+.resorts .maps .right{float:right;}
+.resorts .maps .canada{padding-top:27px;}
+.resorts .maps .france{padding-top:0;}
+.resorts .maps .argentina{padding-top:2px;}
+.course-left-side{float:left;width:410px;}
+.course-left-side .course-banner{float:left;height:300px;position:relative;width:410px;}
+.course-left-side .course-banner .banner-image{float:left;height:278px;width:409px;}
+.course-left-side .course-banner .banner-text{left:25px;position:absolute;top:130px;}
+.course-right-side{float:right;width:431px;}
+.course-details-bar{background:url(../images/backgrounds/small-details-bar.jpg) no-repeat scroll 0 0 transparent;float:left;height:48px;width:380px;padding:0 15px;}
+.course-details-bar li{float:left;padding:5px 85px 0 0;}
+.course-details-bar .last{float:right;padding-right:0;}
+.course-details-bar a{color:#F36;}
+.course-media-bar{background:url(../images/backgrounds/big-details-bar.jpg) no-repeat scroll 0 0 transparent;float:left;height:305px;width:375px;padding:18px 0 0 35px;}
+.course-media-bar .video-container{float:left;width:187px;}
+.course-media-bar .video-container .video{background:url(../images/backgrounds/small-video-container.jpg) no-repeat scroll 0 0 transparent;float:left;height:92px;position:relative;width:140px;padding:6px 41px 6px 6px;}
+.course-media-bar .video-container .video img{float:left;height:82px;width:140px;}
+.course-media-bar .video-container .video .watch-small{height:26px;left:26px;position:absolute;top:36px;width:98px;}
+.course-media-bar .video-container .text-under{float:left;width:100%;}
+.course-media-bar .media-container{float:left;padding:30px 0 0;}
+.media{float:left;height:88px;overflow:hidden;position:relative;width:140px;padding:11px 7px 0 11px;}
+.media .media-frame{background:url(../images/media-frame.png) no-repeat scroll 0 0 transparent;height:94px;left:5px;position:absolute;top:5px;width:152px;}
+.media .media-frame:hover{background-position:0 -94px;}
+.media a{float:left;height:0;overflow:hidden;padding-top:94px;width:152px;}
+.media .plus-btn{height:17px;left:0;position:absolute;top:0;width:16px;}
+.media .plus-btn a{background:url(../images/buttons/plus.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:17px;width:16px;}
+.media .plus-btn a:hover{background-position:0 -17px;}
+.media-desc{color:#555;float:left;font:12px/18px "Trebuchet MS",sans-serif;width:184px;padding:12px 0 0 18px;}
+.media-desc span{color:#333;font:bold 14px/18px "Trebuchet MS",Sans-serif;}
+.media-desc a{color:#F36;font:12px/18px "Trebuchet MS",Sans-serif;}
+.course-controls{float:left;width:100%;padding:0;}
+.course-controls .course-title{color:#333;float:left;font:bold 22px/24px "Trebuchet MS",Sans-serif;position:relative;width:100%;padding:4px 0 0;}
+.course-controls .course-resort{color:#999;float:left;font:italic bold 16px/20px "Trebuchet MS",Sans-serif;width:100%;padding:4px 0 0;font-weight:normal;}
+.course-controls .course-desc{color:#333;float:left;font:16px/24px "Trebuchet MS",Sans-serif;width:100%;padding:0;margin-top:10px;}
+.course-controls .course-desc .price{font-size:18px;}
+.course-controls .button-container{float:left;padding:10px 11px 0 0;}
+.course-controls .button-container .send-a-message-btn{background:url(../images/buttons/send-a-message.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:0;overflow:hidden;padding-top:33px;width:167px;}
+.course-controls .button-container .send-a-message-btn:hover{background-position:0 -33px;}
+.course-controls .button-container .book-now-btn{background:url(../images/buttons/book-now.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:0;overflow:hidden;padding-top:33px;width:124px;}
+.course-controls .button-container .book-now-btn:hover{background-position:0 -33px;}
+.tab-container{float:left;width:100%;padding:20px 0;}
+.tab-container .tabs{float:left;width:432px;}
+.tab-container .tabs li{float:left;}
+.tab-container .tabs .tab a{-moz-border-bottom-colors:none;-moz-border-image:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;background-image:url(../images/buttons/tabs-course.jpg);background-repeat:no-repeat;float:left;height:0;overflow:hidden;padding-top:27px;width:106px;border-color:0 transparent 0 0;border-style:none solid none none;border-width:medium 2px medium medium;}
+.tabs .tab-overview a{background-position:0 0;}
+.tabs .tab-what-to-expect a{background-position:-108px 0;}
+.tabs .tab-qualifications a{background-position:-216px 0;}
+.tabs .tab-questions a{background-position:-324px 0;}
+.tabs .tab-overview a:hover{background-position:0 -30px;}
+.tabs .tab-what-to-expect a:hover{background-position:-108px -30px;}
+.tabs .tab-qualifications a:hover{background-position:-216px -30px;}
+.tabs .tab-questions a:hover{background-position:-324px -30px;}
+.tabs .tab-overview .ui-tabs-selected{background-position:0 -60px!important;}
+.tabs .tab-what-to-expect .ui-tabs-selected{background-position:-108px -60px!important;}
+.tabs .tab-qualifications .ui-tabs-selected{background-position:-216px -60px!important;}
+.tabs .tab-questions .ui-tabs-selected{background-position:-324px -60px!important;}
+.tab-container .ui-tabs-hide{display:none;}
+.tab-content{background:url(../images/backgrounds/tab-container.jpg) no-repeat scroll 0 0 transparent;color:#555;float:left;font:12px/20px "Trebuchet MS",Sans-serif;width:392px;padding:20px;}
+.booking-n-enquiries-container{float:left;padding-bottom:10px;width:100%;}
+.booking-n-enquiries-container .booking-n-enquiries{background:url(../images/headers/booking-n-enquiries.jpg) no-repeat scroll 20px 0 transparent;float:left;height:0;overflow:hidden;padding-top:24px;width:272px;}
+.left-link{float:left;padding:2px 0 0;}
+.left-link a{color:#F36;font:12px/24px "Trebuchet MS",Sans-serif;float:right;}
+.brochure-request-2-container{float:left;height:132px;position:relative;width:100%;}
+.brochure-request-2-container .brochure-request-2{background:url(../images/request-brochure-2.png) no-repeat scroll 0 0 transparent;height:132px;position:absolute;width:439px;}
+.brochure-request-2-container .left-side{float:left;height:120px;width:246px;padding:4px 0 7px 4px;}
+.brochure-request-2-container .left-side .call-text{color:#F36;float:left;font-size:20px;line-height:25px;text-align:center;width:100%;padding:10px 0;}
+.brochure-request-2-container .left-side span{color:#004386;font-size:22px;}
+.send-us-a-message{float:left;width:217px;padding:0 0 0 30px;}
+.send-us-a-message-btn{background:url(../images/buttons/send-us-a-message.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:0;overflow:hidden;padding-top:33px;width:192px;}
+.send-us-a-message-btn:hover{background-position:0 -33px;}
+.brochure-request-2-container .right-side{float:right;height:120px;width:184px;padding:4px 4px 7px 0;}
+.brochure-request-2-container .right-side .request-brochure{float:left;padding:102px 0 0 35px;}
+.brochure-request-2-container .right-side .request-brochure a{background:url(../images/headers/request-brochure.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:18px;width:147px;}
+.course-bottom-side{float:left;width:100%;padding:20px 0 0;}
+.seperator{background:url(../images/backgrounds/page-bottom.jpg) no-repeat scroll center bottom transparent;float:left;width:100%;padding:20px 0 0;}
+.course-bottom-side .whats-included-container{float:left;height:126px;padding-right:26px;width:269px;}
+.course-bottom-side .whats-included-container .image{background:url(../images/list.jpg) no-repeat scroll 0 0 transparent;float:left;width:70px;height:95px;}
+.course-bottom-side .whats-included-container .image a{width:100%;height:0;overflow:hidden;padding-top:95px;float:left;}
+.course-bottom-side .sign-up-n-win-container{float:left;height:126px;width:279px;}
+.course-bottom-side .join-us-on-fb-container{float:left;height:126px;padding-right:37px;width:298px;}
+.course-bottom-side .join-us-on-fb-container .image{background:url(../images/facebook-icon-big.jpg) no-repeat scroll 0 0 transparent;float:left;height:126px;width:86px;}
+.course-bottom-side .join-us-on-fb-container .image a{float:left;height:0;padding-top:86px;width:100%;overflow:hidden;}
+.course-bottom-side .whats-included{background:url(../images/headers/whats-included.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:14px;width:135px;}
+.course-bottom-side .join-us-on-fb{background:url(../images/headers/join-us-on-facebook.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:14px;width:167px;}
+.course-bottom-side .sign-up-n-win{background:url(../images/headers/sign-up-n-win.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:18px;width:273px;}
+.course-bottom-side .text{padding:4px 0 0;}
+.course-bottom-side .text p{float:left;width:100%;padding:4px 0 0;}
+.course-bottom-side .text a{color:#F36;font:12px/20px "Trebuchet MS",Sans-serif;}
+.course-bottom-side .text ul{color:#F36;float:left;font:12px/20px "Trebuchet MS",Sans-serif;list-style:disc inside none;width:100%;padding:4px 0 0;}
+.course-bottom-side .text li span{color:#333;}
+.whats-included-container .text{border-right:1px solid #ECECEC;float:right;height:96px;width:185px;}
+.join-us-on-fb-container .text{border-right:1px solid #ECECEC;float:right;height:96px;width:185px;}
+.sign-up-n-win-container .text{float:left;text-align:center;width:100%;}
+.sign-up-n-win-container .email-form{float:left;padding-top:4px;width:100%;}
+.sign-up-n-win-container .email-form .email-input{-moz-border-bottom-colors:none;-moz-border-image:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;background:url(../images/backgrounds/input-bg.jpg) repeat-x scroll 0 0 #FFF;float:left;font:13px/25px "Trebuchet MS",Sans-serif;height:31px;width:195px;border-color:#DADADA 0 #DADADA #DADADA;border-style:solid none solid solid;border-width:1px medium 1px 1px;padding:0 5px;}
+.sign-up-btn{background:url(../images/buttons/sing-up.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:33px;width:73px;}
+.sign-up-btn:hover{background-position:0 -33px;}
+.course-bottom-side .featured-author-news{border-right:1px solid #ECECEC;float:left;width:440px;}
+.course-bottom-side .author-photo{float:left;height:84px;position:relative;width:84px;padding:3px;}
+.author-photo:hover{background-position:0 -90px;}
+.author-photo img{float:left;height:84px;width:84px;}
+.featured-author-news .message{float:left;padding-left:15px;width:295px;}
+.course-bottom-side .ppl-say{float:left;width:430px;padding:0 0 0 48px;}
+.ppl-say .message{float:left;padding-left:15px;width:315px;}
+.course-bottom-side h2{float:left;font:bold 18px/20px "Trebuchet MS",Sans-serif;width:100%;}
+.course-bottom-side .under-title{color:#959595;float:left;font-size:12px;line-height:20px;width:100%;}
+.course-bottom-side p{float:left;font:12px/20px "Trebuchet MS",Sans-serif;width:100%;}
+.course-bottom-side a{color:#F36;}
+.course-bottom-side .italic{font-style:italic;}
+.blog-left-side{float:left;width:560px;}
+.blog-left-side .blog-post{border-bottom:1px solid #E4E3E3;float:left;padding-bottom:7px;padding-top:20px;width:100%;}
+.blog-left-side .post-head{float:left;width:100%;}
+.blog-left-side .post-head .post-title{color:#004386;font-size:24px;}
+.blog-left-side .post-subtitle{color:#004386;float:left;font-size:18px;line-height:20px;padding-top:15px;width:100%;}
+.blog-left-side .post-media-container{float:left;overflow:hidden;padding-top:20px;position:relative;width:100%;}
+.blog-left-side .media-aligner{float:left;left:50%;position:relative;}
+.post-media-container .post-media{float:left;left:-50%;position:relative;top:0;}
+.post-media-container .image-container{border:1px solid #DADADA;clear:right;float:left;max-width:556px;position:relative;padding:1px;}
+.post-media-container .image-container img{border:1px solid #DEDEDE;max-width:554px;}
+.post-media-container .image-controls{position:absolute;text-align:right;top:-20px;width:100%;}
+.post-media-container .image-controls a{color:#F36;font-size:12px;line-height:20px;}
+.blog-left-side .post-content{float:left;font-size:12px;line-height:20px;width:100%;padding:20px 0;}
+.blog-left-side .post-content iframe{float: left; padding: 3% 14%; width: 400px;}
+.blog-left-side .post-content a{color:#F36;font-size:12px;line-height:20px;}
+.blog-left-side .post-controls{float:left;width:100%;padding:24px 0 7px;}
+.blog-left-side .post-controls .comments-count{background:url(../images/comments-count.png) no-repeat scroll 0 0 transparent;color:#FFF;float:left;height:23px;padding-top:1px;text-align:center;width:34px;}
+.blog-left-side .post-controls .discuss{float:left;padding:0 10px;}
+.blog-left-side .post-controls .discuss a{color:#F36;font-family:"DIN Medium","Trebucher MS",Sans-serif,Serif;font-size:12px;line-height:21px;}
+.blog-left-side .post-controls .twitter{float:left;padding-right:20px;}
+.blog-left-side .post-controls .fb-likes{float:left;}
+.post-tags{color:#333;float:left;font-family:"Trebuchet MS",Sans-serif,serif;font-size:12px;line-height:20px;width:100%;}
+.post-tags span,.post-tags span a{color:#959595;font-family:Arial;font-size:12px;font-style:italic;line-height:20px;}
+.fb-comments-container{float:left;width:100%;}
+.facebook-container{float:left;width:390px;margin:0;padding:0;}
+.facebook-container .fb-controls{float:left;width:100%;padding:0;}
+.facebook-container .fb-plugin-container{float:left;width:100%;padding:10px 0 0;}
+.facebook-activity{background:url(../images/facebook-activity.png) no-repeat scroll 0 0 transparent;float:left;height:413px;width:298px;padding:2px;}
+.facebook-activity h2{background:url(../images/headers/facebook-activity.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:50px;width:298px;}
+.pagination .pag-cnt{color:#B2B2B2;float:left;font-size:12px;line-height:36px;}
+.pagination .pag-nav{float:right;height:36px;}
+.pagination .pag-nav .prev a,.pagination .pag-nav .next a{color:#F36;font-size:12px;line-height:36px;}
+.pagination .pag-nav .prev{float:left;padding-right:40px;}
+.pagination .pag-nav .next{float:right;padding-left:40px;}
+.pagination ul{float:left;}
+.pagination li{float:left;padding:0 7px;}
+.pagination ul li a{color:#FFA5BC;font-size:12px;line-height:36px;}
+.pagination ul li .active{color:#F36;}
+.blog-right-side{background-image:url(../images/backgrounds/right-side-top.jpg), url(../images/backgrounds/right-side-bottom.jpg), url(../images/backgrounds/right-side-y.jpg);background-position:left top, left bottom, left 0;background-repeat:no-repeat, no-repeat, repeat-y;float:right;width:302px;padding:30px 0 30px 18px;}
+.blog-right-side .featured-author-container{float:left;width:302px;}
+.blog-right-side .featured-author{background:url(../images/backgrounds/featured-author.jpg) repeat-x scroll 0 0 #DADADA;border:1px solid #DADADA;border-radius:6px 6px 6px 6px;float:left;width:288px;padding:13px 0 21px 12px;}
+.blog-right-side .featured-author-reflection{background:url(../images/backgrounds/featured-author-ref.png) repeat-x scroll 0 0 transparent;border-radius:6px 6px 0 0;float:left;height:18px;margin-top:4px;width:302px;}
+.blog-right-side .author-photo{float:left;height:84px;position:relative;width:84px;padding:3px;}
+.blog-right-side .author-photo:hover{background-position:0 -90px;}
+.blog-right-side .author-photo img{float:left;height:84px;width:84px;}
+.blog-right-side .author-desc{float:left;font-size:11px;line-height:18px;padding-left:8px;width:180px;}
+.blog-right-side .author-desc a{color:#F36;font-size:12px;line-height:20px;}
+.authors{float:left;width:315px;padding:20px 0;}
+.authors .heading{background:url(../images/headers/authors.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:14px;width:293px;}
+.authors .author-box{float:left;height:90px;position:relative;width:90px;padding:15px 15px 0 0;}
+.authors .author-photo{float:left;height:84px;position:relative;width:84px;padding:3px;}
+.authors .author-photo img{float:left;height:84px;width:84px;}
+.authors .author:hover{background-position:0 -90px;}
+.email-signup{background:url(../images/backgrounds/email-box.png) no-repeat scroll 0 0 transparent;float:left;height:49px;margin-bottom:20px;width:291px;padding:45px 0 0 11px;}
+.email-signup .email-input{-moz-border-bottom-colors:none;-moz-border-image:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;background-color:#FFF;float:left;font-size:13px;height:31px;line-height:25px;width:195px;border-color:#123B68 0 #123B68 #123B68;border-style:solid none solid solid;border-width:1px medium 1px 1px;padding:0 5px;}
+.email-signup .submit-btn{background:url(../images/buttons/email-submit.png) no-repeat scroll 0 0 transparent;border:0 none;float:left;height:33px;width:73px;}
+.email-signup .submit-btn:hover{background-position:0 -33px;}
+.categories{background:url(../images/backgrounds/categories.jpg) repeat-x scroll 0 0 #FFF;border:1px solid #D0D0D0;border-radius:5px 5px 5px 5px;float:left;margin-bottom:20px;width:288px;padding:14px 0 20px 9px;}
+.categories .cat-input{-moz-border-bottom-colors:none;-moz-border-image:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;background-color:#FFF;float:left;font-size:13px;height:31px;line-height:25px;width:195px;border-color:#D6D6D6 0 #D6D6D6 #D6D6D6;border-style:solid none solid solid;border-width:1px medium 1px 1px;padding:0 5px;}
+.categories .submit-btn{background:url(../images/buttons/category-search.png) no-repeat scroll 0 0 transparent;border:0 none;float:left;height:37px;width:75px;}
+.categories .submit-btn:hover{background-position:0 -37px;}
+.categories table{float:left;font-size:12px;line-height:22px;padding:10px 20px 0;}
+.categories table th{padding-bottom:10px;}
+.categories table a{color:#F36;font-size:12px;line-height:22px;}
+.categories .cats h2{background:url(../images/headers/categories.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:14px;width:106px;}
+.categories .archive h2{background:url(../images/headers/archive.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:14px;width:74px;}
+.most-commented{float:left;padding-bottom:40px;width:300px;}
+.most-commented h2{background:url(../images/headers/most-commented.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:18px;width:196px;margin:10px 0;}
+.most-commented .article{color:#000;float:left;font-family:"Trebuchet MS",Sans-serif,serif;font-size:13px;font-style:italic;line-height:18px;margin-bottom:-10px;position:relative;width:300px;padding:12px 32px 12px 12px;}
+.most-commented .red{background-color:rgba(244,77,77,0.8);width:233px;}
+.most-commented .orange{background-color:rgba(249,104,50,0.8);width:226px;}
+.most-commented .yellow{background-color:rgba(254,224,72,0.8);width:216px;}
+.most-commented .green{background-color:rgba(191,229,51,0.8);width:206px;}
+.most-commented .blue{background-color:rgba(51,201,251,0.8);width:151px;}
+.most-commented .comments-cnt{background:url(../images/comments-count-black.png) no-repeat scroll 0 0 transparent;color:#FFF;font-style:normal;height:23px;padding-top:1px;position:absolute;right:-15px;text-align:center;top:20px;width:34px;}
+.author-info,.member-info{background:url(../images/backgrounds/author-details.png) no-repeat scroll 0 0 transparent;bottom:-5px;display:none;height:169px;position:absolute;right:5px;width:353px;z-index:10;padding:13px 12px;}
+.author-info .photo,.member-info .photo{border:1px solid #0A2744;float:left;height:84px;position:relative;width:84px;}
+.author-info .photo img,.member-info .photo img{float:left;height:84px;width:84px;}
+.author-info .description,.member-info .description{float:left;padding-left:9px;width:255px;}
+.author-info span,.member-info span{float:left;font-family:"Trebuchet MS",Sans-serif,serif;width:255px;}
+.author-info .name,.member-info .name{color:#FFF;font-size:16px;font-weight:700;line-height:20px;}
+.author-info .location,.member-info .location{color:#94C9FF;font-size:13px;line-height:20px;padding-top:4px;}
+.author-info .desc,.member-info .desc{color:#FFF;font-size:12px;line-height:20px;padding-top:4px;}
+.author-info .more,.member-info .more{font-size:12px;line-height:20px;padding-top:4px;}
+.content .page-container .narrow{width:280px;}
+.content .page-container .wide{width:620px;}
+.left-side{float:left;width:280px;}
+.left-side .where-to-find-us{background:url(../images/headers/where-to-find-us.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:14px;width:146px;}
+.adress-block{clear:left;float:left;font-size:12px;line-height:20px;width:175px;padding:12px 0;}
+.left-side .info{float:left;font-size:12px;line-height:18px;width:260px;padding:12px 0;}
+.topographic-data{float:left;width:280px;}
+.location-block{float:left;width:100%;}
+.topographic-data span{background-position:0 3px;background-repeat:no-repeat;float:left;font-size:12px;height:24px;line-height:20px;padding-left:30px;width:100%;}
+.topographic-data .railway-dist{background-image:url(../images/railway-icon.jpg);}
+.topographic-data .road-dist{background-image:url(../images/road-icon.jpg);}
+.topographic-data .tube-map-dist{background-image:url(../images/tube-map-icon.jpg);}
+.left-side .search-container{float:left;width:280px;padding:0;}
+.left-side .search-container .loc-input{background-color:#FFF;border:1px solid #D6D6D6;float:left;font-size:13px;height:31px;line-height:25px;width:168px;padding:0 5px;}
+.left-side .search-container .submit-btn{background:url(../images/buttons/search.png) no-repeat scroll 0 0 transparent;border:0 none;float:left;height:33px;width:73px;}
+.left-side .search-container .submit-btn:hover{background-position:0 -33px;}
+.right-side{float:right;width:615px;}
+.right-side .open-days{background:url(../images/headers/open-days.png) no-repeat scroll 0 0 transparent;padding-top:23px;width:115px;}
+.right-side .upcoming-open-days{background:url(../images/headers/upcoming-open-days.png) no-repeat scroll 0 0 transparent;padding-top:24px;width:236px;}
+.right-side .who-you-will-meet{background:url(../images/headers/who-you-will-meet.png) no-repeat scroll 0 0 transparent;padding-top:20px;width:206px;}
+.right-side .contact{background:url(../images/headers/contact.png) no-repeat scroll 0 0 transparent;padding-top:20px;width:83px;}
+.right-side .attend-on-fb{float:left;width:100%;padding:15px 0 0;}
+.right-side .attend-on-fb-btn{background:url(../images/buttons/attend-on-facebook.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:0;overflow:hidden;padding-top:33px;width:207px;}
+.right-side .attend-on-fb-btn:hover{background-position:0 -33px;}
+.right-side .info{float:left;font-size:13px;line-height:20px;width:100%;padding:13px 0 0;}
+.right-side .book-link{float:left;font-size:16px;line-height:22px;width:100%;padding:8px 0 16px;}
+.right-side .book-link a{font-size:16px;line-height:22px;}
+.right-side .contacts{float:left;font-size:18px;line-height:20px;width:100%;padding:18px 0 0;}
+.crew{float:left;width:615px;padding:15px 0 5px;}
+.crew .member{float:left;position:relative;width:90px;padding:15px 15px 0 0;}
+.crew .member-photo{float:left;height:84px;position:relative;width:84px;padding:3px;}
+.crew .member-photo img{float:left;height:84px;width:84px;}
+.crew .last{padding:15px 0 0;}
+.basecamp-hq-imgctr{float:left;height:290px;position:relative;width:100%;}
+.basecamp-hq-imgctr img{left:-10px;position:absolute;top:0;}
+.right-side .events{float:left;width:100%;}
+.events .event{background:url(../images/backgrounds/event-bar.png) no-repeat scroll 0 0 transparent;color:#333;float:left;font:bold 14px/20px "Trebuchet MS",Sans-serif;height:20px;margin-top:4px;width:587px;padding:8px 14px;}
+.events .event a{font-size:12px;font-weight:400;line-height:20px;}
+.content .contact-form{float:left;width:100%;}
+.content .contact-form .cform-left{float:left;padding-right:22px;width:245px;}
+.content .contact-form .cform-right{float:left;width:328px;}
+.content .contact-form .inputfield{background:url(../images/backgrounds/input-bg.jpg) repeat-x scroll 0 0 transparent;border:1px solid #DADADA;float:left;font-size:13px;height:31px;line-height:25px;margin-top:15px;width:233px;padding:0 5px;}
+.content .contact-form .textfield{background:url(../images/backgrounds/input-bg.jpg) repeat-x scroll 0 0 transparent;border:1px solid #DADADA;float:left;font-size:13px;height:127px;line-height:25px;margin-top:15px;width:316px;padding:0 5px;}
+.content .contact-form .send-message{float:right;margin-top:15px;width:100%;}
+.content .contact-form .send-message-btn{background:url(../images/buttons/send-message.png) no-repeat scroll 0 0 transparent;border:medium none;float:right;height:33px;width:157px;}
+.content .contact-form .send-message-btn:hover{background-position:0 -33px;}
+.content .contact-form .text-under{color:#959595;float:right;font-size:11px;line-height:20px;text-align:center;width:157px;padding:10px 0 0;}
+.content .dates-banner{float:left;height:255px;margin-top:30px;position:relative;width:920px;}
+.content .dates-banner .banner-image{border-radius:10px 10px 0 0;}
+.content .dates-banner .navigation{bottom:0;height:49px;left:0;position:absolute;width:920px;}
+.content .dates-banner .navigation ul{bottom:0;float:left;height:49px;left:0;list-style:none outside none;width:920px;}
+.content .dates-banner .navigation li{float:left;}
+.content .dates-banner .navigation .logo{background:url(../images/navigation/banner-nav-logo.png) no-repeat scroll 0 0 transparent;height:49px;width:52px;}
+.content .dates-banner .navigation .sort-by{background:url(../images/navigation/banner-nav-normal.png) repeat-x scroll 0 0 transparent;color:#F36;font:bold 13px/20px "Trebuchet MS",Sans-serif;height:33px;padding-top:16px;text-align:center;width:100px;}
+.content .dates-banner .navigation li a{background:url(../images/navigation/banner-nav.png) repeat-x scroll 0 0 transparent;color:#FFF;float:left;font:bold 13px/20px "Trebuchet MS",Sans-serif;height:33px;padding-top:16px;text-align:center;width:192px;}
+.content .dates-banner .navigation li a:hover,.content .dates-banner .navigation li .active{background-position:0 -49px;text-decoration:none;}
+.content .dates-banner .banner-text-cont{left:25px;position:absolute;top:25px;}
+.content .dates-banner .banner-text-cont .banner-text{background:url(../images/headers/dates-n-prices-offer.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:30px;width:100px;}
+.dates-title{color:#2E376C;float:left;font:20px/24px "Trebuchet MS",Sans-serif;width:620px;padding:20px 0 0 20px;}
+.dates-n-prices{border:1px solid #D3D3D3;border-collapse:collapse;float:left;margin-top:10px;width:920px;}
+.dates-n-prices thead th{background:url(../images/backgrounds/th-bg.jpg) repeat-x scroll 0 0 transparent;border-bottom:1px solid #D3D3D3;color:#333;font-family:"DIN Bold","Trebuchet MS",Sans-serif;font-size:12px;height:26px;line-height:32px;text-align:left;text-shadow:0 1px 1px #FFF;text-transform:uppercase;padding:0 12px;}
+.dates-n-prices tbody td{font:12px/30px "Trebuchet MS",Sans-serif;height:26px;padding:0 12px;}
+.dates-n-prices .odd{background-color:#E1F2FF;}
+.dates-n-prices .even{background-color:#FFF;}
+.dates-n-prices a{font:12px/30px "Trebuchet MS",Sans-serif;}
+.dates-n-prices .info-n-booking{width:150px;}
+.dates-n-prices-bottom{background:url(../images/backgrounds/dates-n-prices-bottom.png) no-repeat scroll 0 0 transparent;float:left;height:19px;overflow:hidden;width:920px;}
+.dates-n-prices-list{border:1px solid #D3D3D3;border-collapse:collapse;float:left;margin-top:10px;width:920px;}
+.dates-n-prices-list .list-header{background:url(../images/backgrounds/th-bg.jpg) repeat-x scroll 0 0 transparent;border-bottom:1px solid #D3D3D3;color:#333;font-family:"DIN Bold","Trebuchet MS",Sans-serif;font-size:12px;height:26px;line-height:20px;text-align:left;text-shadow:0 1px 1px #FFF;text-transform:uppercase;padding:6px 0 0;}
+.dates-n-prices-list li{float:left;font:12px/30px "Trebuchet MS",Sans-serif;height:30px;width:100%;}
+.dates-n-prices-list .odd{background-color:#E1F2FF;}
+.dates-n-prices-list .even{background-color:#FFF;}
+.dates-n-prices-list a{font:12px/30px "Trebuchet MS",Sans-serif;}
+.dates-n-prices-list span{float:left;padding:0 12px;}
+.dates-n-prices-list .location{width:158px;}
+.dates-n-prices-list .start-date{width:114px;}
+.dates-n-prices-list .course-length{width:132px;}
+.dates-n-prices-list .qualifications{width:168px;}
+.dates-n-prices-list .price{width:53px;}
+.dates-n-prices-list .info-n-booking{width:150px;}
+.content .about-banner{float:left;height:374px;margin-top:30px;position:relative;width:920px;}
+.content .about-banner .banner-image{border-radius:10px 10px 0 0;}
+.content .about-banner .navigation{bottom:0;height:49px;left:0;position:absolute;width:920px;}
+.content .about-banner .navigation ul{bottom:0;float:left;height:49px;left:0;list-style:none outside none;width:920px;}
+.content .about-banner .navigation li{float:left;}
+.content .about-banner .navigation .logo{background:url(../images/navigation/banner-nav-logo.png) no-repeat scroll 0 0 transparent;height:49px;width:52px;}
+.content .about-banner .navigation li a{background:url(../images/navigation/banner-nav.png) repeat-x scroll 0 0 transparent;color:#FFF;float:left;font:bold 13px/20px "Trebuchet MS",Sans-serif;height:33px;padding-top:16px;text-align:center;text-transform:uppercase;width:173px;}
+.content .about-banner .navigation li a:hover,.content .about-banner .navigation li .active{background-position:0 -49px;text-decoration:none;}
+.content .about-banner .navigation .contact a{width:176px;}
+.content .about-banner .banner-text-cont{position:absolute;right:100px;top:85px;}
+.page-container{float:left;width:615px;}
+.page-container .contact{background:url(../images/headers/contact.png) no-repeat scroll 0 0 transparent;padding-top:20px;width:83px;}
+.page-container .info{float:left;font-size:13px;line-height:20px;width:100%;padding:13px 0 0;}
+.page-container .postcode-info{float:left;font-size:12px;line-height:18px;width:280px;padding:12px 0;}
+.page-container .contacts{float:left;font-size:18px;line-height:20px;width:100%;padding:18px 0 0;}
+.page-container .search-container{float:left;width:100%;padding:0;}
+.page-container .search-container .loc-input{background-color:#FFF;border:1px solid #D6D6D6;float:left;font-size:13px;height:31px;line-height:25px;width:168px;padding:0 5px;}
+.page-container .search-container .submit-btn{background:url(../images/buttons/search.png) no-repeat scroll 0 0 transparent;border:0 none;float:left;height:33px;width:73px;}
+.page-container .search-container .submit-btn:hover{background-position:0 -33px;}
+.instructors-container{float:left;width:100%;padding:20px 0;}
+.instructors-container .resorts-wrapper{background:url(../images/backgrounds/resort-wrapper.jpg) no-repeat scroll 0 0 transparent;float:left;height:36px;margin-bottom:4px;width:615px;}
+.instructors-container .resorts-wrapper:hover{background-position:0 -36px;}
+.instructors-container .unwrapped{background-position:0 -72px;}
+.instructors-container .unwrapped:hover{background-position:0 -108px;}
+.instructors-container .resorts-wrapper a{color:#333;float:left;font:bold 14px/20px "Trebuchet MS",Sans-serif;height:28px;text-shadow:0 1px 1px #FFF;width:605px;padding:8px 0 0 10px;}
+.instructors-container .resorts-wrapper a:hover{text-decoration:none;}
+.instructors{display:none;float:left;width:100%;}
+.instructors .instructor-container{border-bottom:1px solid #E4E3E3;float:left;width:100%;padding:20px 0;}
+.instructors .last{border:medium none;}
+.instructors .instructor-container .instructor-photo{float:left;height:128px;margin-top:2px;position:relative;width:128px;padding:3px;}
+.instructors .instructor-container .photo-frame-instructor{background:url(../images/photo-frame-instructor-big.png) repeat scroll 0 0 transparent;height:134px;left:0;position:absolute;top:0;width:134px;}
+.instructors .instructor-info{float:left;padding-left:25px;width:425px;}
+.instructors .instructor-info .name{color:#004386;float:left;font:bold 18px/20px "Trebuchet MS",Sans-serif;width:100%;}
+.instructors .instructor-info .resort{color:#333;float:left;font:13px/18px "Trebuchet MS",Sans-serif;width:100%;}
+.instructors .instructor-info .info{padding-top:5px;}
+.narrow .about-box{float:right;width:275px;padding:30px 0;}
+.about-box .img-container{float:left;text-align:center;width:100%;}
+.about-box .info{float:left;font:12px/18px "Trebuchet MS",Sans-serif;width:274px;}
+.map-container{border:1px solid #DADADA;float:left;margin:30px 0 0;padding:1px;}
+.map-container img{border:1px solid #DADADA;float:left;}
+.adress-info{color:#959595;float:left;font-size:11px;line-height:20px;padding-top:8px;width:100%;}
+.narrow-seperator{background:url(../images/narrow-seperator.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:2px;width:279px;}
+.basecamp-hq-hdr{background:url(../images/headers/basecam-hq.png) no-repeat scroll 0 0 transparent;padding-top:24px;width:150px;}
+.location-hdr{background:url(../images/headers/location.png) no-repeat scroll 0 0 transparent;padding-top:20px;width:92px;}
+.about-basecamp-hdr{background:url(../images/headers/about-basecamp.png) no-repeat scroll 0 0 transparent;padding-top:23px;width:185px;}
+.the-team-hdr{background:url(../images/headers/the-team.png) no-repeat scroll 0 0 transparent;padding-top:20px;width:107px;}
+.the-instructors-hdr{background:url(../images/headers/the-instructors.png) no-repeat scroll 0 0 transparent;padding-top:20px;width:171px;}
+.submision-ok{background:url(../images/tick-ok.jpg) no-repeat scroll 156px 0 transparent;text-align:center;width:340px;margin:80px auto;padding:27px 0;position:relative;}
+.big-green{color:#90C10A;font:bold 32px/36px "Trebuchet MS",Sans-serif;}
+.big-normal{font:bold 20px/20px "Trebuchet MS",Sans-serif;}
+.back-to-about-basecamp{float:left;width:100%;padding:10px 46px 0;}
+.back-to-about-basecamp-btn{background:url(../images/buttons/back-to-about-basecamp.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:0;overflow:hidden;padding-top:33px;width:247px;}
+.back-to-about-basecamp-btn:hover{background-position:0 -33px;}
+.color-overlay{background-color:rgba(0,0,0,0.7);display:none;height:100%;position:fixed;width:100%;z-index:5;left:0;top:0;}
+.lightbox-container{float:left;left:50%;position:relative;}
+.lightbox{left:-50%;position:relative;top:100px;z-index:10;}
+.lightbox .lightbox-header-container{float:left;left:50%;position:relative;}
+.lightbox .lightbox-header-container .lightbox-header {
+    background: url("../images/backgrounds/lightbox-header.png") repeat-x scroll 0 0 transparent;
+    border:1px solid #000000;
+    border-radius: 9px 9px 0 0;
+    color: #FFFFFF;
+    float: left;
+    font-family: "DIN Bold","Trebuchet MS",Sans-serif;
+    font-size: 24px;
+    height: 25px;
+    left: -50%;
+    padding: 15px 25px 10px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 1px #000000;}
+/*.lightbox .lightbox-header-container .lightbox-header{-moz-border-bottom-colors:none;-moz-border-image:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;background:url(../images/backgrounds/lightbox-header.png) repeat-x scroll 0 0 transparent;border-radius:9px 9px 0 0;color:#FFF;float:left;font-family:"DIN Bold","Trebuchet MS",Sans-serif;font-size:24px;height:25px;left:-50%;position:relative;text-align:center;text-shadow:0 1px 1px #000;border-color:#000101 #000101 0;border-style:solid solid none;border-width:1px 1px medium;padding:15px 25px 10px;}*/
+.lightbox .lightbox-content-container{background:url(../images/backgrounds/lightbox-side.png) repeat scroll 0 0 transparent;border:1px solid #929292;border-radius:9px 9px 9px 9px;box-shadow:0 0 9px rgba(0,0,0,0.75);float:left;position:relative;width:100%;}
+.lightbox .lightbox-content-container .close{height:31px;position:absolute;right:-15px;top:-15px;width:32px;}
+.lightbox .lightbox-content-container .close a{background:url(../images/buttons/x.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:0;overflow:hidden;padding-top:31px;position:relative;width:32px;z-index:1;}
+.lightbox .lightbox-content-container .close a:hover{background-position:0 -31px;}
+.lightbox .lightbox-left-side{background-color:#FFF;border-radius:9px 9px 9px 9px;float:left;}
+.lightbox .lightbox-content{float:left;padding:15px 25px;}
+.lightbox .lightbox-bottom{background:url(../images/backgrounds/lightbox-bottom.jpg) repeat-x scroll 0 0 transparent;border-top:1px solid #929292;color:#333;float:left;font-family:"Trebuchet MS",Sans-serif;height:54px;line-height:54px;text-align:center;text-shadow:0 1px 1px #FFF;width:100%;}
+.lightbox .lightbox-right-side{border-top:1px solid #2E2E2E;float:left;width:167px;}
+.pease-of-mind-ltbx{width:816px;padding:5px;}
+.pease-of-mind-ltbx .lightbox-left-side{width:100%;}
+.pease-of-mind-ltbx .lightbox-content{width:764px;padding:20px 25px;}
+.pease-of-mind-ltbx .lightbox-bottom{border-radius:0 0 9px 9px;font-size:18px;}
+.pease-of-mind-ltbx .box{float:left;width:100%;padding:10px 0;}
+.pease-of-mind-ltbx .image{float:left;text-align:center;width:234px;}
+.pease-of-mind-ltbx .image img{max-width:185px;}
+.pease-of-mind-ltbx .text{float:left;width:500px;padding:0 15px;}
+.pease-of-mind-ltbx .text .title{color:#333;font-size:14px;font-weight:700;line-height:20px;}
+.pease-of-mind-ltbx .text .info{font-size:12px;line-height:20px;}
+.videos-ltbx{width:816px;padding:5px;}
+.videos-ltbx .lightbox-left-side{border-radius:9px 0 0 9px;border-right:1px solid #2E2E2E;width:646px;}
+.videos-ltbx .lightbox-content{border-right:1px solid #929292;width:595px;}
+.videos-ltbx .lightbox-bottom{border-radius:0 0 0 9px;border-right:1px solid #929292;font-size:14px;font-weight:700;width:645px;}
+.videos-ltbx .video-box{float:left;height:333px;width:590px;padding:20px 0 0;}
+.videos-ltbx .title{color:#333;font-size:20px;font-weight:700;}
+.videos-ltbx .items{float:left;width:100%;padding:27px 0;}
+.videos-ltbx .item{float:left;padding-left:10px;margin:4px 0;}
+.videos-ltbx .video-thumb{background:url(../images/buttons/lightbox-video.png) no-repeat scroll 0 0 transparent;color:#333;float:left;font-size:11px;font-weight:700;height:39px;line-height:13px;text-shadow:0 1px 1px #FFF;width:127px;cursor:pointer;padding:10px;}
+.videos-ltbx .video-thumb:hover{background-position:0 -59px;text-shadow:0 1px 1px #FFF;}
+.videos-ltbx .active{background-position:0 -118px;position:relative;text-shadow:none;}
+.videos-ltbx .active .now-playing{background:url(../images/now-playing.png) no-repeat scroll 0 0 transparent;height:59px;left:0;position:absolute;top:0;width:147px;}
+.videos-ltbx .name{float:left;width:97px;}
+.videos-ltbx .duration{float:right;text-align:right;width:30px;}
+.videos-ltbx .newer{height:24px;position:absolute;right:12px;top:0;width:143px;}
+.videos-ltbx .older{bottom:0;height:24px;position:absolute;right:12px;width:143px;}
+.videos-ltbx .newer a{background:url(../images/buttons/newer-older.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:24px;width:143px;}
+.videos-ltbx .older a{background:url(../images/buttons/newer-older.png) no-repeat scroll 0 -48px transparent;float:left;height:0;overflow:hidden;padding-top:24px;width:143px;}
+.videos-ltbx .newer a:hover{background-position:0 -24px;}
+.videos-ltbx .older a:hover{background-position:0 -72px;}
+.lets-talk-ltbx{width:890px;padding:5px;}
+.lets-talk-ltbx .lightbox-left-side{width:100%;}
+.lets-talk-ltbx .lightbox-content{width:840px;padding:20px 25px;}
+.lets-talk-ltbx .lightbox-bottom{border-radius:0 0 9px 9px;font-size:18px;}
+.lets-talk-ltbx .box{float:left;overflow:hidden;position:relative;width:280px;padding:10px 0;}
+.lets-talk-ltbx .image{border-right:1px solid #E6E6E6;float:left;min-height:95px;text-align:center;width:279px;}
+.lets-talk-ltbx .image img{max-height:95px;max-width:279px;}
+.lets-talk-ltbx .last .image,.lets-talk-ltbx .last .text{border-right:medium none;}
+.lets-talk-ltbx .text{border-right:1px solid #E6E6E6;color:#959595;float:left;font-size:13px;line-height:18px;text-align:center;width:279px;padding:6px 0;}
+.lets-talk-ltbx .button{float:left;left:50%;padding-top:10px;position:relative;}
+.lets-talk-ltbx .button .send-us-a-message-btn{float:left;left:-50%;position:relative;}
+.lets-talk-ltbx .button .visit-facebook-btn{background:url(../images/buttons/visit-facebook.png) no-repeat scroll 0 0 transparent;float:left;height:0;left:-50%;overflow:hidden;padding-top:33px;position:relative;width:166px;}
+.lets-talk-ltbx .button .skype-id-btn{background:url(../images/buttons/skype-id.png) no-repeat scroll 0 0 transparent;float:left;height:0;left:-50%;overflow:hidden;padding-top:33px;position:relative;width:166px;}
+.lets-talk-ltbx .button .visit-facebook-btn:hover,.lets-talk-ltbx .button .skype-id-btn:hover{background-position:0 -33px;}
+.send-message-ltbx{width:328px;}
+.send-message-ltbx .contact-form{float:left;position:relative;width:100%;}
+.send-message-ltbx .contact-form .inputfield{background:url(../images/backgrounds/input-bg.jpg) repeat-x scroll 0 0 transparent;border:1px solid #DCDCDC;float:left;font-size:13px;height:31px;line-height:25px;margin-bottom:15px;width:266px;padding:0 5px;}
+.send-message-ltbx .contact-form .textfield{background:url(../images/backgrounds/input-bg.jpg) repeat-x scroll 0 0 transparent;border:1px solid #DADADA;float:left;font-size:13px;height:146px;line-height:25px;margin-bottom:15px;width:266px;padding:0 5px;}
+.send-message-ltbx .contact-form .submit-container{float:left;left:50%;position:relative;}
+.send-message-ltbx .contact-form .send-message-btn{background:url(../images/buttons/send-message.png) no-repeat scroll 0 0 transparent;border:medium none;float:right;height:33px;left:-50%;position:relative;width:157px;}
+.send-message-ltbx .contact-form .send-message-btn:hover{background-position:0 -33px;}
+.send-message-ltbx .contact-form .text-under{color:#959595;float:right;font-size:11px;line-height:20px;text-align:center;width:100%;padding:10px 0 0;}
+.message-success-ltbx{width:317px;}
+.message-success-ltbx .submision-ok{background:url(../images/tick-ok.jpg) no-repeat scroll 120px 0 transparent;float:left;font-size:13px;line-height:24px;text-align:center;width:268px;margin:20px 0;padding:30px 0;}
+.message-success-ltbx .big-green{font-size:22px;line-height:24px;}
+.message-success-ltbx .big-normal{font:bold 14px/18px "Trebuchet MS",Sans-serif;}
+.message-success-ltbx .list{float:left;list-style:none inside none;padding-bottom:20px;text-align:left;width:210px;}
+.message-success-ltbx .item{float:left;font-size:12px;padding-left:30px;width:180px;}
+.brochure-left-side{float:left;width:410px;padding:30px 0 0;position:relative;}
+.brochure-left-side .input-container{float:left;position:relative;}
+.brochure-left-side .submision-ok{background-image:none;float:left;font-size:16px;line-height:24px;text-align:center;width:300px;margin:20px 0 0;padding:0 0 0 70px;}
+.brochure-left-side .big-green{font-size:28px;}
+.brochure-left-side .big-normal{font-size:18px;}
+.brochure-left-side .list{float:left;list-style:none inside none;padding-bottom:20px;text-align:left;width:100%;}
+.brochure-left-side .item{float:left;font-size:12px;padding-left:20px;width:280px;}
+.brochure-right-side{float:left;width:470px;padding:30px 0 0;}
+.brochure-right-side .right-image{float:left;width:100%;padding:20px 0 18px;}
+.brochure-right-side .right-image img{float:left;max-width:450px;}
+.brochure-right-side .right-block{border:1px solid #DADADA;border-radius:9px 9px 9px 9px;float:left;width:392px;padding:20px 28px;position:relative}
+.brochure-right-side .right-block .title{float:left;font-size:27px;text-align:left;width:100%;padding:0;}
+.brochure-right-side .right-block .subtitle{color:#F36;float:left;font-size:18px;text-align:left;width:100%;padding:0;}
+.brochure-right-side .right-block .list{float:left;list-style:none inside none;text-align:left;width:100%;padding:24px 0;}
+.brochure-right-side .right-block .item{background:url(../images/blue-tick.jpg) no-repeat scroll 0 2px transparent;float:left;font-size:12px;line-height:24px;padding-left:20px;width:280px;}
+.brochure-right-side .buttons{float:left;width:100%;}
+.brochure-right-side .button-cnt{float:left;padding-right:15px;}
+.brochure-right-side .right-block-bottom{background:url(../images/backgrounds/small-block-bottom.jpg) no-repeat scroll -30px 0 transparent;float:left;height:20px;line-height:20px;width:100%;}
+.attend-on-fb-btn{background:url(../images/buttons/attend-on-facebook.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:0;overflow:hidden;padding-top:33px;width:207px;}
+.attend-on-fb-btn:hover{background-position:0 -33px;}
+.tell-me-more-btn{background:url(../images/buttons/tell-me-more.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:0;overflow:hidden;padding-top:33px;width:154px;}
+.tell-me-more-btn:hover{background-position:0 -33px;}
+.form{background:url(../images/backgrounds/form-bg.jpg) no-repeat scroll 0 0 transparent;float:left;position:relative;width:247px;padding:19px 35px 0 31px;}
+.form .title{color:#FFF;float:left;font-family:"DIN Medium","Trebuchet MS";font-size:30px;text-shadow:0 1px 1px rgba(0,0,0,0.45);width:247px;padding:0;}
+.form .subtitle{color:#FFF;float:left;font-size:13px;line-height:16px;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,0.45);width:247px;padding:0;}
+.form .radios{float:left;padding-bottom:8px;width:247px;}
+.form .radios .radio-container{clear:left;float:left;width:20px;}
+.form .radios .r{border:medium none;}
+.form .radios .icon-aligner{float:left;left:50%;position:relative;}
+.form .radios a{color:#FFF;float:left;font:bold 12px/16px "Trebuchet MS",Sans-serif;height:16px;text-shadow:0 1px 1px rgba(0,0,0,0.3);}
+.form .radios a:hover{text-decoration:none;}
+.form .radios .active a{text-shadow:0 1px 1px rgba(0,0,0,0.3), 0 0 3px #FFF;}
+.form .radios .skier a{width:75px;}
+.form .radios .snowboarder a{width:128px;}
+.form .radios .skier{float:left;height:75px;overflow:hidden;position:relative;width:95px;}
+.form .radios .skier .skier-icon{float:left;height:54px;left:-50%;position:relative;width:54px;}
+.form .radios .skier .skier-icon a{background:url(../images/buttons/skiing-icon.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:54px;width:54px;}
+.form .radios .skier .skier-icon a:hover{background-position:0 -54px;}
+.form .radios .active .skier-icon a{background-position:0 -108px;}
+.form .radios .snowboarder{float:left;height:75px;overflow:hidden;position:relative;width:148px;}
+.form .radios .snowboarder .snowboarder-icon{float:left;height:54px;left:-50%;position:relative;width:38px;}
+.form .radios .snowboarder .snowboarder-icon a{background:url(../images/buttons/snowboarding-icon.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:54px;width:38px;}
+.form .radios .snowboarder .snowboarder-icon a:hover{background-position:0 -54px;}
+.form .radios .active .snowboarder-icon a{background-position:0 -108px;}
+.form .inputfield{border:1px solid #195EA7;float:left;height:28px;margin-bottom:10px;width:243px;}
+.form .postcode{width:171px;}
+.form .selectfield{float:left;height:19px;width:245px;margin:3px 0 11px;}
+.form .submit-container{float:left;width:244px;padding:6px 0 0;}
+.submit-now-btn{background:url(../images/buttons/submit-now.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:33px;width:244px;}
+.submit-now-btn:hover{background-position:0 -33px;}
+.brochure-left-side .form{height:600px;}
+.brochure-left-side .form-container{float:left;padding-left:40px;}
+.err-404{background:url(../images/404.jpg) no-repeat scroll 440px 50px transparent;float:left;font-size:13px;height:340px;line-height:24px;width:100%;padding:50px 0 0;}
+.err-404 .title{color:#F36;float:left;font-size:32px;font-weight:700;text-align:left;width:100%;padding:0;}
+.err-404 .subtitle{color:#959595;float:left;font-size:20px;font-weight:700;text-align:left;width:100%;}
+.err-404 .info{float:left;padding-top:12px;width:100%;}
+.err-404 .list{float:left;font-weight:700;list-style:decimal inside none;width:100%;}
+.err-404 .item .text{font-weight:400;}
+.err-404 .back-to-home{float:left;padding-top:24px;width:100%;}
+.back-to-home-btn{background:url(../images/buttons/back-to-home.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:0;overflow:hidden;padding-top:33px;width:158px;}
+.back-to-home-btn:hover{background-position:0 -33px;}
+.email-signup-left-side{float:left;width:450px;}
+.win-a-basecamp-hdr{background:url(../images/headers/win-a-basecamp-hoodie.png) no-repeat scroll 0 0 transparent;height:0;margin-top:45px;overflow:hidden;padding-top:76px;width:403px;}
+.email-signup-text{background:url(../images/headers/email-signup-text.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:57px;width:375px;margin:20px 0;}
+.email-signup-left-side .big-text{color:#333;float:left;font-size:18px;line-height:24px;width:100%;}
+.email-signup-left-side .form-container{float:left;padding-left:40px;padding-top:72px;}
+.email-signup-left-side .form{height:322px;position:relative;}
+.email-signup-left-side .form .chkbx-container{float:left;width:100%;padding:8px 0 20px;}
+.email-signup-left-side .form .chkbx-container span{float:left;text-align:center;width:25px;}
+.email-signup-left-side .form .chkbx-container label{color:#FFF;float:left;font-size:12px;line-height:16px;width:222px;}
+.email-signup-left-side .form .sign-up-here-hdr{background:url(../images/headers/sign-up-here.png) no-repeat scroll 0 0 transparent;height:0;left:64px;overflow:hidden;padding-top:92px;position:absolute;top:-72px;width:183px;}
+.email-signup-list{float:left;font-size:12px;height:68px;line-height:20px;width:100%;}
+.email-signup-list .item{background:url(../images/tick.jpg) no-repeat scroll 0 0 transparent;float:left;height:20px;width:425px;margin:0;padding:0 0 0 25px;}
+.email-signup-container{background:url(../images/free-hoodies.jpg) no-repeat scroll right bottom transparent;float:left;width:100%;}
+.email-signup-right-side{float:right;padding-top:60px;width:462px;}
+.recent-winners-hdr{background:url(../images/headers/recent-winners.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:12px;width:120px;}
+.winners{float:left;width:100%;}
+.winners .winner{float:left;position:relative;width:78px;padding:18px 18px 0 0;}
+.winners .winner-photo{float:left;height:86px;position:relative;width:72px;padding:3px;}
+.winners .winner-photo img{float:left;height:86px;width:72px;}
+.winners .last{padding:18px 0 0;}
+.banner-medium-container{float:left;height:140px;margin-top:20px;position:relative;width:100%;}
+.banner-medium-container .banner-medium{background:url(../images/backgrounds/banner-medium.png) no-repeat scroll 0 0 transparent;height:129px;left:-5px;position:absolute;top:-5px;width:553px;padding:15px 20px;}
+.cant-find-what-hdr{background:url(../images/headers/cant-find-what-youre-looking-for.png) no-repeat scroll 0 0 transparent;float:left;height:0;margin-bottom:5px;overflow:hidden;padding-top:21px;width:343px;}
+.one-of-the-team-hdr{background:url(../images/headers/one-of-the-team-is.png) no-repeat scroll 0 0 transparent;float:left;height:0;margin-bottom:8px;overflow:hidden;padding-top:17px;width:398px;}
+.fb-chat-btn{float:left;height:34px;padding-right:20px;width:190px;}
+.live-chat-btn{float:left;height:33px;width:111px;}
+.fb-chat-btn a{background:url(../images/buttons/chat-on-facebook.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:34px;width:190px;}
+.live-chat-btn a{background:url(../images/buttons/live-chat.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:33px;width:111px;}
+.live-chat-btn a:hover{background-position:0 -33px;}
+.banner-medium-container .live-chat-btn{margin-top:1px;}
+.banner-medium-container .banner-row{float:left;width:100%;}
+.banner-medium-container .phone{color:#F36;float:right;font-family:"DIN Medium","Trebuchet MS";font-size:18px;height:34px;line-height:34px;text-align:right;}
+.banner-medium-container .phone span{color:#004386;}
+.lp-banner{background:url(../images/lp-banner.png) no-repeat scroll 0 0 transparent;float:left;height:305px;margin-top:30px;position:relative;width:921px;}
+.lp-banner .lp-banner-text{background:url(../images/headers/school-trips-n-championships.png) no-repeat scroll 0 0 transparent;bottom:35px;height:0;overflow:hidden;padding-top:30px;position:absolute;right:30px;width:606px;}
+.lp-content{float:left;padding-bottom:20px;width:100%;}
+.lp-content .lp-left-side{float:left;width:560px;position:relative;}
+.lp-content .lp-left-side .contextual-links-wrapper{background:#FFFFFF;border-radius:5px 5px 5px 5px;margin-right:10px;margin-top:28px;border:1px solid #aaaaaa;}
+.lp-content .lp-right-side{float:right;width:313px;}
+.lp-content .title{color:#F36;float:left;font-size:34px;font-weight:700;padding-bottom:0;padding-top:24px;text-align:left;width:100%;}
+.lp-content .info{float:left;font-size:13px;line-height:24px;padding-top:24px;width:100%;}
+.lp-right-side .form-container{margin-top:20px;}
+.lp-right-side .form{border-radius:6px 6px 6px 6px;height:380px;}
+.lp-right-side .booking-enquiry-hdr{background:url(../images/headers/booking-n-enquiry.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:22px;width:240px;}
+.lp-right-side .header-container{float:left;width:240px;padding:6px 3px 24px;}
+.lp-right-side .input-container{float:left;width:100%;}
+.lp-right-side .textfield{height:95px;margin-bottom:26px;width:239px;}
+.resort-details .slopes-bar{float:left;padding-top:20px;width:100%;}
+.resort-features .weather{float:left;padding-bottom:20px;width:100%;}
+.resort-features .fb{float:left;padding-bottom:20px;width:100%;}
+.resort-details .first{padding-top:20px;}
+.resort-details .contextual-links .first{padding-top:0;}
+.what-to-expect-banner{background:url(../images/wte-banner.jpg) no-repeat scroll 0 0 transparent;float:left;height:94px;margin-top:20px;padding-bottom:10px;padding-left:250px;padding-top:160px;width:671px;}
+.what-to-expect-banner .button-cnt{float:left;padding-left:20px;}
+.what-to-expect-banner .long-courses-btn{background:url(../images/buttons/long-courses.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:0;overflow:hidden;padding-top:66px;width:205px;}
+.what-to-expect-banner .long-courses-btn:hover{background-position:0 -66px;}
+.what-to-expect-banner .short-courses-btn{background:url(../images/buttons/short-courses.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:0;overflow:hidden;padding-top:66px;width:205px;}
+.what-to-expect-banner .short-courses-btn:hover{background-position:0 -66px;}
+.course-content .info{float:left;font-size:14px;padding-bottom:22px;width:100%;}
+.course-content .media-desc{width:114px;}
+.course-content .media-container{float:left;padding-bottom:18px;width:100%;}
+.course-content .list{float:left;list-style-position:inside;width:100%;}
+/*.course-content .list .item{color:#004386;float:left;font-size:18px;font-weight:700;line-height:14px;padding-bottom:18px;width:100%;}*/
+.course-content .list .item .text{color:#555;float:right;font-size:12px;font-weight:400;line-height:14px;width:265px;}
+.course-content .courses-left-side{float:left;width:302px;}
+.course-content .courses-left-side .upcoming-courses-container{margin-top:20px;}
+.course-content .courses-right-side{float:right;width:600px;}
+.course-content .title{float:right;padding-bottom:18px;text-align:left;width:100%;}
+.course-content .subtitle{color:#004386;float:right;font-size:16px;font-weight:700;line-height:20px;text-align:left;width:100%;}
+.course-content .courses-right-side .columns{float:left;width:100%;}
+.course-content .courses-right-side .columns .column-l{float:left;padding-right:20px;width:290px;}
+.course-content .courses-right-side .columns .column-r{float:left;width:290px;}
+.course-content .courses-right-side .columns .info{float:left;font-size:12px;padding-bottom:16px;width:100%;}
+.course-content .courses-right-side .img-fl{float:left;padding-bottom:4px;padding-right:18px;}
+.course-content .courses-right-side .img-fr{float:right;padding-bottom:4px;padding-left:18px;}
+.course-content .courses-right-side .small-title{color:#333;float:left;font-size:14px;font-weight:700;line-height:20px;width:100%;}
+.course-content .courses-right-side .columns .info strong{color:#333;}
+.course-content .courses-right-side .columns .info h3{font-weight:700;}
+.course-content .booking-n-enquiries-container .booking-n-enquiries{background-position:0 0;width:252px;}
+.courses-banner{background:url(../images/backgrounds/course-details-banner.jpg) no-repeat scroll 0 0 transparent;float:left;height:259px;margin-top:30px;width:885px;padding:18px;}
+.courses-banner .left-side{float:left;width:400px;}
+.courses-banner .right-side{float:right;width:459px;}
+.courses-banner .video-container{float:right;height:259px;position:relative;width:459px;}
+.courses-banner .video-container img{float:left;height:259px;width:459px;}
+.courses-banner .video-container .watch-big{height:49px;left:110px;position:absolute;top:110px;width:244px;}
+.courses-banner .video-container .watch-big a{background:url(../images/buttons/watch-video.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:49px;width:244px;}
+.courses-banner .video-container .watch-big a:hover{background-position:0 -49px;}
+.courses-banner .banner-title{color:#FFF;float:left;font:bold 32px/36px "Trebuchet MS",Sans-serif;text-shadow:0 1px 1px rgba(0,0,0,0.36), 0 0 3px #FFF;width:100%;}
+.courses-banner .text{color:#FFF;float:left;font:18px/29px "Trebuchet MS",Sans-serif;padding-bottom:29px;width:100%;}
+.courses-banner .no-padding{padding:0;}
+.courses-banner .nex-course-coundown-container{float:left;width:100%;padding:10px 0;}
+.courses-banner .small-text{color:#F36;font:14px/26px "Trebuchet MS",Sans-serif;}
+.wysiwyg-compat{margin:0;}
+.wysiwyg-compat a{color:#F36;float:none;font-size:inherit;height:auto;width:auto;}
+.wysiwyg-compat strong{float:none;font-size:inherit;font-weight:700;height:auto;width:auto;}
+.wysiwyg-compat em{float:none;font-size:inherit;font-style:italic;height:auto;width:auto;}
+.wysiwyg-compat u{float:none;font-size:inherit;height:auto;text-decoration:underline;width:auto;}
+.wysiwyg-compat strike{float:none;font-size:inherit;height:auto;text-decoration:line-through;width:auto;}
+.wysiwyg-compat sup{float:none;font-size:inherit;height:auto;vertical-align:super;width:auto;}
+.wysiwyg-compat sub{float:none;font-size:inherit;height:auto;vertical-align:super;width:auto;}
+.wysiwyg-compat ol{float:none;font-size:inherit;height:auto;list-style:decimal inside none;padding-left:14px;width:auto;margin:10px 0;}
+.wysiwyg-compat ul{float:none;font-size:inherit;height:auto;list-style:disc inside none;padding-left:14px;width:auto;margin:10px 0;}
+.wysiwyg-compat blockquote{float:none;font-size:inherit;height:auto;width:auto;padding:10px 20px;}
+.wysiwyg-compat .rteindent1{float:none;font-size:inherit;height:auto;margin-left:40px;width:auto;}
+.wysiwyg-compat .rteleft{float:none;font-size:inherit;height:auto;text-align:left;width:auto;}
+.wysiwyg-compat .rtecenter{float:none;font-size:inherit;height:auto;text-align:center;width:auto;}
+.wysiwyg-compat .rteright{float:none;font-size:inherit;height:auto;text-align:right;width:auto;}
+.wysiwyg-compat hr{float:none;height:1px;width:100%;}
+.wysiwyg-compat img{border:0 none;float:none;height:auto;width:auto;}
+.wysiwyg-compat h1{float:none;font-size:22px;height:auto;width:auto;padding:2px 0;color:#004386;font-weight:bold;}
+.wysiwyg-compat h2{float:none;font-size:20px;height:auto;width:auto;padding:2px 0;color:#004386;font-weight:bold;}
+.wysiwyg-compat h3{float:none;font-size:18px;height:auto;width:auto;padding:2px 0;color:#004386;font-weight:bold;}
+.wysiwyg-compat h4{float:none;font-size:16px;height:auto;width:auto;padding:2px 0;color:#004386;font-weight:bold;}
+.wysiwyg-compat h5{float:none;font-size:14px;height:auto;width:auto;padding:2px 0;color:#004386;font-weight:bold;}
+.wysiwyg-compat h6{float:none;font-size:12px;height:auto;width:auto;padding:2px 0;color:#004386;font-weight:bold;}
+.wysiwyg-compat pre{float:none;font-family:mono-space;font-size:inherit;height:auto;width:auto;}
+.wysiwyg-compat address{float:none;font-size:inherit;font-style:italic;height:auto;width:auto;}
+.wysiwyg-compat div{float:none;height:auto;width:auto;margin:0;padding:0;}
+.wysiwyg-compat .tick-bullet{padding-left:22px;background:url(../images/tick.jpg) no-repeat scroll 0 0 transparent;}
+a.contextual-links-trigger{display:block;}
+div.contextual-links-wrapper{z-index:2;}
+#lightbox-white{display:none;float:left;height:100%;position:fixed;width:100%;z-index:4;}
+#lightbox-white .lightbox-container{background:none repeat scroll 0 0 #000;float:left;margin-left:649px;position:absolute;z-index:3;padding:10px;}
+#lightbox-white .lightbox-content{float:left;}
+#lightbox-white .close{background:url(../images/buttons/close-lightbox.png) no-repeat scroll 0 0 transparent;display:block;height:0;overflow:hidden;padding-top:31px;position:absolute;right:-15px;top:-15px;width:30px;z-index:4;}
+#lightbox-white .overlay{background:none repeat scroll 0 0 #000;height:100%;opacity:0.75;width:100%;}
+.booking-left{float:left;width:313px;}
+.booking-left .page-title{color:#004386;font-family:"DIN Bold","Trebuchet MS";font-size:24px;line-height:32px;padding-bottom:14px;padding-top:24px;text-align:left;}
+.booking-left .form-container{background:url(../images/backgrounds/form-bg2.jpg) repeat-y scroll 0 0 transparent;border-radius:4px 4px 4px 4px;float:left;margin-bottom:22px;}
+.booking-left .form{background-image:url(../images/backgrounds/form-bg-top.jpg);float:left;padding-left:0;padding-right:0;width:313px;}
+.booking-left .form .bottom{background:url(../images/backgrounds/form-bg-bottom.jpg) no-repeat scroll 0 0 transparent;float:left;height:22px;width:313px;}
+.booking-left .form form{width:247px;padding:0 35px 0 31px;}
+.booking-left .form .title{font-family:"Trebuchet MS";font-weight:400;width:100%;}
+.booking-left .form .title span{color:#FFF;font-family:"DIN Bold","Trebuchet MS";}
+.booking-left .form .subtitle{font-size:14px;padding-bottom:10px;width:100%;}
+.booking-left .form .selectfield{float:left;height:19px;margin-bottom:6px;width:245px;}
+.next-step-btn{background:url(../images/buttons/next-step.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:33px;width:244px;}
+.next-step-btn:hover{background-position:0 -33px;}
+.booking-left .field{background:url(../images/backgrounds/blue-field-small.jpg) no-repeat scroll 0 0 transparent;height:138px;width:311px;padding:0 4px;}
+.booking-left .peace-of-mind{float:left;}
+.booking-left .peace-of-mind .heading{background:url(../images/headers/peace-of-mind-when-booking-small.jpg) no-repeat scroll 17px 0 transparent;float:left;height:0;margin-top:17px;overflow:hidden;padding-left:17px;padding-top:23px;width:227px;}
+.booking-left .peace-of-mind .logos{background:url(../images/peace-of-mind-small.jpg) no-repeat scroll 48px 0 transparent;float:left;height:74px;margin-top:9px;width:100%;}
+.booking-left .right-link{text-align:right;}
+.booking-right{float:right;width:553px;}
+.booking-right .banner-medium-container{width:100%;}
+.booking-right .banner-medium-container .cant-find-what-hdr{background:url(../images/headers/cant-find-what-youre-looking-for.png) no-repeat scroll 0 0 transparent;float:left;height:0;margin-bottom:8px;overflow:hidden;padding-top:21px;width:343px;}
+.booking-right .banner-medium-container .one-of-the-team-hdr{background:url(../images/headers/one-of-the-team-is.png) no-repeat scroll 0 0 transparent;float:left;height:0;margin-bottom:17px;overflow:hidden;padding-top:17px;width:398px;}
+.booking-right .banner-medium-container .banner-medium-short{background:url(../images/backgrounds/banner-medium-short.png) no-repeat scroll 0 0 transparent;height:129px;left:-5px;position:absolute;top:-5px;width:520px;padding:15px 20px;}
+.booking-right .banner-medium-container .banner-medium-short .phone{color:#F36;float:left;font-family:"DIN Medium","Trebuchet MS";font-size:21px;height:34px;letter-spacing:2px;line-height:34px;text-align:right;}
+.booking-right .steps{float:right;width:445px;padding:29px 0 17px;}
+.booking-right .step{color:#959595;float:left;font-family:"Trebuchet MS";font-size:19px;height:20px;line-height:20px;padding-right:25px;}
+.booking-right .steps .first{width:140px;}
+.booking-right .steps .second{width:132px;}
+.booking-right .steps .third{padding-right:0;width:120px;}
+.booking-right .step-num{background:url(../images/backgrounds/step-bg.jpg) no-repeat scroll 0 0 transparent;color:#FFF;float:left;font-family:"DIN Bold","Trebuchet MS";font-size:15px;height:20px;line-height:19px;padding-right:8px;text-align:center;text-shadow:0 1px 1px #000101;width:20px;}
+.booking-right .get-ready{background:url(../images/get-ready.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:137px;width:100%;}
+.booking-right .second-step{float:left;padding-top:24px;width:100%;}
+.booking-right .third-step{background:url(../images/omg-its-free.jpg) no-repeat scroll 0 32px transparent;float:left;position:relative;width:373px;padding:24px 0 24px 180px;}
+.pay-deposit-only-95-hdr{background:url(../images/headers/pay-deposit-only-95.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:33px;width:238px;}
+.card-types{background:url(../images/headers/pay-deposit-only-95.jpg) no-repeat scroll -290px 0 transparent;float:left;height:0;overflow:hidden;padding-top:33px;width:158px;}
+.deposit-amount{color: #004481; float: left; font-size: 25px; line-height: 34px; margin: 0 10px;}
+.get-ready-hdr{background:url(../images/headers/get-ready.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:32px;width:159px;}
+.booking-right .second-step .info{float:left;font-size:12px;line-height:20px;width:400px;}
+.booking-right .third-step .info{float:left;font-size:12px;line-height:20px;width:340px;}
+.booking-right .second-step .list{float:left;font-size:12px;line-height:24px;padding-top:9px;width:100%;}
+.booking-right .third-step .list{float:left;font-size:12px;line-height:24px;padding-top:9px;width:100%;}
+.booking-right .second-step .list li{background:url(../images/tick.jpg) no-repeat scroll 0 0 transparent;float:left;padding-left:28px;width:300px;}
+.booking-right .third-step .list li{background:url(../images/tick.jpg) no-repeat scroll 0 0 transparent;float:left;padding-left:28px;width:300px;}
+.booking-right .third-step .arrows{background:url(../images/arrows.jpg) no-repeat scroll 0 0 transparent;height:157px;position:absolute;right:90px;top:-100px;width:112px;}
+.booking-right .five-reasons{background:url(../images/backgrounds/5-reasons-block.jpg) no-repeat scroll 0 0 transparent;float:left;height:200px;width:524px;padding:26px 14px;}
+.booking-right .five-reasons-hdr{background:url(../images/headers/5-reasons.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:20px;width:391px;}
+.booking-right .five-reasons .list{float:left;list-style-position:inside;padding-top:16px;width:524px;}
+.booking-right .five-reasons .list .item{color:#004386;font-size:16px;font-weight:700;line-height:28px;}
+.booking-right .five-reasons .list .item .text{color:#555;font-size:13px;font-weight:400;line-height:28px;}
+.booking-right .five-reasons .info{float:left;line-height:16px;padding-top:5px;width:100%;}
+.submit-btn{background:url(../images/buttons/submit.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:33px;}
+.submit-btn:hover{background-position:0 -33px;}
+.i-accept-btn{background:url(../images/buttons/i-accept.jpg) no-repeat scroll 0 0 transparent;border:medium none;float:right;height:0;overflow:hidden;padding-top:33px;width:124px;}
+.i-accept-btn:hover{background-position:0 -33px;}
+.form .textfield{border:1px solid #195EA7;float:left;height:94px;margin-bottom:10px;width:243px;}
+.fb-bar{background:url(../images/backgrounds/fb-bar.png) repeat-x scroll 0 0 transparent;bottom:0;height:34px;padding-top:10px;position:fixed;width:100%;}
+.fb-bar .bar-wrapper{width:673px;margin:0 auto;}
+.fb-bar .fb-bar-text{background:url(../images/headers/fb-bar.png) no-repeat scroll 0 0 transparent;float:left;height:0;margin-top:5px;overflow:hidden;padding-top:16px;width:484px;}
+.fb-bar .no-thanks-link{color:#FFF;float:right;font-size:11px;font-weight:700;line-height:30px;}
+.fb-bar .chat-now{float:left;padding-left:19px;}
+.chat-now-btn{background:url(../images/buttons/chat-now.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:0;overflow:hidden;padding-top:28px;width:100px;}
+.chat-now-btn:hover{background-position:0 -28px;}
+.payment{background:url(../images/backgrounds/body2.jpg) repeat-x scroll 0 0 #2A7ED2;}
+.payment .logo a{background:url(../images/headers/logo2.jpg) repeat-x scroll 0 0 #2A7ED2;height:0;padding-top:62px;width:325px;}
+.payment .header .top{height:115px;}
+.payment .header .top .header-left-cont{height:115px;}
+.payment .header .top .header-right-cont{height:115px;}
+.payment .payment-left{float:left;width:632px;}
+.payment .payment-left .top{background:url(../images/headers/60-seconds-away.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:43px;width:632px;}
+.payment .payment-left .body{background:url(../images/backgrounds/payment-left.png) repeat-y scroll 0 0 transparent;float:left;width:560px;padding:23px 36px;}
+.payment .payment-left .bottom{background:url(../images/backgrounds/payment-bottom.png) no-repeat scroll 0 0 transparent;float:left;height:20px;width:632px;}
+.payment .payment-left .message{background-color:#FCD9D9;border:1px solid #DA0000;color:#343434;display:none;line-height:24px;width:536px;padding:6px 11px;}
+.payment .payment-left .message .red-text{color:#E60000;font-weight:700;}
+.payment-form .step-title{color:#004386;float:left;font-size:20px;height:32px;line-height:32px;padding-top:18px;width:100%;}
+.payment-form .step-title span{background:url(../images/backgrounds/payment-step.jpg) no-repeat scroll 0 0 transparent;color:#FFF;float:left;height:32px;padding-right:8px;text-align:center;width:32px;}
+.payment-form .input-container{float:left;padding-top:10px;width:100%;}
+.payment-form .label{color:#333;float:left;font-size:13px;line-height:25px;width:100%;}
+.payment-form .inputfield{border:1px solid #DADADA;float:left;font-size:14px;height:26px;line-height:25px;width:255px;}
+.payment-form .select-month{float:left;}
+.payment-form .select-year{float:left;}
+.payment-form .postcode{width:139px;}
+.payment-form .eee-wrong{background:url(../images/eee-wrong.jpg) no-repeat scroll 9px 0 transparent;display:none;float:left;height:26px;padding-left:9px;width:26px;}
+.payment-form .secure-cards{background:url(../images/secure-cards.jpg) no-repeat scroll 7px 0 transparent;float:left;height:31px;padding-left:9px;width:256px;}
+.payment-form .form-seperator{background:url(../images/dot-grey.jpg) repeat-x scroll 0 23px transparent;float:left;font-size:13px;font-weight:700;height:25px;line-height:25px;padding-top:10px;width:100%;}
+.payment-form .form-seperator span{background-color:#FFF;float:left;padding-right:4px;}
+.payment-form .agreement-text{float:left;font-size:12px;line-height:25px;padding-top:14px;width:100%;}
+.payment-form .eee{color:#DA1313;display:block;border-color:#DA0707;}
+.payment-form .submit-container{float:left;padding-top:14px;width:100%;}
+.submit-secure-payment-btn{background:url(../images/buttons/submit-secure-payment.png) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:0;overflow:hidden;padding-top:33px;width:232px;}
+.submit-secure-payment-btn:hover{background-position:0 -33px;}
+.payments-footer{color:#7BBDFF;font-size:12px;line-height:25px;text-align:center;width:100%;}
+.payments-footer a{color:#7BBDFF;font-size:12px;line-height:25px;}
+.payment-right{float:right;text-align:center;width:285px;}
+.payment-right .img-cnt{float:left;padding-bottom:20px;text-align:center;width:100%;}
+.payment-right .img-cnt2{float:left;text-align:center;width:100%;padding:20px 0;}
+.payment-right .text1{color:#FFF;float:left;font-size:18px;line-height:25px;padding-bottom:36px;width:100%;}
+.payment-right .text2{color:#FFF;float:left;font-size:20px;font-weight:700;line-height:25px;padding-bottom:25px;width:100%;}
+.payment-right .text2 span{color:#02468A;font-size:16px;font-weight:700;line-height:25px;}
+.payment-right .text3{color:#FFF;float:left;font-size:12px;font-weight:700;line-height:22px;padding-top:25px;width:100%;}
+.payment-right .text3 span{font-size:14px;}
+.payment-right .line-sep{background:url(../images/right-seperator.png) no-repeat scroll center 0 transparent;float:left;height:2px;line-height:2px;margin-bottom:20px;overflow:hidden;width:100%;}
+.payment-success{width:600px;margin:0 auto;padding:130px 0;}
+.payment-success .success-title{background:url(../images/tick-ok.jpg) no-repeat scroll 0 3px transparent;color:#90C10A;float:left;font-size:32px;line-height:32px;padding-bottom:18px;padding-left:40px;width:560px;}
+.payment-success .next-title{color:#004386;float:left;font-size:18px;line-height:18px;padding-bottom:8px;width:100%;}
+.payment-success .info{color:#555;float:left;font-size:13px;line-height:18px;padding-bottom:18px;width:100%;}
+.payment-success .btn-container{float:left;padding-top:12px;width:100px;}
+.back-to-homepage-btn{background:url(../images/buttons/back-to-homepage.jpg) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:0;overflow:hidden;padding-top:33px;width:182px;}
+.back-to-homepage-btn:hover{background-position:0 -33px;}
+.clear{clear:both;}
+.order-success{background-color:#FFF;background-image:none;}
+.order-success .logo a{background-image:url(../images/headers/logo3.jpg);}
+.order-success .header .top{height:110px;}
+.order-success .header .top .header-left-cont{height:110px;}
+.order-success .status-title{color:#90C10A;float:left;font-size:20px;line-height:32px;padding-bottom:10px;width:100%;}
+.order-success .info{color:#555;font-size:12px;line-height:20px;padding-bottom:20px;}
+.order-success .info2{color:#3A3A3A;font-size:12px;line-height:20px;padding-bottom:20px;}
+.order-success .subtitle{color:#333;font-size:14px;font-weight:700;line-height:20px;}
+.order-success .subtitle2{border-bottom:1px solid #D5D5D5;border-top:1px solid #D5D5D5;color:#333;font-size:14px;font-weight:700;line-height:26px;}
+.order-success .cols{border-bottom:1px solid #D5D5D5;float:left;padding-bottom:26px;padding-top:20px;width:100%;}
+.order-success .cols strong{color:#333;}
+.order-success .first-col{float:left;width:250px;}
+.order-success .second-col{float:left;width:214px;}
+.order-success .third-col{float:left;width:170px;}
+.order-success .wrapper{width:650px;}
+.order-success .list{float:left;width:100%;padding:26px 0;}
+.order-success .list .item{font-size:13px;font-weight:700;line-height:18px;}
+.order-success .list .item .descr{color:#555;font-weight:400;}
+.order-success .list .item .price{color:#555;float:right;font-family:Arial,serif;font-size:12px;width:74px;}
+.order-success .total-block{background:url(../images/backgrounds/total.jpg) repeat-x scroll 0 0 transparent;float:left;font-family:Arial;font-size:16px;font-weight:700;height:36px;line-height:18px;margin-bottom:20px;padding-left:434px;padding-top:22px;width:216px;}
+.order-success .total-block span{float:left;width:124px;}
+.order-success .order-footer{border-top:1px solid #D5D5D5;color:#959595;font-size:10px;line-height:14px;padding-bottom:70px;padding-top:12px;}
+.agreement-ltbx{width:552px;padding:5px;}
+.agreement-ltbx .lightbox-content{width:502px;}
+.agreement-ltbx .lightbox-left-side{width:100%;}
+.agreement-ltbx .lightbox-left-side .right-link{float:left;text-align:right;width:100%;}
+.agreement-ltbx .lightbox-left-side .right-link a{font-size:14px;line-height:25px;}
+.agreement-ltbx .terms{border:1px solid #999;height:201px;width:500px;}
+.agreement-ltbx .terms p{font-size:12px;line-height:14px;padding-bottom:14px;}
+.agreement-ltbx .bottom{float:left;width:100%;padding:25px 0 16px;}
+.agreement-ltbx .bottom-buttons{line-height:32px;width:190px;margin:0 auto;}
+.agreement-ltbx .bottom-buttons .decline-lnk{float:left;font-size:14px;}
+.order-list{border:0 none;border-collapse:collapse;float:left;padding-top:10px;text-align:left;width:100%;}
+.order-list li{float:left;width:100%;}
+.order-list span{float:left;}
+.order-list .row{background:url(../images/backgrounds/payment-row.jpg) repeat-x scroll 0 -1px transparent;border:0 none;color:#3E3F3F;font-size:16px;font-weight:700;height:31px;line-height:25px;overflow:hidden;padding-top:6px;}
+.order-list .first{background-position:0 0;height:32px;}
+.order-list .course{padding-left:14px;width:216px;}
+.order-list .people{width:150px;}
+.order-list .price{width:104px;}
+.order-list .pay{width:75px;}
+.order-list .thead{color:#333;font-size:13px;font-weight:700;height:32px;line-height:25px;overflow:hidden;}
+.processing-payment{background-image:none;padding-top:174px;text-align:center;}
+.processing-payment .processing-payment-cnt{float:left;width:192px;padding:40px 57px 0;}
+.processing-payment .info{float:left;width:100%;padding:20px 0;}
+.processing-payment .processing-payment-hdr{background:url(../images/headers/processing-payment.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:13px;width:192px;}
+.processing-payment .wrapper{width:303px;}
+.processing-payment .logo{background:url(../images/headers/logo3.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:57px;width:325px;}
+.ten-reasons{background:url(../images/backgrounds/reasons-1.jpg) no-repeat scroll 2px 30px transparent;float:left;padding-top:30px;width:921px;}
+.ten-reasons .top{float:left;height:295px;width:100%;}
+.ten-reasons .top .left{float:left;position:relative;width:382px;padding:30px 0 0 18px;}
+.ten-reasons .top .why-basecamp-hdr{background:url(../images/headers/why-basecamp.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:41px;width:274px;}
+.ten-reasons .top .good-times-hdr{background:url(../images/headers/good-times.png) no-repeat scroll 0 0 transparent;float:left;height:0;margin-top:12px;overflow:hidden;padding-top:110px;width:376px;}
+.ten-reasons .top .ten-reasons-hdr{background:url(../images/headers/10-reasons.png) no-repeat scroll 0 0 transparent;float:left;height:0;margin-top:32px;overflow:hidden;padding-top:45px;width:397px;}
+.ten-reasons .top .arrow{background:url(../images/arrow.png) no-repeat scroll 0 0 transparent;float:left;height:60px;position:absolute;right:-50px;top:186px;width:113px;}
+.ten-reasons .top .right{float:right;width:491px;padding:20px 26px 0 0;}
+.ten-reasons .top .video-container{background:url(../images/backgrounds/big-video-frame.png) repeat scroll 0 0 transparent;clear:right;float:right;height:263px;position:relative;width:450px;}
+.ten-reasons .top .video-container .contextual-links-wrapper{background:none repeat scroll 0 0 #FFF;border-radius:5px 5px 5px 5px;margin-right:5px;margin-top:7px;}
+.ten-reasons .top .video-container img{height:245px;padding-left:8px;padding-top:5px;width:433px;}
+.ten-reasons .top .video-container .watch-big{height:49px;left:100px;position:absolute;top:100px;width:244px;}
+.ten-reasons .top .video-container .watch-big a{background:url(../images/buttons/watch-video.png) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:49px;width:244px;}
+.ten-reasons .top .video-container .watch-big a:hover{background-position:0 -49px;}
+.ten-reasons .reasons{float:left;width:100%;}
+.ten-reasons .reasons .ten-reasons-to-go-on-basecamp-hdr{background:url(../images/headers/ten-reasons-to-go-1.png) no-repeat scroll 0 0 transparent;float:left;height:0;margin-top:17px;overflow:hidden;padding-top:54px;width:921px;}
+.ten-reasons .reasons .reason{float:left;width:50%;padding:2px 30px 0 41px;}
+.courses-right-side .video-container{float:left;padding-bottom:18px;width:100%;}
+.courses-right-side .video-container .video{background:url(../images/backgrounds/small-video-container.jpg) no-repeat scroll 0 0 transparent;float:left;height:82px;overflow:hidden;position:relative;width:140px;padding:6px;}
+.courses-right-side .video-container .video img{float:left;height:82px;width:140px;}
+.courses-right-side .video-container .video .watch-small{height:26px;left:26px;position:absolute;top:36px;width:98px;}
+.courses-right-side .video-container .video-desc{color:#555;float:left;font:12px/18px "Trebuchet MS",sans-serif;width:120px;padding:0 0 0 18px;}
+.courses-right-side .video-container .video-desc span{color:#333;font:bold 14px/18px "Trebuchet MS",Sans-serif;}
+.courses-right-side .video-container .video-desc a{color:#F36;font:12px/18px "Trebuchet MS",Sans-serif;}
+.course-content .five-reasons-to-go-with-hdr{background:url(../images/headers/5-reasons-to-go-with.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:52px;width:285px;}
+.course-content .five-reasons-list{background: url("../images/backgrounds/5-reasons.jpg") no-repeat scroll 0 0 transparent;height: 335px;list-style: decimal outside none;padding: 0 13px 0 48px;width: 224px;float: left;}
+
+.course-content .five-reasons-list .item{font-family:"DIN Bold","Trebuchet MS";font-size:22px;line-height:20px;width:auto;padding:14px 0;float:none;color:#004386;}
+.course-content .five-reasons-list .item .text{color:#535353;font-family:"Trebuchet MS";font-size:13px;padding-top:7px;width:230px;}
+.course-content .more-this-way{background:url(../images/backgrounds/more.jpg) no-repeat scroll 2px 0 transparent;float:left;height:30px;margin-bottom:20px;width:211px;padding:12px 36px 0;}
+.instructor-courses-hdr{background:url(../images/headers/instructor-courses.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;margin-bottom:20px;overflow:hidden;padding-top:37px;width:233px;}
+.performance-courses-hdr{background:url(../images/headers/performance-courses.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;margin-bottom:20px;overflow:hidden;padding-top:41px;width:266px;}
+.course-content .big-subtitle{color:#004386;float:right;font-family:"DIN Bold","Trebuchet MS";font-size:24px;font-weight:700;padding-bottom:10px;text-align:left;width:100%;}
+.what-to-expect-banner2{margin-top:20px;background:url(../images/image2.jpg) scroll no-repeat 0 0 transparent;float:left;width:671px;height:94px;padding-top:160px;padding-left:250px;padding-bottom:10px;}
+.what-to-expect-banner2 .button-cnt{float:left;padding-left:20px;}
+.what-to-expect-banner2 .full-courses-btn{background:url(../images/buttons/full-courses.png) scroll no-repeat 0 0 transparent;border:none;float:left;height:0;overflow:hidden;padding-top:66px;width:205px;}
+.what-to-expect-banner2 .full-courses-btn:hover{background-position:0 -66px;}
+.what-to-expect-banner2 .shorter-courses-btn{background:url(../images/buttons/shorter-courses.png) scroll no-repeat 0 0 transparent;border:none;float:left;height:0;overflow:hidden;padding-top:66px;width:205px;}
+.what-to-expect-banner2 .shorter-courses-btn:hover{background-position:0 -66px;}
+.what-to-expect{margin-top:10px;float:left;width:920px;border:1px solid #d3d3d3;border-collapse:collapse;}
+.what-to-expect thead th{border-bottom:1px solid lightGrey;background:url(../images/backgrounds/expect-header-1.jpg) scroll repeat-x 0 0 transparent;color:#333;text-shadow:0 1px 1px white;font-size:12px;line-height:24px;font-family:"DIN Bold", "Trebuchet MS", Sans-serif;padding:4px 12px;text-align:center;vertical-align:middle;height:53px;}
+.what-to-expect thead th span{font:normal normal 12px/24px "Trebuchet MS", Sans-serif;}
+.what-to-expect thead .scnd{background-image:url(../images/backgrounds/expect-header-2.jpg);}
+.what-to-expect tbody td{height:26px;font:normal normal 12px/30px "Trebuchet MS", Sans-serif;padding:0 12px;text-align:center;vertical-align:middle;}
+.what-to-expect .odd{background-color:#e1f2ff;}
+.what-to-expect .even{background-color:#fff;}
+.what-to-expect .odd .scnd{background-color:#d6edff;}
+.what-to-expect .even .scnd{background-color:#f2f9ff;}
+.what-to-expect a{font:normal normal 12px/30px "Trebuchet MS", Sans-serif;}
+.what-to-expect .first{text-align:left;}
+.what-to-expect-bottom{float:left;width:920px;height:19px;background:url(../images/backgrounds/dates-n-prices-bottom.png) scroll no-repeat 0 0 transparent;overflow:hidden;}
+.what-to-expect-list{margin-top:10px;float:left;width:920px;border:1px solid #d3d3d3;border-collapse:collapse;}
+.what-to-expect-list .list-header{border-bottom:1px solid #D3D3D3;background:url(../images/backgrounds/th-bg.jpg) scroll repeat-x 0 0 transparent;height:26px;text-align:left;color:#333;text-shadow:0 1px 1px #FFF;font-size:12px;line-height:20px;font-family:"DIN Bold", "Trebuchet MS", Sans-serif;text-transform:uppercase;padding:6px 0 0;}
+.what-to-expect-list li{float:left;width:100%;height:30px;font:normal normal 12px/30px "Trebuchet MS", Sans-serif;}
+.what-to-expect-list .odd{background-color:#e1f2ff;}
+.what-to-expect-list .even{background-color:#fff;}
+.what-to-expect-list a{font:normal normal 12px/30px "Trebuchet MS", Sans-serif;}
+.what-to-expect-list span{float:left;padding:0 12px;}
+.what-to-expect-list .location{width:158px;}
+.what-to-expect-list .start-date{width:114px;}
+.what-to-expect-list .course-length{width:132px;}
+.what-to-expect-list .qualifications{width:168px;}
+.what-to-expect-list .price{width:53px;}
+.what-to-expect-list .info-n-booking{width:150px;}
+.full-courses-hdr{background:url("../images/headers/full-courses.png") scroll no-repeat 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:20px;width:139px;margin-top:20px;}
+.shorter-courses-hdr{background:url("../images/headers/shorter-courses.png") scroll no-repeat 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:20px;width:139px;margin-top:20px;}
+.banner-text-dnp{position:relative;line-height:35px;}
+.banner-text-dnp .contextual-links-wrapper{background:#FFFFFF;border-radius:5px 5px 5px 5px;margin-right:-100px;margin-top:-5px;border:1px solid #aaaaaa;}
+
+#apiproxy{display:none;}
+
+.pease-of-mind-ltbx .text .title {color: #333333;font-size: 14px;font-weight: 700;line-height: 20px;text-align:left;padding:0;}
+.lightbox{display:none;}
+.course-right-side .contextual-links-wrapper{top:6px;right:432px;}
+.member .contextual-links-wrapper{background:#FFFFFF;border-radius:5px 5px 5px 5px;margin-right:2px;margin-top: 7px;border:1px solid #aaaaaa;}
+.free-borochure-container .contextual-links-wrapper{background:#FFFFFF;border-radius:5px 5px 5px 5px;margin-right:2px;margin-top: 7px;border:1px solid #aaaaaa;}
+.content .banner .video-container .contextual-links-wrapper{border:1px solid #aaaaaa;}
+.thin-content{margin:20px 130px;position:relative;}
+.thin-content h1{color:#004386;font-size:24px;}
+.thin-content .main{padding-top:10px;}
+
+.field-name-field-open-days .field-collection-view .field-label {display:none;}
+.field-name-field-open-days .field-name-field-open-day-fb-url{float:left;}
+.field-name-field-open-days .field-name-field-open-day-date{float:left;}
+.field-collection-view .content a{font-size:14px;line-height:20px;font-weight:400;color: #FF3366;cursor: pointer;font-family: "Trebuchet MS",Sans-serif;text-decoration: none;}
+.field-name-field-open-days .right-side .events{float:left;width:100%;}
+/*.field-collection-container .field-items .field-item{background:url(../images/backgrounds/event-bar.png) scroll no-repeat 0 0 transparent;width:587px;height:20px;float:left;margin-top:4px;color:#333;font:normal bold 14px/20px "Trebuchet MS", Sans-serif;padding:8px 14px;}*/
+.field-collection-container .field-items .field-collection-view{float:left;background:url(../images/backgrounds/event-bar.png) scroll no-repeat 0 0 transparent;width:587px;height:20px;float:left;margin-top:4px;color:#333;font:normal bold 14px/20px "Trebuchet MS", Sans-serif;padding:8px 14px;position:relative;}
+.field-collection-view ul.field-collection-view-links{position:absolute;right:0;}
+.field-collection-view ul.field-collection-view-links a{font-size:12px;line-height:20px;font-weight:400;color: #FF3366;cursor: pointer;font-family: "Trebuchet MS",Sans-serif;text-decoration: none;}
+.field-collection-container{border:0;position:relative;}
+.field-collection-view{border:0;}
+.field .field-label{display:none;}
+.field-collection-container ul.action-links-field-collection-add{position:absolute;bottom:-32px;}
+.field-collection-container ul.action-links-field-collection-add a{font-size:12px;line-height:20px;font-weight:400;color: #FF3366;cursor: pointer;font-family: "Trebuchet MS",Sans-serif;text-decoration: none;}
+.field-collection-view{margin:0;}
+
+.dates-n-prices tbody td{height:auto;}
+
+.lp-content .title{position:relative;}
+.lp-content .title .contextual-links-wrapper{margin-top:30px;}
+.lp-content .info{padding-top:6px;}
+.lp-right-side .textfield {border:1px solid #195EA7; color:#666666; float:left; font-family:Arial,serif; font-size:11px; font-weight:normal; padding:6px; width:233px;}
+.email-signup-right-side {position:relative;}
+.email-signup-right-side .contextual-links-wrapper{right:305px;top:55px;}
+.email-signup-container .big-text{position:relative;}
+.email-signup-list {margin-top:10px;}
+.no-winners{padding-top:10px;}
+.winners .winner-photo{overflow:hidden;}
+.winners .winner-photo img{height:auto;}
+
+.course-content .title{position:relative;}
+.course-content .title .contextual-links-wrapper{top:25px;}
+.course-content .list .item .text{width:100%;padding-top:0px;}
+
+.left-link{margin-top:-2px;padding:0;}
+.courses-right-side .media-container{margin-top:10px;}
+.course-content .subtitle{padding-bottom:10px;}
+.course-content .courses-right-side {position:relative;}
+.course-content .courses-right-side .contextual-links-wrapper{background:#FFFFFF;border-radius:5px 5px 5px 5px;margin-right:7px;margin-top:22px;border:1px solid #aaaaaa;}
+.course-content .courses-right-side .columns .info{position:relative;}
+.course-content .courses-right-side .columns .info .contextual-links-wrapper{background:#FFFFFF;border-radius:5px 5px 5px 5px;margin-right:2px;margin-top:0;border:1px solid #aaaaaa;}
+.upcoming-courses-container .categories{border:0;}
+.context-container{position:relative;}
+.left-side.context-container .contextual-links-wrapper{background:#FFFFFF;border-radius:5px 5px 5px 5px;margin-right:85px;margin-top:30px;border:1px solid #aaaaaa;}
+.right-side .context-container .contextual-links-wrapper{background:#FFFFFF;border-radius:5px 5px 5px 5px;margin-right:455px;margin-top:33px;border:1px solid #aaaaaa;}
+.small-text a{font:14px/26px "Trebuchet MS",Sans-serif;}
+/*body{background:url(../images/page-background.jpg) no-repeat center top transparent;}*/
+.video-container  .contextual-links-wrapper{background:#FFFFFF;border-radius:5px 5px 5px 5px;margin-right:5px;margin-top:5px;border:1px solid #aaaaaa;}
+.courses-banner .banner-title{font:bold 28px/36px "Trebuchet MS",Sans-serif;}
+.comment-container{float:left;margin-top:10px;position:relative;}
+.comment-container .contextual-links-wrapper{background:#FFFFFF;border-radius:5px 5px 5px 5px;margin-right: -5px;margin-top: -3px;border:1px solid #aaaaaa;}
+.resorts-left-side .resort-details .text {margin-top:15px;}
+.resorts-left-side .resort-details .contextual-links-wrapper{background:#FFFFFF;border-radius:5px 5px 5px 5px;margin-right:-5px;border:1px solid #aaaaaa;}
+.resort-features .media-container .media-desc{padding:10px 0;width:150px;}
+.resort-features .media-container .media-desc span{font-size:12px;}
+.resorts-left-side .banner .navigation li a {background:none;}
+.resorts-left-side .banner .navigation ul {background:url("../images/navigation/banner-nav.png") repeat-x scroll 0 0 transparent;}
+.resort-features .tick-list{padding-top:15px;padding-bottom:15px;}
+.resort-features .pink-list{padding-top:10px;}
+.upcoming-courses-container .date-list .lesson{font-size:11px;}
+.resort-accommodation .banner .details li a{width:133px;}
+.resorts .top .bottom-line .skiing-icon{background: url("../images/buttons/skiing-icon.png") no-repeat scroll 0 0 transparent;float: left;height: 0;overflow: hidden;padding-top: 54px;width: 54px; }  .resorts .top .bottom-line .snowboarding-icon{background: url("../images/buttons/snowboarding-icon.png") no-repeat scroll 0 0 transparent;float: left;height: 0;overflow: hidden;padding-top: 54px;width: 38px; }
+
+.resort-container .contextual-links-wrapper{background:#FFFFFF;border-radius:5px 5px 5px 5px;margin-right: 10px;margin-top: 6px;border:1px solid #aaaaaa;}
+
+.qualifications .banner .details li a{width:130px;}
+.upcoming-courses-container .date-list .lesson a{ float: left;font-size: 12px;height: 36px;padding: 7px 13px;width: 272px; 	color:#333333;}
+.upcoming-courses-container .date-list .lesson a:hover{text-decoration:none;background: url("../images/dot-fdfdfd.jpg") repeat-x scroll 0 0 #aaaaaa;}
+.upcoming-courses-container .date-list .lesson a:hover strong{color:#ffffff;}
+.upcoming-courses-container .date-list .lesson a:hover span{color:#555555;}
+.page-container .postcode-info{width:270px;}
+
+.sign-up-n-win-container .text p{text-align:left;}
+.limited{color:#F26522;}
+
+.course-media-bar .media-container{padding:25px 0;}
+
+.booking-left .form-container{margin-top:65px;}
+.content .banner .title{text-align:left;margin-bottom:0;padding:0;padding-top:22px;}
+.content .banner .info{width:100%;height:100px;padding-left:0;}
+.content .banner .left{position:relative;}
+.content .banner .left .contextual-links-wrapper{background: none repeat scroll 0 0 #FFFFFF;     border: 1px solid #AAAAAA;     border-radius: 5px 5px 5px 5px;     margin-right: 350px;     margin-top: 28px;}
+.courses-banner div.text{padding-bottom:0;height:100px;}
+
+.courses-banner .video-container iframe{float: left;height: 259px;width: 459px;}
+	
+.instructors-container .ui-widget-content{border:0;}	
+.instructors-container .ui-corner-bottom{border-radius:0;}
+.instructors-container .ui-corner-top{border-radius:0;}
+.instructors-container .ui-corner-all{border-radius:0;}
+.instructors-container .ui-state-active .ui-icon{display:none;}
+.instructors-container .ui-state-default .ui-icon{display:none;}
+.instructors-container .ui-state-default{border:0;}
+.instructors-container .unwrapped{border:0;background-position:0 -36px;}
+.instructors-container .unwrapped:hover{border:0;background-position:0 -36px;}
+.instructors-container .ui-state-active{background-position:0 -72px;}
+.instructors-container .ui-state-active:hover{background-position:0 -72px;}
+
+.what-to-expect thead th span{display:none;}
+.what-to-expect thead th.first span{display:block;}
+.what-to-expect thead th.first span.location{font-size:20px;}
+.what-to-expect thead tr{background: url("../images/tables/th-rpt.jpg") repeat-x scroll center 1px transparent;}
+.what-to-expect thead th.th-all-mountain{background: url("../images/tables/th-all-mountain-gap.jpg") no-repeat scroll center 1px transparent; height: 0; margin: 0; overflow: hidden; padding: 81px 0 0;}
+.what-to-expect thead th.th-full-season{background: url("../images/tables/th-full-season-pro.jpg") no-repeat scroll center 1px transparent; height: 0; margin: 0; overflow: hidden; padding: 81px 0 0;}
+.what-to-expect thead th.th-semi-season{background: url("../images/tables/th-semi-season-pro.jpg") no-repeat scroll center 1px transparent; height: 0; margin: 0; overflow: hidden; padding: 81px 0 0;}
+.what-to-expect thead th.th-mini-season{background: url("../images/tables/th-mini-season-pro.jpg") no-repeat scroll center 1px transparent; height: 0; margin: 0; overflow: hidden; padding: 81px 0 0;}
+.what-to-expect thead th.th-freestyle{background: url("../images/tables/th-freestyle-camp.jpg") no-repeat scroll center 1px transparent; height: 0; margin: 0; overflow: hidden; padding: 81px 0 0;}
+.what-to-expect thead th.th-basi-1{background: url("../images/tables/th-basi-1.jpg") no-repeat scroll center 1px transparent; height: 0; margin: 0; overflow: hidden; padding: 81px 0 0;}
+.what-to-expect thead th.th-basi-2{background: url("../images/tables/th-basi-2.jpg") no-repeat scroll center 1px transparent; height: 0; margin: 0; overflow: hidden; padding: 81px 0 0;}
+.what-to-expect thead th.th-basi-1-2{background: url("../images/tables/th-basi-1-2.jpg") no-repeat scroll center 1px transparent; height: 0; margin: 0; overflow: hidden; padding: 81px 0 0;}
+.what-to-expect thead th.th-csia-1-2{background: url("../images/tables/th-csia-1-2.jpg") no-repeat scroll center 1px transparent; height: 0; margin: 0; overflow: hidden; padding: 81px 0 0;}
+.what-to-expect thead th.th-csia-1{background: url("../images/tables/th-csia-1.jpg") no-repeat scroll center 1px transparent; height: 0; margin: 0; overflow: hidden; padding: 81px 0 0;}
+.what-to-expect thead th.th-csia-2{background: url("../images/tables/th-csia-2.jpg") no-repeat scroll center 1px transparent; height: 0; margin: 0; overflow: hidden; padding: 81px 0 0;}
+.what-to-expect a{font-size:11px;}
+.what-to-expect thead th {background:none;}
+.what-to-expect thead .spread-row{background:none;border:0;}
+.what-to-expect thead .spread-row th{height:20px;background: url("../images/tables/th-pink-rpt.jpg") repeat-x scroll 0 0 transparent;padding:0;color:#ffffff;line-height:30px;font-size:13px;}
+.what-to-expect thead .spread-row th.first-col{background:none;}
+.what-to-expect{border:0;}
+.what-to-expect tbody{border:0;border-right:1px solid #D3D3D3;border-left:1px solid #D3D3D3;border-bottom:1px solid #D3D3D3;}
+.what-to-expect thead tr{border:0;border-right:1px solid #D3D3D3;border-left:1px solid #D3D3D3;border-top:1px solid #D3D3D3;}
+.course-comparison{background: url("../images/tables/course-comparison.jpg") no-repeat scroll left 0 transparent;float: left; height: 0; overflow: hidden; padding-top: 42px; width: 320px;margin-top:20px;}
+.pink-right{float:right;}
+.pink-left{float:left;}
+.course-comp-title-area{float:left;width:100%;}
+.course-comp-title-area .lang-menu-inline{margin-top:32px;}
+.course-comp-title-area .pagination{float:right;padding:36px 0 0;}
+
+.what-to-expect-banner{position:relative;}
+.what-to-expect-banner .navigation{bottom:0;height:49px;left:0;position:absolute;width:585px;}
+.what-to-expect-banner .navigation ul{bottom:0;float:left;height:49px;left:0;list-style:none outside none;width:585px;}
+.what-to-expect-banner .navigation li{float:left;}
+.what-to-expect-banner .navigation li a{background:url(../images/navigation/banner-nav.png) repeat-x scroll 0 0 transparent;color:#FFF;float:left;font-size:12px;font-weight:700;height:33px;line-height:20px;padding-top:16px;text-align:center;text-transform:uppercase;width:229px;}
+.what-to-expect-banner{padding-top:149px;}
+.what-to-expect-banner .navigation ul{width:918px;background:url("../images/navigation/banner-nav.png") repeat-x scroll 0 0 transparent;}
+
+#what-to-expect-head{float:left;width:100%;padding-top:30px;}
+#what-to-expect-head .comparison-banner{float:left;position:relative;width:100%;}
+#what-to-expect-head .filter{float:left;margin-top:227px;background:url("../images/wte-filter-bg.png") no-repeat 0 0;width:710px;height:139px;padding:55px 0 0 210px;}
+#what-to-expect-head .filter ul{float:left;width:200px;}
+#what-to-expect-head .filter ul li{float:left;width:100%;height:30px;}
+#what-to-expect-head .filter ul li a{font-size:14px;font-weight:bold;color:#ffffff;padding-left:25px;}
+#what-to-expect-head .filter .grey{background:url("../images/backgrounds/filter-grey.png") no-repeat 0 0;}
+#what-to-expect-head .filter .pink/*,#what-to-expect-head .filter ul li:hover*/{background:url("../images/backgrounds/filter-pink.png") no-repeat 0 0;} 
+#what-to-expect-head .filter ul li a:hover{text-decoration:none;} 
+#what-to-expect-head .filter .resort{padding-left:47px;}
+#what-to-expect-head .filter .course-length{padding-left:38px;} 
+
+#what-to-expect .pagination a{display:inline-block;padding:0 25px;color:#333;font-weight:bold;font-size: 12px;}
+#what-to-expect .pagination .prev{background:url("../images/icons/prev-green.png") no-repeat 0% 0%;opacity:0;cursor:default;}
+#what-to-expect .pagination .next{background:url("../images/icons/next-green.png") no-repeat 100% 0%;}
+#what-to-expect .pagination .prev:hover{background-position: 0% -24px;}
+#what-to-expect .pagination .next:hover{background-position: 100% -24px;}
+#what-to-expect .pagination a:hover{text-decoration:none;}
+#what-to-expect ul{float:left;}
+#what-to-expect ul.labels li{float:left;padding:5px;height:20px;}
+#what-to-expect ul.course li{float:left;padding:5px;height:20px;}
+#what-to-expect .labels{font-weight:bold;width:230px;border-right:1px solid #1B65AC;}
+#what-to-expect .labels li{width:220px;}
+#what-to-expect .courses-container{float:left;width:690px;overflow-x:scroll;position: relative;}
+#what-to-expect .courses{float:left;width:10000px;position:relative;}
+#what-to-expect .course{width:115px;text-align:center;}
+#what-to-expect .course li{width:105px;}
+#what-to-expect .odd-column .odd-row{background:#e1f2ff;}
+#what-to-expect .odd-column .even-row{background:#ffffff;}
+#what-to-expect .even-column .odd-row{background:#d6edff;}
+#what-to-expect .even-column .even-row{background:#f2f9ff;}
+#what-to-expect .no-result{display:none;font-size:17px;font-weight:bold;text-align:center;padding-top:35px;line-height:30px;}
+#what-to-expect .no-result a{font-size:17px;}
+
+.book-button{float:right;background:url(../images/buttons/book-now.png) no-repeat 0 0 transparent;height:0;overflow:hidden;padding-top:33px;width:124px;}
+.book-button:hover{background-position:0 -33px;}
+.book-button-container{float:right;width:100%;background:url(../images/headers/ready-to-book.jpg) no-repeat 0 0 transparent;}
+.ready-to-book img{margin-top:15px;}
+
+a {color: #FF3366; cursor: pointer; font-family: "Trebuchet MS",Sans-serif; font-size: 11px; text-decoration: none; }
+.videos-ltbx #load-videos-list {float: left; height: 402px; overflow: hidden; padding: 0 0; width: 167px;margin-top: 29px; }
+.videos-ltbx .items {float: left; height: 10000px; padding: 0 0; width: 167px; margin-top:0px;}
+.videos-ltbx .item {width: 155px; }
+#load-videos-list .views-row{float:left;width:100%;}
+.videos-ltbx .name {float: left; height: 28px; overflow: hidden; width: 126px; }
+.lightbox-container {float: left; position: relative; z-index: 7; }
+.color-overlay .lightbox-container {float: left; height: 525px; position: relative; width: 826px; z-index: 3; }
+.color-overlay {display: none; height: 100%; position: fixed; width: 100%; }
+.lightbox-overlay .lightbox-container {float: left; height: 398px; position: fixed; width: 575px; z-index: 3;}
+.lightbox-overlay {display: none; height: 100%; position: fixed; width: 100%; }
+.generic-overlay .lightbox-container {float: left; height: auto; position: relative; width: auto; z-index: 3;top:0;}
+.generic-overlay {display: none; height: 100%; position: fixed; width: 100%; z-index: 3;}
+.generic-overlay .lightbox {display:block;}
+.generic-overlay .input-container{position: relative;float:left;}
+.video-overlay {background-color: rgba(0, 0, 0, 0.5); background:#000000;opacity:0.5;filter:alpha(opacity=50);height: 100%; position: fixed; width: 100%; z-index: 2; left:0;top:0;}
+.videos-ltbx {float: left; padding: 5px; width: 816px; }
+.lightbox {position: relative; z-index: 10; top:0px;left:0px;}
+.lightbox .lightbox-header-container .lightbox-header {left:0px;}
+.lightbox .lightbox-header-container {float: left; left: 50%; margin-left: -50px; position: relative; }
+.booking-left .form .selectfield {float: left; height:auto;margin-bottom: 6px; width: 245px; }
+
+
+.booking-left {float: left; width: 313px; }
+.booking-left .page-title{padding-top: 24px; padding-bottom: 14px; font-family: "DIN Bold", "Trebuchet MS"; font-size: 24px; line-height: 32px; color: #004386; text-align: left; }
+.booking-left .form{width: 313px; padding-left: 0px; padding-right: 0px; border-radius: 4px;}
+.booking-left .form form{width: 247px; padding: 0px 35px 0 31px }
+.brochure-left-side .form form{width: 247px; padding: 0px 35px 0 31px }
+.booking-left .form form .input-container{float: left; position: relative; width: 100%;}
+.booking-left .form .title {width: 100%; font-family: "Trebuchet MS"; font-weight: normal; }
+.booking-left .form .title span{color: #fff; font-family: "DIN Bold", "Trebuchet MS"; }
+.booking-left .form .subtitle  {width: 100%; font-size: 14px; padding-bottom: 10px; }
+.booking-left .form .selectfield {float: left; width: 245px; margin-bottom: 6px; }
+.next-step-btn{background:url(../images/buttons/next-step.png) scroll no-repeat 0 0 transparent;border:none;float:left;height:33px;width:244px;}
+.next-step-btn:hover{background-position:0 -33px;}
+.booking-left .field{background: url(../images/backgrounds/blue-field-small.jpg) no-repeat scroll 0 0 transparent; height: 138px; width: 311px; padding: 0 4px;}
+.booking-left .peace-of-mind{float:left;}
+.booking-left .peace-of-mind .heading{background: url(../images/headers/peace-of-mind-when-booking-small.jpg) no-repeat scroll 17px 0 transparent; float: left; height: 0; margin-top: 17px; overflow: hidden; padding-left: 17px; padding-top: 23px; width: 227px;}
+.booking-left .peace-of-mind .logos{background: url(../images/peace-of-mind-small.jpg) no-repeat scroll 48px 0 transparent; float: left; height: 74px; margin-top: 9px; width: 100%;}
+.booking-left .right-link{text-align: right; }
+.booking-right {float: right; width: 553px; position: relative;}
+.booking-right .banner-medium-container{width: 100%; }
+.booking-right .banner-medium-container .cant-find-what-hdr {background: url(../images/headers/cant-find-what-youre-looking-for.png) scroll no-repeat 0 0 transparent; float: left; height: 0; overflow: hidden; padding-top: 21px; width: 343px; margin-bottom: 8px; }
+.booking-right .banner-medium-container .one-of-the-team-hdr {background: url(../images/headers/one-of-the-team-is.png) scroll no-repeat 0 0 transparent; float: left; height: 0; overflow: hidden; padding-top: 17px; width: 398px; margin-bottom: 17px; }
+.booking-right .banner-medium-container .banner-medium-short {position: absolute; width: 520px; height: 129px; left: -5px; top: -5px; background: url(../images/backgrounds/banner-medium-short.png) scroll no-repeat 0 0 transparent; padding: 15px 20px; }
+.booking-right .banner-medium-container .banner-medium-short .phone {float: left; height: 34px; line-height: 34px; font-size: 22px; color: #F36; text-align: right; font-family: "DIN Medium", "Trebuchet MS"; letter-spacing: 2px; }
+.booking-right .steps {padding: 29px 0px 17px 0px; float: right; width: 445px; }
+.booking-right .step {float: left; padding-right: 25px; line-height: 20px; height: 20px; font-size: 19px; font-family: "Trebuchet MS"; color: #959595; }
+.booking-right .steps .first {width: 140px; }
+.booking-right .steps .second {width: 132px; }
+.booking-right .steps .third {width: 120px; padding-right: 0px; }
+.booking-right .step-num {float: left; width: 20px; height: 20px; padding-right: 8px; background: url("../images/backgrounds/step-bg.jpg") scroll no-repeat 0 0 transparent; text-align: center; font-size: 15px; line-height: 19px; color: #fff; font-family: "DIN Bold", "Trebuchet MS"; text-shadow: 0px 1px 1px #000101; }
+.booking-right .get-ready {float: left; width: 100%; height: 0; overflow: hidden; padding-top: 137px; background: url("../images/get-ready.jpg") scroll no-repeat 0 0 transparent; }
+.booking-right .second-step {padding-top: 24px; float: left; width: 100%; }
+.booking-right .second-step .text {float: left; width: 350px;}
+.booking-right .third-step {padding: 24px 0px 24px 205px; float: left; width: 373px; position: relative; background: url("../images/omg-its-free.jpg") scroll no-repeat 0 32px transparent; }
+.booking-right .third-step .text {float: left; width: 350px;}
+/* .pay-deposit-only-95-hdr {background: url("../images/headers/pay-deposit-only-95.jpg") scroll no-repeat 0 0 transparent; float: left; height: 0; overflow: hidden; padding-top: 33px; width: 446px; } */
+.get-ready-hdr {background: url("../images/headers/get-ready.jpg") scroll no-repeat 0 0 transparent; float: left; height: 0; overflow: hidden; padding-top: 32px; width: 159px; }
+.booking-right .second-step  .info {float: left; width: 400px; font-size: 12px; line-height: 20px; }
+.booking-right .third-step  .info {float: left; width: 340px; font-size: 12px; line-height: 20px; }
+.booking-right .second-step  .text ul {float: left; width: 100%; font-size: 12px; line-height: 24px; padding-top: 9px; }
+.booking-right .third-step  .text ul {float: left; width: 100%; font-size: 12px; line-height: 24px; padding-top: 9px; }
+.booking-right .second-step  .text ul li {float: left; padding-left: 28px; background: url("../images/tick.jpg") scroll no-repeat 0 0 transparent; width: 300px; }
+.booking-right .third-step .text ul li {float: left; padding-left: 28px; background: url("../images/tick.jpg") scroll no-repeat 0 0 transparent; width: 300px; }
+.booking-right .third-step  .arrows {position: absolute; top: -100px; right: 90px; width: 112px; height: 157px; background: url("../images/arrows.jpg") scroll no-repeat 0 0 transparent; }
+.booking-right .five-reasons {float: left; width: 524px; height: 200px; background: url("../images/backgrounds/5-reasons-block.jpg") scroll no-repeat 0 0 transparent; padding: 26px 14px; }
+.booking-right .five-reasons-hdr {float: left; width: 391px; height: 0; overflow: hidden; padding-top: 20px; background: url("../images/headers/5-reasons.jpg") scroll no-repeat 0 0 transparent; }
+.booking-right .five-reasons .list{float: left; width: 524px; list-style-position: inside; padding-top: 16px; }
+.booking-right .five-reasons .list .item{line-height: 28px; font-size: 16px; font-weight: bold; color: #004386; }
+.booking-right .five-reasons .list .item .text{line-height: 28px; font-size: 13px; font-weight: normal; color: #555555; }
+.booking-right .five-reasons .info{float: left; width: 100%; line-height: 16px; padding-top: 5px; }
+
+.form .radios a {color: #FFFFFF; float: left; font: bold 12px/16px "Trebuchet MS",Sans-serif; height: 16px; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
+.form .radios .skier:hover{cursor:pointer;}
+.form .radios .snowboarder:hover{cursor:pointer;}
+.form .radios .active .skier-icon {background-position: 0 -108px !important; }
+.form .radios .active .snowboarder-icon {background-position: 0 -108px !important; }
+.form .textarea {border: 1px solid #195EA7; float: left; height: 100px; margin-bottom: 10px; padding: 0 5px; width: 234px;color: #666666; font-family: Arial,serif; font-size: 11px; font-weight: normal; margin: 0; outline: 0 none; }
+.booking-left .form form .hidden{display:none;}
+
+.resort-questions .item .edit-link{color: #FF3366; float: right; margin-right: 15px;}
+.booking-left .form-container {background: url(../images/backgrounds/form-bg2.jpg) repeat-y scroll 0 0 transparent; float: left; margin-bottom: 22px; }
+.brochure-left-side .form-container {background: url(../images/backgrounds/form-bg2.jpg) repeat-y scroll 0 0 transparent; float: left; margin-bottom: 22px; padding:0;margin-left:40px;}
+.form {background: url(../images/backgrounds/form-bg.jpg) no-repeat scroll 0 0 transparent; float: left; padding: 19px 35px 0 31px; position: relative; width: 247px; }
+.booking-left .form {background-image: url(../images/backgrounds/form-bg-top.jpg); float: left; padding-left: 0; padding-right: 0; width: 313px; }
+.brochure-left-side .form {background-image: url(../images/backgrounds/form-bg-top.jpg); float: left; padding-left: 0; padding-right: 0; width: 313px;height:auto; }
+.booking-left .form .bottom {background: url(../images/backgrounds/form-bg-bottom.jpg) no-repeat scroll 0 0 transparent; float: left; height: 22px; width: 313px; }
+.brochure-left-side .form .bottom {background: url(../images/backgrounds/form-bg-bottom.jpg) no-repeat scroll 0 0 transparent; float: left; height: 22px; width: 313px; }
+
+
+/* validation */
+.validation-msg{position:absolute;right:-240px;top:-2px;width:209px;z-index:5;display:none;background:transparent url(../images/backgrounds/dk-validate-cross.png) no-repeat 5px 5px;padding-left:30px;}
+.validation-msg .list{background:url(../images/backgrounds/validate-top.png) no-repeat;color:#FFFFFF;float:left;font-size:11px;padding:9px 0 0 23px;width:186px;}
+.validation-msg .list .entry{float:left;width:100%;padding:0;min-height:21px;height:auto;}
+.validation-msg .validation-bottom{float:left;width:209px;height:10px;background:url(../images/backgrounds/validate-bottom.png) no-repeat;}
+
+.agreement-ltbx .terms {border: 1px solid #999999; height: 201px; overflow: auto; width: 500px; }
+.agreement-ltbx .lightbox-header-container{margin-left:-104px;}
+
+/*
+.banner .video-container iframe{left: 0;margin: 5px 0 0 8px;position: absolute;top: 0;z-index: 1;}
+.ten-reasons-video iframe{margin: 5px 0 0 8px;}
+*/
+
+.banner .video-container .embed-video{left: 0;margin: 5px 0 0 8px;position: absolute;top: 0;z-index: 1;}
+.ten-reasons-video .embed-video{margin: 5px 0 0 8px;}
+.page-node-96 .video-container .embed-video{width:100% !important;height:259px !important;}
+
+.back-to-about-basecamp {float: left; padding: 10px 79px 0; width: 100%; }
+.back-to-about-basecamp-btn {margin-left: -100px;background: url(../images/buttons/back-to-about-basecamp.png) no-repeat scroll 0 0 transparent; border: medium none; float: left; height: 0; overflow: hidden; padding-top: 33px; width: 189px; }
+
+.form .selectfield {float: left; margin: 3px 0 11px; width: 245px;height:auto; }
+
+.upcoming-courses-container .categories2 {
+float: left;
+height: 22px;
+margin-bottom: 0;
+width: 300px;
+padding: 0px;
+}
+.upcoming-courses-container .categories2 .date{background:url(../images/buttons/date-resort-price.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:23px;width:100px;}
+.upcoming-courses-container .categories2 .date:hover{background-position:0 -23px;}
+.upcoming-courses-container .categories2 .date.active{background-position:0 -23px;}
+.upcoming-courses-container .categories2 .resort{background:url(../images/buttons/date-resort-price.jpg) no-repeat scroll -100px 0 transparent;float:left;height:0;overflow:hidden;padding-top:23px;width:100px;}
+.upcoming-courses-container .categories2 .resort:hover{background-position:-100px -23px;}
+.upcoming-courses-container .categories2 .resort.active{background-position:-100px -23px;}
+.upcoming-courses-container .categories2 .price{background:url(../images/buttons/date-resort-price.jpg) no-repeat scroll -200px 0 transparent;float:left;height:0;overflow:hidden;padding-top:23px;width:100px;}
+.upcoming-courses-container .categories2 .price:hover{background-position:-200px -23px;}
+.upcoming-courses-container .categories2 .price.active{background-position:-200px -23px;}
+textarea{font-family: Arial,serif;color: #666666;}
+
+.dates-n-prices thead th.hover{cursor:pointer;}
+
+.brochure-left-side .submision-ok {text-align: left;}
+.brochure-left-side .download-brochure {display: block;width:247px;height:0;padding-top:33px;overflow:hidden;background:url(../images/buttons/download-brochure.jpg) no-repeat;margin-top: 12px;}
+.brochure-left-side .download-brochure:hover {background-position:0 -40px;}
+.brochure-left-side .brochure-text {display: block;width:100%;padding:15px 0;color:#959595;}
+.form .inputfield {padding-left: 5px; width: 238px; }
+.map-container {height: 308px; width: 590px; }
+
+.pease-of-mind-ltbx .lightbox-content .images{float: left;text-align: center;width: 234px;}
+.pease-of-mind-ltbx .lightbox-content .texts{float: left;padding: 0 15px;width: 500px;}
+
+.course-content a:hover .title{ color:#FF3366;}
+a:hover .courses-hdr {color:#FF3366;}
+
+
+.about{float:left;width:100%;height:100%;position:relative;}
+.about .contextual-links-wrapper {background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #AAAAAA;border-radius: 5px 5px 5px 5px;}
+.ten-reasons .contextual-links-wrapper {background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #AAAAAA;border-radius: 5px 5px 5px 5px;}
+
+.ten-reasons .reasons{width:921px;float:left;position:relative;}
+.ten-reasons .reasons .ten-reasons-to-go-on-basecamp-hdr{background:url(../images/headers/ten-reasons-to-go-1.png) scroll no-repeat 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:54px;width:921px;margin-top:17px;}
+.ten-reasons .reasons .col1{float:left;width:436px;padding:10px 0 10px 20px;}
+.ten-reasons .reasons .col2{float:right;width:436px;padding:10px 20px 10px 0;}
+.ten-reasons .reasons .reason{float:left;width:395px;padding:27px 20px;}
+.ten-reasons .reasons .col1 .text{float:left;width:330px;padding-left:40px;color:#fff;line-height:22px;font-size:16px;}
+.ten-reasons .reasons .col2 .text{float:left;width:355px;padding-left:40px;color:#fff;line-height:22px;font-size:16px;}
+.ten-reasons .reasons .reason-title{color:#fff;text-shadow:0 1px rgba(0,0,0,0.75);line-height:29px;font-size:22px;font-family:"DIN Bold", "Trebuchet MS";padding-bottom:10px;float:left;width:100%;}
+.ten-reasons .reasons .reason-title .icon{float:left;width:45px;height:32px;background:url(../images/ttr-icon-1.png) scroll no-repeat 0 0 transparent;}
+.ten-reasons .reasons .col-seperator{width:401px;line-height:0;overflow:hidden;height:2px;background:url(../images/col-seperator.png) scroll no-repeat 0 0 transparent;margin:0 auto;}
+.ten-reasons2{position:relative;background:url(../images/backgrounds/reasons-2.jpg) scroll no-repeat 2px 30px transparent;}
+.ten-reasons2 .reasons{background:url(../images/backgrounds/reasons-3.jpg) scroll no-repeat center 143px transparent;}
+.ten-reasons2 .reasons .ten-reasons-to-go-on-basecamp-hdr{background:url(../images/headers/ten-reasons-to-go-1.jpg) scroll no-repeat 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:54px;width:921px;margin-top:17px;}
+.ten-reasons2 .reasons .col1{background:url(../images/backgrounds/reasons-border.jpg) scroll no-repeat 0 0 transparent;}
+.ten-reasons2 .reasons .col2{background:url(../images/backgrounds/reasons-border.jpg) scroll no-repeat right 0 transparent;}
+.ten-reasons2 .reasons .reason-title{color:#004386;text-shadow:none;}
+.ten-reasons2 .reasons .col1 .text{width:100%;padding-left:0;color:#7d7d7d;font-size:15px;}
+.ten-reasons2 .reasons .col2 .text{width:100%;padding-left:0;color:#7d7d7d;}
+.ten-reasons2 .reasons .col-seperator{width:401px;line-height:0;overflow:hidden;height:6px;background:url(../images/col-seperator2.png) scroll no-repeat 0 0 transparent;margin:0 auto;}
+.ten-reasons2 .reasons2 .reason-title{font-family:"Trebuchet MS";}
+.ten-reasons2 .reasons2 .col1 .text{font-family:"Trebuchet MS";}
+.ten-reasons2 .reasons2 .col2 .text{font-family:"Trebuchet MS";}
+.ten-reasons2 .reasons3 .reason-title{background:none;height:35px;color:#004386;padding:0 0 10px;font-size:22px;font-weight:bold;}
+.ten-reasons .top .good-times-hdr {background:none;padding:0 0 0 5px;height:110px;overflow:hidden;}
+
+.header-left-cont .top-nav{float:right;padding-top:5px;}
+.header-left-cont .top-nav li{float:right;padding:0 5px;background:url(../images/top-nav-seperator.jpg) no-repeat 0 0;margin-top:4px;line-height:13px;}
+.header-left-cont .top-nav li a{float:left;color:#ffffff;text-transform:uppercase;font-weight:bold;font-size:10px;text-decoration:none;}
+.header-left-cont .top-nav li a:hover{color:#B7DBFF;}
+.header-left-cont .top-nav .admin{color:#FF3366;}
+.header-left-cont .top-nav .admin:hover{text-decoration:underline;color:#FF3366;}
+.header-left-cont .top-nav .last{background:none;}
+
+.header .tagline {padding:32px 0 0 40px;width:343px;}
+.header .tagline a{color: #FF3366;font-size: 16px;font-style: italic;line-height: 25px;text-shadow: 0 1px 1px rgba(0, 1, 1, 0.46);}
+
+.courses-right-side .icon{float:left;width:45px;height:32px;background:url(../images/ttr-icon-1.png) scroll no-repeat 0 0 transparent;}
+.courses-hdr {background:none;height:50px;padding:0;font-size:24px;color:#004386;font-weight: 700;margin-bottom:0;}
+
+.sport-type{width:100%;float:left;padding-top:10px;}
+.sport-type .choose-sport{width:100%;float:left;color:#004386;font-size:14px;font-weight:bold;padding-bottom:10px;font-size:18px;;}
+.sport-type li{width:163px;float:left;}
+.sport-type a{width:100%;float:left;overflow:hidden;}
+.sport-type .skier-container{padding-right:15px;}
+.sport-type .skier{background:url(../images/skier.jpg) no-repeat 0 0;height:0;padding-top:71px;}
+.sport-type .skier:hover{background-position:0 -80px;}
+.sport-type .snowboarder{background:url(../images/snowboarder.jpg) no-repeat 0 0;height:0;padding-top:71px;}
+.sport-type .snowboarder:hover{background-position:0 -80px;}
+
+.resorts-left-side .banner img{border-radius:10px;}
+.content .title a {font-size:24px;font-weight:bold;display:inline;color:#FF3366;}
+.twitter .twitter-header{overflow:hidden;}
+.content .certification .qualifications .logos .csia{float: left;height: 0;margin: 0 0 0 10px;overflow: hidden;padding-top: 60px;width: 137px;}
+.content .certification .qualifications .logos .basi{float: left;height: 0;margin: 0 0 0 20px;overflow: hidden;padding-top: 60px;width: 126px;}
+.content .certification .qualifications .logos .casi{float: left;height: 0;margin: 0 0 0 10px;overflow: hidden;padding-top: 60px;width: 126px;}
+
+.footer .logos{background:none;}
+.footer .logos a{float:left;overflow:hidden;height:0;padding-top:63px;}
+.footer .logos .louise{width:120px;margin-left:50px;background: url("../images/logos/footer/lake-louise.jpg") no-repeat scroll 0 0 transparent;}
+.footer .logos .whistler{width:193px;margin-left:30px;background: url("../images/logos/footer/whistler.jpg") no-repeat scroll 0 0 transparent;}
+.footer .logos .val{width:163px;margin-left:30px;background: url("../images/logos/footer/val-disere.jpg") no-repeat scroll 0 0 transparent;}
+.footer .logos .meribel{width:75px;margin-left:40px;background: url("../images/logos/footer/meribel.jpg") no-repeat scroll 0 0 transparent;}
+.footer .logos .bariloche{width:105px;margin-left:55px;background: url("../images/logos/footer/bariloche.jpg") no-repeat scroll 0 0 transparent;}
+
+.course-bar .call-now{margin:10px 35px 0 0;width:94px;}
+.field .list-column .heading {color:#004386;font-size:18px;float:left;margin:0;height:30px;width:100%;font-weight:bold;padding:5px 0 0 0;}
+.field .list-column .heading:hover{text-decoration:none;}
+.content .certification .peace-of-mind .logos a{float: left;height: 0;margin: 0 0 0 52px;overflow: hidden;padding-top: 110px;width: 351px;}
+.course-details-bar li {padding: 5px 68px 0 0;}
+.brochure-request-2-container .right-side .request-brochure{float: left;height: 0;overflow: hidden;padding-top: 119px;width: 144px;}
+.upcoming-courses-container .upcoming-courses .heading {font-size:20px;}
+.right-tree{color:#555555;}
+.resorts-left-side .resort-details .text h1 {color: #004386;font-weight: bold;padding-bottom: 10px;padding-bottom:15px;}
+.tick-list li {background: url("../images/tick.jpg") no-repeat scroll 0 0 transparent;font-size: 12px;line-height: 18px; padding: 0 0 10px 25px;}
+.resort-details .author {color: #959595;float: left;font-size: 12px;font-style: italic;line-height: 20px;width: 250px;}
+.lp-banner {background: none;float: left;height: 305px;margin-top: 30px;position: relative;width: 921px;}
+.resort-features .video-container .text-under{float:left;width:100%}
+.tab-container .tabs .tab a{color:#ffffff;}
+
+.blog-left-side{float:left;width:560px;}
+.blog-left-side .empty{font-size:16px;margin-top:30px;text-transform:uppercase;}
+.blog-post{float:left;width:100%;border-bottom:1px solid #e4e3e3;padding-top:20px;padding-bottom:7px;position:relative;}
+.post-head{float:left;width:100%;padding-bottom:20px;}
+.post-head .post-title{color:#004386;font-size:24px;}
+.post-subtitle{float:left;width:100%;color:#004386;font-size:18px;line-height:50px;}
+.post-head .post-date{color:#b2b2b2;font-size:13px;line-height:32px;}
+.post-head .post-author{color:#b2b2b2;font-size:13px;line-height:32px;}
+.post-head .post-author a{color:#f36;font-size:13px;line-height:20px;}
+.post-media-container{float:left;width:100%;position:relative;overflow:hidden;padding-bottom:20px;}
+.media-aligner{float:left;left:50%;position:relative;}
+.post-media-container .post-media{float:left;top:0;left:-50%;position:relative;}
+.post-media-container .image-container{float:left;clear:right;border:1px solid #dadada;max-width:556px;position:relative;padding:1px;}
+.post-media-container .image-container img{border:1px solid #dedede;max-width:554px;float:left;}
+.post-media-container .image-controls{width:100%;text-align:right;position:absolute;top:-20px;}
+.post-media-container .image-controls a{color:#f36;font-size:12px;line-height:20px;float:right !important;}
+.post-content{float:left;width:100%;padding-bottom:20px;font-size:12px;line-height:20px;}
+.post-content a{color:#f36;font-size:12px;line-height:20px;}
+.post-controls{float:left;width:100%;padding:24px 0 7px;}
+.post-controls .comments-count{background:url(../images/comments-count.png) scroll no-repeat 0 0 transparent;float:left;height:23px;width:34px;padding-top:1px;color:#fff;text-align:center;}
+.post-controls .discuss{float:left;color:#f36;font-size:12px;line-height:21px;font-family:"DIN Medium", "Trebucher MS", Sans-serif, Serif;padding:0 10px 0 5px;}
+.post-controls .twitter{float:left;}
+.post-controls .fb-likes{float:left;}
+.post-tags{width:100%;float:left;color:#333;font-size:12px;line-height:20px;font-family:"Trebuchet MS", Sans-serif, serif;}
+.post-tags span,.post-tags span a{font-size:12px;line-height:20px;color:#959595;font-style:italic;font-family:Arial;}
+.fb-comments-container{float:left;width:100%;}
+
+.pagination .pag-cnt{float:left;color:#b2b2b2;font-size:12px;line-height:36px;}
+.pagination .pag-nav{float:right;height:36px;}
+.pagination .pag-nav .prev a,.pagination .pag-nav .next a{color:#f36;font-size:12px;line-height:36px;}
+.pagination .pag-nav .prev{float:left;padding-right:40px;}
+.pagination .pag-nav .next{float:right;padding-left:40px;}
+.pagination ul{float:left;}
+.pagination li{float:left;padding:0 7px;}
+.pagination ul li a{color:#ffa5bc;font-size:12px;line-height:36px;}
+.pagination ul li .active{color:#f36;}
+
+/* .blog-right-side{background:url(../images/backgrounds/blog-left.jpg) scroll no-repeat 0 0 transparent;float:right;width:302px;min-height:1160px;padding:30px 0 0 18px;} */
+.blog-right-side{background:none;float:right;width:302px;padding:30px 0 0 18px;position:relative;}
+.blog-right-side .blog-top-fade{background:url(../images/backgrounds/blog-right-top.jpg) no-repeat 0 0;position:absolute;top:0;left:-1px;width:85px;height:150px}
+.blog-right-side .author-box{background:url(../images/backgrounds/author-box.png) scroll no-repeat 0 0 transparent;float:left;height:154px;width:288px;padding:13px 0 0 12px;}
+.blog-right-side .author-photo{background:url(../images/backgrounds/author-container.jpg) scroll no-repeat 0 0 transparent;float:left;height:84px;width:84px;padding:3px;}
+.blog-right-side .author-photo:hover{background-position:0 -90px;}
+.blog-right-side .author-photo img{float:left;height:84px;width:84px;}
+.blog-right-side .author-desc{float:left;width:180px;padding-left:8px;line-height:18px;font-size:11px;}
+.blog-right-side .author-desc a{color:#f36;line-height:20px;font-size:12px;}
+.authors{float:left;width:315px;position:relative;padding:20px 0;}
+.authors .heading{background:url(../images/headers/authors.png) scroll no-repeat 0 0 transparent;float:left;width:293px;height:0;overflow:hidden;padding-top:14px;}
+.authors .author-pic{float:left;height:90px;width:90px;position:relative;padding:15px 15px 0 0;}
+.authors .author{background:url(../images/backgrounds/author-container.jpg) scroll no-repeat 0 0 transparent;float:left;height:84px;width:84px;position:relative;padding:3px;}
+.authors .author img{float:left;height:84px;width:84px;}
+.authors .author:hover{background-position:0 -90px;}
+.authors .author-shadow{background:url(../images/backgrounds/author-container.png) no-repeat scroll 0 0 transparent;float:left;height:90px;left:0;position:absolute;top:0;width:90px;z-index:2;}
+.authors .author-shadow:hover{background-position:0 -90px;cursor:pointer;}
+.authors .author-name{background:none repeat scroll 0 0 #000;border-radius:0 3px 0 0;bottom:3px;color:#FFF;left:3px;position:absolute;padding:0 3px;}
+.authors .author-edit{background:none repeat scroll 0 0 #FFF;border-radius:0 0 0 6px;height:22px;position:absolute;right:1px;top:3px;width:34px;}
+.authors .author-edit .contextual-links-wrapper{top:0;right:0;}
+.authors .feature-blogger{float:left;margin-top:10px;width:100%;}
+.authors .feature-blogger a{background:url(../images/icons/gear-select.png) no-repeat scroll 0 0 transparent;color:#F36;float:left;font-weight:700;height:18px;line-height:18px;padding-left:20px;}
+.email-signup{background:url(../images/backgrounds/email-box.png) scroll no-repeat 0 0 transparent;float:left;height:49px;width:291px;margin-bottom:20px;position:relative;padding:45px 0 0 11px;}
+.email-signup .block-edit{background:none repeat scroll 0 0 #FFF;border-radius:6px;height:22px;position:absolute;right:4px;top:4px;width:31px;}
+.email-signup .block-edit div.contextual-links-wrapper{right:-2px;top:1px;}
+.email-signup .email-input{float:left;border:1px solid #123b68;border-right:none;background-color:#fff;width:195px;height:31px;font-size:13px;line-height:25px;padding:0 5px;}
+.email-signup .submit-btn{background:url(../images/buttons/email-submit.png) scroll no-repeat 0 0 transparent;border:0;float:left;height:0;overflow:hidden;padding-top:33px;width:73px;}
+.email-signup .submit-btn:hover{background-position:0 -33px;}
+.categories{float:left;border:1px solid #d0d0d0;behavior:url(border-radius.htc);border-radius:5px;-moz-border-radius:5px;-webkit-border-bottom-radius:5px;background:url(../images/backgrounds/categories.jpg) scroll repeat-x 0 0 #fff;width:288px;margin-bottom:20px;padding:14px 0 20px 9px;}
+.categories .email-input{float:left;border:1px solid #d6d6d6;border-right:none;background-color:#fff;width:195px;height:31px;font-size:13px;line-height:25px;padding:0 5px;}
+.categories .submit-btn{background:url(../images/buttons/category-search.png) scroll no-repeat 0 0 transparent;border:0;float:left;height:0;overflow:hidden;padding-top:37px;width:75px;}
+.categories .submit-btn:hover{background-position:0 -37px;}
+.gear-select{position:relative;}
+.gear-select a{float:left;background:url(../images/icons/gear-select.png) no-repeat 0 0 transparent;width:16px;height:0;overflow:hidden;padding-top:16px;position:absolute;top:-14px;left:-22px;}
+.categories table{color: #999999;float: left;font-size: 12px;line-height: 22px;margin: 10px;padding: 0;width: 120px;}
+.categories table th{padding-bottom:10px;}
+.categories table a{line-height:22px;font-size:12px;}
+.categories .cats h2{background:url(../images/headers/categories.png) scroll no-repeat 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:14px;width:106px;}
+.categories .archive h2{background:url(../images/headers/archive.png) scroll no-repeat 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:14px;width:74px;}
+.blog-left-side .post-content{padding: 20px 0 0;}
+
+.facebook-activity{float:left;width:293px;border:1px solid #dadada;border-radius:5px;padding:2px;height:auto;background:none;}
+.facebook-activity h2{background:url(../images/headers/facebook-activity.png) scroll no-repeat -3px 0 transparent;float:left;height:0;overflow:hidden;padding-top:50px;width:295px;}
+.author-info{position:absolute;display:none;background:url(../images/backgrounds/author-details.png) scroll no-repeat 0 0 transparent;width:353px;height:169px;z-index:10;padding:13px 12px;}
+.author-info .photo{border:1px solid #0a2744;float:left;width:84px;height:84px;}
+.author-info .description{float:left;width:255px;padding-left:9px;}
+.author-info div{float:left;width:255px;font-family:"Trebuchet MS", Sans-serif, serif;}
+.author-info .name{line-height:20px;font-size:16px;color:#fff;font-weight:700;}
+.author-info .resort{padding-top:4px;line-height:20px;font-size:13px;color:#94c9ff;}
+.author-info .bio{padding-top:4px;line-height:20px;font-size:12px;color:#fff;}
+.author-info .ski{padding-top:4px;line-height:12px;font-size:12px;color:#fff;}
+.author-info .surf{padding-top:4px;line-height:12px;font-size:12px;color:#fff;}
+.author-info .more{margin-top:6px;}
+.author-info .more a{padding-top:4px;line-height:20px;font-size:12px;color:#f36;}
+.author-info .close-button{background:url(../images/buttons/close.png) no-repeat scroll 0 0 transparent;height:0;overflow:hidden;padding-top:19px;position:absolute;right:-8px;top:-8px;width:19px;}
+.element-invisible {clip: rect(1px, 1px, 1px, 1px);position: absolute !important;}
+
+.posts-container{float:left}
+.item-list{float:left;width:560px;padding-top:10px;}
+.item-list .page{float:left;width:100%;}
+.item-list .pager {clear: both;text-align: center;}
+.item-list ul {margin: 0 0 0.75em;padding: 0;}
+.item-list .pager li{background-image: none;display: inline;list-style-type: none;padding: 0.5em;} 
+.item-list .pager .pager-current, .item-list .pager .pager-next a, .item-list .pager .pager-last a, .item-list .pager .pager-first a, .item-list .pager .pager-previous a{color:#FF3366;font-size:12px;}
+.item-list .pager .pager-item a{color:#FFA5BC;font-size:12px;}
+
+.blog-content{width:100%;float:left;height:100%;background:url(../images/backgrounds/blog-right-y.jpg) repeat-y 600px 0;position:relative;}
+.blog-content .blog-bottom-fade{background:url(../images/backgrounds/blog-right-bottom.jpg) no-repeat 0 0;position:absolute;bottom:-7px;right:236px;width:85px;height:131px;z-index:-1;}
+
+.riders{width:650px;clear:both;margin:0 auto;padding:22px 0;position:relative;}
+.riders h1{color:#042c52;font-size:22px;line-height:24px;font-weight:700;}
+.riders h2{color:#959595;font-size:16px;line-height:24px;padding-bottom:20px;}
+.riders h3{color:#555555;font-size:16px;line-height:20px;}
+.riders p{color:#555555;font-size:12px;line-height:20px;padding-bottom:20px;}
+.riders .blue{color:#16508c;font-size:14px;line-height:20px;padding-bottom:20px;}
+
+.visit-us-on-facebook {background: url("../images/buttons/visit-facebook.jpg") no-repeat scroll 0 0 transparent;border: medium none;display: block;float: left;height: 0;left: 194px;margin: 0 auto;overflow: hidden;padding-top: 33px;position: absolute;top: 96px;width: 166px;}
+
+.language-selector-link img{float: left; margin-right: 5px; margin-top: 1px;}
+.top-nav .last{position:relative;}
+.language-menu{position:absolute;top:20px;left:0;z-index:10;}
+.language-menu .language-switcher-locale-url{float:left;}
+.language-menu .language-switcher-locale-url li.first{background:url(../images/lang-bg-top.png) no-repeat 0 0 transparent;height:34px;}
+.language-menu .language-switcher-locale-url li.last{background:url(../images/lang-bg-bottom.png) no-repeat 0 0 transparent;height:35px;}
+.language-menu .language-switcher-locale-url li{float:left;width:160px;height:33px;border:0;background:url(../images/lang-bg-mid.png) no-repeat 0 0 transparent;margin:0;padding:0;line-height: 13px;}
+.language-menu .language-switcher-locale-url li a{color:#333333;padding:11px;width:140px;float: left; font-size: 10px; font-weight: bold; text-decoration: none; text-transform: uppercase;}
+.language-menu .language-switcher-locale-url li a img{vertical-align:top;}
+.language-menu .language-switcher-locale-url li a.active{color:#2e376c;background:url(../images/lang-active-arrow.png) no-repeat 140px center transparent;}
+
+.lang-menu-inline{float:left;position:relative;height:20px;line-height:20px;margin:26px 0 0;}
+.lang-menu-inline a{text-decoration:none;font-size:12px;text-transform:uppercase;font-weight:bold;color:#2e376c;}
+.lang-menu-inline a img{margin-right:5px;}
+.lang-menu-inline a:hover{text-decoration:none;}
+.lang-menu-inline .language-menu{top:25px;}
+.lang-menu-inline .language-selector-link img{    vertical-align: inherit; float: left; margin-top: 4px;} 
+ .admin-nav { float: left; right: 0; position: absolute; top: 30px; width: 160px; }
+.admin-nav li{ float: left; margin:0 3px;}
+
+.field-name-field-header-banner{position:absolute;top:0;left:0;z-index:-1;}
+.field-name-field-header-text { left: 20px; line-height: 28px; position: absolute; top: 20px; z-index: 1; }
+
+.blog-button-container {
+    background: url("../images/top-nav-seperator.jpg") no-repeat scroll 0 14px transparent;
+    float: left;
+    height: 32px;
+    line-height: 20px;
+    padding: 0 10px 0 12px;
+    width: auto;
+}
+.blog-button{float:left;width:100px;height:0;padding-top:32px;overflow:hidden;background:url(../images/blog-button.png) no-repeat 0 0 transparent;margin:4px 0 0 3px;}
+.blog-button:hover{background-position:0 -40px;cursor:pointer;}
+
+.left-link{float:none;}
+
+
+
+/* REMOVE */
+.courses-banner .brochure-request-form{display:none;}
+.courses-banner .lower-section{display:none;}
+.free-brochure-banner-small{display:none;}
+.booking-n-enquiries-container{display:none;}

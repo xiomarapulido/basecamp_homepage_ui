@@ -1,0 +1,32 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { border: 0 none; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; margin: 0; outline: 0 none; padding: 0; vertical-align: baseline; }
+html, body { float: left; height: 100%; width: 100%; }
+body { color: #555555; font-family: "Trebuchet MS",Sans-serif; font-size: 12px; font-weight: normal; line-height: 18px; margin: 0; padding: 0; }
+span { margin: 0; outline: 0 none; padding: 0; }
+input { border: 1px solid #F2F2F2; color: #666666; font-family: Arial,serif; font-size: 11px; font-weight: normal; margin: 0; outline: 0 none; padding: 0; }
+textarea { overflow: auto; }
+p { margin: 0; padding: 0; }
+strong { font-weight: bold; }
+a { color: #000; cursor: pointer; font-family: "Trebuchet MS",Sans-serif; font-size: 11px; text-decoration: none; cursor:pointer; }
+a:hover { text-decoration: underline; cursor:pointer; }
+ul { list-style: none outside none; margin: 0; padding: 0; }
+ol { padding: 0; }
+h1, h2, h3 { line-height: 24px; color: #333333; }
+h1 { font-size: 18px; }
+h2 { font-size: 14px; }
+h3 { font-size: 13px; }
+input[type=submit], input[type=button]{ cursor:pointer; }
+body.toolbar-drawer {}
+.outer-wrapper { background: url("../images/backgrounds/body.jpg") repeat-x scroll 0 0 transparent; float: left; width: 100%; }
+
+/* SOCIAL BAR */
+.social-bar{position: fixed; bottom: 0px; width: 100%; height: 50px;background:url(../images/social-bar-bg.png);display:none;}
+.social-bar .wrapper{width: 921px;margin: 0 auto;}
+.social-bar .like{margin-top: 13px;float: left;}
+.social-bar .like .fb_edge_comment_widget{display:none;}
+.social-bar .message{float: left;margin: 14px 0 0 14px;}
+.social-bar .message .phone{float:left;font-size:18px;color:#fff;margin-right:14px;line-height:27px;}
+.social-bar .message a{background:url(../images/social-send-message.png) no-repeat;width:107px;height:0px;padding-top:25px;overflow:hidden;float: left;}
+.social-bar .brochure{float: left;margin: 0px 0 0 37px;}
+.social-bar .brochure img{float: left;margin: -15px 12px 0 0;}
+.social-bar .brochure a{background:url(../images/social-request-brochure.png) no-repeat;width:134px;height:0px;padding-top:25px;overflow:hidden;float: left;margin-top: 14px;}
+.social-bar .close{float:right;width:16px;height:0px;padding-top:16px;overflow:hidden;background:url(../images/close-basecamp.png) no-repeat;margin:18px 7px 0 0;}

@@ -1,0 +1,17 @@
+body{background: url("../images/backgrounds/login-page-v.jpg") repeat-x scroll 0 0 transparent}
+.light-source{background: url("../images/backgrounds/login-page-light-source.jpg") no-repeat scroll center top transparent;float: left;height: 100%;left: 0;position: absolute;top: 0;width: 100%;z-index: -1;}
+.login-form-wrapper{display: block;margin: 0 auto;position: relative;width: 980px;z-index: 2;}
+.login-form-wrapper .login-container{display: block;margin: 0 auto;padding-top: 150px;text-align: center;width: 307px;}
+.login-container .logo{display: block;margin: 0 auto 20px;width: 325px;}
+.login-container h1{background: url("../images/logos/adaptive-logo-large.png") no-repeat scroll 0 0 transparent;display: block;height: 0;overflow: hidden;padding-top: 70px;width: 325px;}
+#user-login,#user-login--2{float: left;width: 100%;}
+.form-item{float: left;padding-bottom: 7px;width: 100%;padding:0;margin:0;}
+.form-item{float: left;padding-bottom: 7px;width: 100%;padding:0;margin:0;}
+.form-item label{color: #124674;display: block;float: left;font-size: 14px;font-weight: bold;}
+.form-item label span{display:none;}
+.form-item .description{display:none;}
+.form-item .form-text{background: none repeat scroll 0 0 #5D91BE;border: 1px solid #254159;border-radius: 8px 8px 8px 8px;box-shadow: 0 1px 1px #555555 inset;color: #000000;float: left;font-size: 14px;height: 18px;line-height: 18px;margin: 2px 0 8px 0;opacity: 0.6;padding: 10px 8px;text-shadow: 1px 1px 1px #B9CDDF;width: 289px;}
+.form-actions .form-submit{background: url("../images/buttons/login.png") no-repeat scroll 0 0 transparent;border: medium none;float: right;height: 0;margin: 6px 0 15px;overflow: hidden;padding-top: 36px;width: 80px;}
+.form-actions .form-submit:hover{background-position:0 -36px;cursor:pointer;}
+.footer{color: #4B7EAA;float: left;margin-top: 117px;position: relative;text-align: center;width: 100%;z-index: 2;background:none;}
+.clear {clear: both;}

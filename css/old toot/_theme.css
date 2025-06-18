@@ -1,0 +1,2471 @@
+body.toolbar-drawer {background-position: 0 65px;}
+.wrapper {
+    margin: 0 auto;
+    width: 921px;
+}
+.pink {
+    color: #FF3366;
+}
+.watch-small a {
+    background: url("../images/buttons/watch-video-small.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 26px;
+    width: 98px;
+}
+.watch-small a:hover{
+	background-position: 0 -26px;
+}
+
+@font-face {
+	font-family: "DIN Medium";
+	src: url("DIN-Medium.ttf");
+ }
+
+.header {
+    float: left;
+    width: 920px;
+}
+.header .top {
+    float: left;
+    height: 148px;
+    width: 100%;
+}
+.header .top .header-left-cont {
+    float: left;
+    height: 148px;
+    width: 715px;
+}
+.header .top .header-right-cont {
+    float: left;
+    height: 148px;
+    width: 204px;
+}
+.header .logo {
+    float: left;
+    padding-top: 20px;
+}
+.header .logo a {
+    background: url("../images/headers/logo.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 85px;
+    width: 325px;
+}
+.header .tagline {
+    color: #FF3366;
+    float: left;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 25px;
+    padding: 40px 0 0 40px;
+    text-shadow: 0 1px 1px rgba(0, 1, 1, 0.46);
+    width: 300px;
+}
+.header .navigation {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    width: 716px;
+}
+.header .navigation ul {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.header .booking {
+    float: right;
+    width: 199px;
+}
+.header .facebook {
+float: right;
+padding: 0;
+width: 204px;
+position: relative;
+}
+.header .facebook a {
+background: url("../images/buttons/facebook-cloud.png") no-repeat scroll 0 0 transparent;
+position: absolute;
+height: 0;
+overflow: hidden;
+padding-top: 49px;
+width: 211px;
+top: -4px;
+right: -7px;
+}
+.header .facebook a:hover {
+background-position: 0 -49px;
+}
+.header .booking a {
+    background: url("../images/buttons/boolking-n-enquiries.jpg") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 0;
+    overflow: hidden;
+    padding-top: 30px;
+    width: 199px;
+}
+.header .booking a:hover {
+    background-position: 0 -30px;
+}
+.header .phone-number-cont {
+    float: left;
+    height: 66px;
+    width: 204px;
+}
+.header .phone {
+float: right;
+color: white;
+font-family: "DIN Medium", "Trebuchet MS", "Sans-serif", Serif;
+font-weight: normal;
+font-size: 23px;
+text-align: right;
+line-height: 25px;
+text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.45);
+padding-top: 6px;
+}
+
+.header .navigation li {
+    background: url("../images/top-nav-seperator.jpg") no-repeat scroll 0 5px transparent;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px 0 12px;
+    width: auto;
+}
+.header .navigation li a {
+    color: #FFFFFF;
+    float: left;
+    font-size: 13px !important;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0;
+    text-shadow: 0 1px 1px rgba(0, 1, 1, 0.32);
+    text-transform: uppercase;
+}
+.header .navigation li a:hover {
+	color: #b7dbff;
+	text-shadow: 0 1px 1px rgba(0, 1, 1, 0.32);
+	text-decoration: none;
+}
+.header .navigation li .active {
+	text-shadow: 0 1px 1px rgba(0, 1, 1, 0.32), 0px 0px 6px #fff;
+}
+.header .navigation .first {
+    background-image: none;
+    padding-left: 0;
+}
+.header .navigation .last {
+}
+.header .navigation .ladt {
+    padding-right: 0;
+}
+
+.content {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.content .banner {
+    background: url("../images/backgrounds/header.jpg") no-repeat scroll 0 0 transparent;
+    clear: left;
+    float: left;
+    height: 462px;
+    margin-top: 24px;
+    padding: 0;
+    width: 920px;
+}
+.content .banner .left {
+    float: left;
+    padding: 40px 0 0 30px;
+    width: 395px;
+}
+.content .banner .title {
+    color: #FFFFFF;
+    float: left;
+    font-size: 33px;
+    line-height: 33px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    text-shadow: 0 1px 1px rgba(0, 1, 1, 0.36), 0 0 5px rgba(255, 255, 255, 0.18);
+}
+.content .banner .info {
+    color: #FFFFFF;
+    float: left;
+    font-size: 18px;
+    line-height: 29px;
+    padding-left: 5px;
+}
+.content .banner .buttons {
+    clear: left;
+    float: left;
+    margin-top: 22px;
+    width: 389px;
+}
+.content .banner .skier-btn {
+    background: url("../images/buttons/skier.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 67px;
+    width: 190px;
+}
+.content .banner .snowboarder-btn {
+    background: url("../images/buttons/snowboarder.jpg") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 0;
+    overflow: hidden;
+    padding-top: 67px;
+    width: 190px;
+}
+.content .banner .skier-btn:hover, .content .banner .snowboarder-btn:hover {
+    background-position: 0 -67px;
+}
+.content .banner .right {
+    float: right;
+    padding: 57px 26px 0 0;
+}
+.content .banner .video-container {
+    background: url("../images/header-video-container.jpg") repeat scroll 0 0 transparent;
+    clear: right;
+    float: right;
+    height: 260px;
+    position: relative;
+    width: 448px;
+}
+.content .banner .video-container img {
+    height: 245px;
+    padding-left: 8px;
+    padding-top: 5px;
+    width: 433px;
+}
+.content .banner .video-container .watch-big {
+    height: 49px;
+    left: 100px;
+    position: absolute;
+    top: 100px;
+    width: 244px;
+}
+.content .banner .video-container .watch-big a {
+    background: url("../images/buttons/watch-video.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 49px;
+    width: 244px;
+}
+.content .banner .video-container .watch-big a:hover {
+    background-position: 0 -49px;
+}
+
+.content .banner .bottom {
+    float: left;
+    padding-top: 33px;
+    width: 100%;
+}
+.content .banner .up {
+    float: left;
+    width: 100%;
+}
+.content .banner .bottom-left {
+    float: left;
+    padding: 28px 0 0 21px;
+    width: 510px;
+}
+.content .banner .bottom-left .subtitle {
+    background: url("../images/headers/basecamp-resorts.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 25px;
+    width: 190px;
+}
+.content .banner .bottom-left ul {
+    float: left;
+    list-style: none outside none;
+    padding: 0;
+    width: 100%;
+}
+.content .banner .bottom-left li {
+    background: url("../images/top-bullet.png") no-repeat scroll 1px 9px transparent;
+    color: #FF3366;
+    float: left;
+    font-size: 13px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 0 0 15px;
+    width: 140px;
+}
+.content .banner .bottom-left li a {
+    color: #FF3366;
+    float: left;
+    font-size: 13px;
+    line-height: 24px;
+}
+.content .banner .bottom-right {
+    float: right;
+    padding-right: 23px;
+    width: 352px;
+}
+.content .banner .bottom-right .subtitle {
+    background: url("../images/headers/free-brochure-request.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 64px;
+    width: 333px;
+}
+.content .banner .bottom-right .email-input {
+    border-color: #A4E7FF -moz-use-text-color #A4E7FF #A4E7FF;
+    border-right: medium none;
+    float: left;
+    font-size: 13px;
+    height: 31px;
+    line-height: 25px;
+    padding-left: 5px;
+    width: 222px;
+}
+.content .banner .bottom-right .request-btn {
+    background: url("../images/buttons/request.jpg") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    float: left;
+    height: 33px;
+    width: 96px;
+}
+.content .banner .bottom-right .request-btn:hover {
+    background-position: 0 -33px;
+}
+
+.content .title {
+    color: #004386;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+.content .title span {
+    color: #FF3366;
+}
+.content .previews {
+    background: url("../images/backgrounds/video-previews.jpg") no-repeat scroll 196px 0 transparent;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+.content .preview-container {
+    background: url("../images/backgrounds/video-preview.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 256px;
+    position: relative;
+    width: 228px;
+}
+
+.preview-container .corner-l {
+    background: url("../images/prev-lcorner.png") no-repeat scroll 0 0 transparent;
+    height: 5px;
+    left: 0;
+    position: absolute;
+    width: 194px;
+}
+.preview-container .corner-r {
+    background: url("../images/prev-rcorner.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 5px;
+    width: 5px;
+}
+.preview-container .video-container {
+    float: left;
+    margin-top: 1px;
+    padding-left: 1px;
+}
+.preview-container .video-container .video {
+    background-color: #000000;
+    float: left;
+    height: 145px;
+    position: relative;
+    width: 192px;
+}
+.preview-container .video-container .video img {
+    float: left;
+    height: 145px;
+    width: 192px;
+}
+.preview-container .video-container .video .watch-small {
+    height: 26px;
+    left: 45px;
+    position: absolute;
+    top: 60px;
+    width: 98px;
+}
+.preview-container .video-container .video .watch-small a {
+    background: url("../images/buttons/watch-video-small.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 26px;
+    width: 98px;
+}
+.preview-container .video-container .video .watch-small a:hover{
+	background-position: 0 -26px;
+}
+.preview-container .vid-title {
+    clear: left;
+    color: #333333;
+    float: left;
+    font-size: 14px;
+    height: 40px;
+    line-height: 16px;
+    padding: 6px 0 0 10px;
+    width: 170px;
+}
+.preview-container .vid-title .name {
+    font-size: 16px;
+    font-weight: bold;
+}
+.preview-container .vid-text {
+    clear: left;
+    color: #555555;
+    float: left;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 6px 0 0 10px;
+    width: 178px;
+}
+
+.right-container {
+    float: right;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 33px 22px 0 0;
+    text-align: center;
+    width: 200px;
+}
+.right-container a {
+    color: #FF3366;
+    font-size: 14px;
+    line-height: 18px;
+}
+.content .course-bar {
+    background: url("../images/backgrounds/bar.png") no-repeat scroll 0 0 transparent;
+    clear: left;
+    float: left;
+    height: 57px;
+    margin: 20px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.course-bar .find-a-course {
+    background: url("../images/headers/find-a-course.jpg") no-repeat scroll 17px 0 transparent;
+    float: left;
+    height: 0;
+    margin-top: 18px;
+    overflow: hidden;
+    padding-left: 17px;
+    padding-top: 20px;
+    width: 144px;
+}
+.course-bar .courses {
+    float: left;
+}
+.course-bar .courses .select-container {
+    float: left;
+    margin-top: 18px;
+    padding-left: 14px;
+    width: 194px;
+}
+.course-bar .courses .select-container select {
+    width: 194px;
+}
+.course-bar .search {
+    background: url("../images/bar-seperator.jpg") no-repeat scroll 128px 0 transparent;
+    float: left;
+    height: 57px;
+    padding: 0 17px 0 18px;
+    width: 95px;
+}
+.course-bar .search-btn {
+    background: url("../images/buttons/search.jpg") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    float: left;
+    height: 28px;
+    margin-top: 15px;
+    width: 95px;
+}
+.course-bar .search-btn:hover {
+    background-position: 0 -28px;
+}
+.course-bar .call-now {
+    background: url("../images/headers/call-now.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 0;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-right: 44px;
+    padding-top: 37px;
+    width: 128px;
+}
+
+.content .social-media .blog {
+    float: left;
+    width: 360px;
+}
+.blog .blog-header {
+    background: url("../images/headers/recent-blog-posts.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 0;
+    margin-top: 2px;
+    overflow: hidden;
+    padding-top: 50px;
+    width: 238px;
+}
+.blog .blog-post {
+    float: left;
+    line-height: 20px;
+}
+.blog .author-photo {
+    float: left;
+    height: 34px;
+    margin-top: 8px;
+    width: 34px;
+}
+.blog .post-content {
+    float: left;
+    padding-left: 16px;
+    width: 285px;
+}
+.blog .blog-title {
+    color: #004386;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+}
+.blog .content-sample {
+    float: left;
+    width: 100%;
+}
+.blog .more {
+    color: #FF3366;
+    float: left;
+    width: 100%;
+}
+.blog .blog-author {
+    color: #B2B2B2;
+    float: left;
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.blog .author {
+    color: #B2B2B2;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.content .social-media {
+    clear: left;
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+.content .social-media .twitter {
+    float: left;
+    width: 310px;
+}
+.twitter .twitter-header {
+    background: url("../images/headers/latest-tweets.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 0;
+    padding-top: 48px;
+    width: 178px;
+}
+.twitter .tweet {
+    background: url("../images/backgrounds/tweet.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    line-height: 20px;
+    margin-top: 10px;
+    min-height: 98px;
+    width: 281px;
+}
+.twitter .tweet .cloud {
+    float: left;
+    height: 80px;
+    width: 100%;
+}
+.twitter .tweet a {
+    color: #FF3366;
+}
+.twitter .tweet .cloud-content {
+    padding: 5px 10px;
+}
+.twitter .tweet .time {
+    color: #FF3366;
+    float: right;
+    text-align: right;
+    width: 100%;
+}
+.content .social-media .facebook {
+    float: right;
+    width: 240px;
+}
+
+.content .certification {
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+}
+.content .certification .field {
+    background: url("../images/backgrounds/blue-field.jpg") no-repeat scroll 0 0 transparent;
+    height: 198px;
+    padding: 0 4px;
+    width: 449px;
+}
+.content .certification .qualifications {
+    float: left;
+}
+.content .certification .qualifications .heading {
+    background: url("../images/headers/worldwide-recognised-qualifications.jpg") no-repeat scroll 17px 0 transparent;
+    float: left;
+    height: 0;
+    margin-top: 17px;
+    overflow: hidden;
+    padding-left: 17px;
+    padding-top: 33px;
+    width: 414px;
+}
+.content .certification .qualifications .logos {
+    background: url("../images/qualifications.jpg") no-repeat scroll 28px 0 transparent;
+    float: left;
+    height: 80px;
+    margin-top: 25px;
+    width: 100%;
+}
+.content .certification .peace-of-mind {
+    float: right;
+}
+.content .certification .peace-of-mind .heading {
+    background: url("../images/headers/peace-of-mind-when-booking.jpg") no-repeat scroll 17px 0 transparent;
+    float: left;
+    height: 0;
+    margin-top: 17px;
+    overflow: hidden;
+    padding-left: 17px;
+    padding-top: 33px;
+    width: 326px;
+}
+.content .certification .peace-of-mind .logos {
+    background: url("../images/peace-of-mind.jpg") no-repeat scroll 65px 0 transparent;
+    float: left;
+    height: 106px;
+    margin-top: 13px;
+    width: 100%;
+}
+
+.footer {
+    background: url("../images/backgrounds/footer.jpg") repeat-x scroll 0 0 transparent;
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+}
+.footer .wrapper {
+    width: 922px;
+}
+.footer .contact-bar {
+    background: url("../images/backgrounds/bar.png") no-repeat scroll 0 0 transparent;
+    clear: left;
+    float: left;
+    height: 57px;
+    padding: 0;
+    width: 100%;
+}
+.contact-bar .give-us-a-call {
+float: left;
+height: 21px;
+padding-top: 16px;
+width: 530px;
+color: #F36;
+line-height: 26px;
+font-size: 26px;
+font-family: "DIN Medium", sans-serif, serif;
+padding-left: 17px;
+text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.34);
+}
+.contact-bar .give-us-a-call span{
+	color: #fff;
+}
+.contact-bar .send-message {
+    float: right;
+    margin-top: 12px;
+    padding-right: 13px;
+}
+.contact-bar .send-message .send-us-a-message-btn {
+    background: url("../images/buttons/send-us-a-message.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 33px;
+    width: 192px;
+}
+.contact-bar .send-message .send-us-a-message-btn:hover {
+    background-position: 0 -33px;
+}
+
+.footer .field {
+    background: url("../images/backgrounds/footer-field.jpg") no-repeat scroll 0 0 transparent;
+    clear: both;
+    float: left;
+    height: 208px;
+    margin-top: 30px;
+    padding: 0 26px;
+    width: 870px;
+}
+.field .list-column {
+    float: left;
+    padding: 20px 30px 0 0;
+}
+.field .list-column .heading {
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 30px;
+    width: 100%;
+}
+.field .resorts {
+    width: 145px;
+}
+.field .resorts h2 {
+    background: url("../images/headers/resorts.jpg") no-repeat scroll 0 0 transparent;
+}
+.field .ski-instructor-courses {
+    width: 224px;
+}
+.field .ski-instructor-courses h2 {
+    background: url("../images/headers/ski-instructor-courses.jpg") no-repeat scroll 0 0 transparent;
+}
+.field .snowboard-instructor-courses {
+    width: 270px;
+}
+.field .snowboard-instructor-courses h2 {
+    background: url("../images/headers/snowboard-instructor-courses.jpg") no-repeat scroll 0 0 transparent;
+}
+.field .list-column ul {
+    float: left;
+	padding:0;
+	margin:0;
+	list-style:none;
+    width: 100%;
+}
+.field .list-column li {
+    background: url("../images/top-bullet.png") no-repeat scroll 1px 9px transparent;
+    color: #FF3366;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 0 0 15px;
+}
+.field .list-column li a {
+    color: #FF3366;
+    font-size: 12px;
+    line-height: 24px;
+}
+.field .social {
+    float: right;
+    padding-top: 20px;
+    text-align: right;
+    width: 117px;
+}
+
+.social a {
+    float: right;
+    height: 0;
+    margin-bottom: 4px;
+    overflow: hidden;
+}
+.social .fb-small {
+    background: url("../images/fb-small.jpg") no-repeat scroll 0 0 transparent;
+    padding-top: 36px;
+    width: 117px;
+}
+.social .tw-small {
+    background: url("../images/tw-small.jpg") no-repeat scroll 0 0 transparent;
+    padding-top: 36px;
+    width: 116px;
+}
+.social .yt-small {
+    background: url("../images/yt-small.jpg") no-repeat scroll 0 0 transparent;
+    padding-top: 45px;
+    width: 106px;
+}
+.social .li-small {
+    background: url("../images/li-small.jpg") no-repeat scroll 0 0 transparent;
+    padding-top: 29px;
+    width: 102px;
+}
+
+.footer .logos {
+    background: url("../images/logos.jpg") no-repeat scroll 0 0 transparent;
+    clear: both;
+    float: left;
+    height: 80px;
+    margin-top: 30px;
+    width: 922px;
+}
+
+.footer .bottom {
+    clear: both;
+    color: #959595;
+    float: left;
+    line-height: 25px;
+    margin: 25px 0;
+    width: 100%;
+}
+.footer .bottom a {
+    color: #959595;
+    line-height: 25px;
+}
+.footer .bottom .copyright-links {
+    float: left;
+}
+.footer .bottom .copyright-links a {
+    color: #FF3366;
+}
+.footer .bottom .developers {
+    float: right;
+}
+
+.tree-container{
+	color: #FF3366;
+}
+.tree-container ul{
+	display: inline;
+}
+/* deprecated but it was very nice
+.tree-container ul li:before {
+	content: "\0020 \0020 \0020 \00BB \0020";
+	color: #FF3366;
+	font-size: 12px;
+}
+.tree-container .first:before{
+	content: none;
+}
+*/
+.tree-container ul li{
+    background: url("../images/bullet.jpg") no-repeat scroll 0 7px transparent;
+    border: medium none;
+    display: inline;
+    list-style: none outside none;
+    padding-left: 12px;
+	padding-right: 5px;
+}
+.tree-container .first{
+    background: none;
+    padding-left: 0px;
+}
+.tree-container ul li a{
+	color: #FF3366;
+	font-size: 12px;
+	line-height: 20px;
+}
+.left-tree{
+	float: left;
+	padding-top: 10px;
+	width: 450px;
+}
+.right-tree{
+	float: right;
+	padding-top: 10px;
+	width: 450px;
+	text-align: right;
+}
+
+.resorts-left-side{
+	float: left;
+	width: 585px;
+	padding-top: 20px;
+}
+.resorts-left-side .banner{
+	background-image: none;
+	float: left;
+	height: 300px;
+	width: 585px;
+	position: relative;
+	margin-top: 0px;
+}
+.resorts-left-side .banner .navigation{
+position: absolute;
+bottom: 0px;
+left: 0px;
+height: 49px;
+width: 585px;
+}
+.resorts-left-side .banner .navigation ul{
+	float: left;
+	list-style: none;
+	height: 49px;
+	width: 585px;
+	left: 0px;
+	bottom: 0px;
+}
+.resorts-left-side .banner .navigation li{
+	float: left;
+}
+.resorts-left-side .banner .navigation li a{
+
+	background: url("../images/navigation/banner-nav.png") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 33px;
+	width: 133px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 20px;
+	color: white;
+	padding-top: 16px;
+	text-align: center;
+}
+.resorts-left-side .banner .navigation li a:hover,
+.resorts-left-side .banner .navigation li .active
+{
+	background-position: 0 -49px;
+	text-decoration: none;
+}
+.resorts-left-side .banner .navigation .logo{
+	background: url("../images/navigation/banner-nav-logo.png") scroll no-repeat 0 0 transparent;
+	width: 52px;
+	height: 49px;
+}
+.resorts-left-side .banner .banner-image {
+	behavior: url("border-radius.htc");
+    border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+}
+
+.resorts-left-side .resort-details{
+	float: left;
+	width: 350px;
+}
+.resorts-left-side .title{
+	color: #004386;
+	font-size: 22px;
+	line-height: 22px;
+	text-align: left;
+	padding-bottom: 0px;
+}
+
+.resort-details .subtitle{
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+}
+.resort-details .subtitle span{
+	font-weight: normal;
+}
+.resort-details .subtitle-big{
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+}
+.resort-details .info{
+	font-size: 12px;
+	line-height: 20px;
+	text-align: justify;
+	padding-bottom: 20px;
+}
+.resort-details .photo{
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.resort-details .photo img{
+	border: 2px solid #dadada;
+	float: left;
+	width: 86px;
+	height: 86px;
+}
+.resort-details .author{
+	float: left;
+	width: 225px;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 20px;
+	color: #959595;
+}
+.resort-details .comment{
+	text-align: justify;
+	word-spacing: nowrap;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 20px;
+}
+
+.resorts-left-side .resort-features{
+	float: right;
+	width: 200px;
+}
+.resort-features .tick-list{
+	list-style: none inside none;
+	width: 100%;
+	float: left;
+	padding-top: 30px;
+}
+.tick-list li{
+	background: url("../images/tick.jpg") scroll no-repeat 0 0 transparent;
+	padding-left: 25px;
+	
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.resort-features .pink-list{
+    float: left;
+    padding-bottom: 30px;
+    width: 100%;
+}
+.resort-features .pink-list li{
+    background: url("../images/bullet.jpg") no-repeat scroll 0 7px transparent;
+    color: #FF3366;
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 12px;
+    width: 178px;
+}
+.resort-features .pink-list li a{
+	color: #FF3366;
+	font-size: 12px;
+	line-height: 18px;
+}
+/*.resort-features .pink-list li:before {
+	content: "\0020 \0020 \0020 \00BB \0020";
+} */
+.resort-features .video-container{
+	float: left;
+}
+.resort-features .video-container .video{
+	background: url("../images/backgrounds/small-video-container.jpg") scroll no-repeat 0 0 transparent;
+	float: left;
+	padding: 6px;
+	height: 92px;
+	width: 140px;
+    position: relative;
+}
+.resort-features .video-container .video img {
+    float: left;
+    height: 82px;
+    width: 140px;
+}
+.resort-features .video-container .video .watch-small{
+	height: 26px;
+	left: 26px;
+	position: absolute;
+	top: 36px;
+	width: 98px;
+}
+.resort-features .video-container .video .watch-small a {
+    background: url("../images/watch-small.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 26px;
+    width: 98px;
+}
+
+.resorts-right-side{
+	float: right;
+	width: 302px;
+	padding-top: 20px;
+}
+.resorts-right-side .upcoming-courses-container{
+	background: url("../images/backgrounds/datelist-middle.jpg") scroll repeat-y 0 0 transparent;
+	float: left;
+	width:100%;
+	margin-bottom: 20px;
+}
+.resorts-right-side .upcoming-courses-container .upcoming-courses{
+	background: url("../images/backgrounds/dates-bg.jpg") scroll no-repeat 0 0 transparent;
+	float: left;
+	width:100%;
+	min-height: 424px;
+}
+.resorts-right-side .upcoming-courses-container .bottom{
+	background: url("../images/backgrounds/datelist-bottom.jpg") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 7px;
+	width: 100%;
+	overflow: hidden;
+}
+.resorts-right-side .upcoming-courses .heading{
+	background: url("../images/headers/basi-upcoming-courses.jpg") scroll no-repeat center center transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 43px;
+	width: 100%;
+}
+.resorts-right-side .categories{
+	height: 23px;
+	float: left;
+	width: 300px;
+	padding: 0 1px;
+}
+.resorts-right-side .categories .skiing{
+background: url("../images/buttons/skiing-snowboarding.jpg") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 23px;
+	width: 148px;
+}
+.resorts-right-side .categories .snowboarding{
+	background: url("../images/buttons/skiing-snowboarding.jpg") scroll no-repeat -148px 0 transparent;
+	float: right;
+	height: 0;
+	overflow: hidden;
+	padding-top: 23px;
+	width: 152px;
+}
+.resorts-right-side .categories .active,
+.resorts-right-side .categories a:hover{
+	background-position-y: -23px
+}
+.resorts-right-side .date-list ul{
+	width: 298px;
+	padding: 0 2px;
+	float: left;
+}
+.resorts-right-side .date-list .month{
+	width: 300px;
+	height: 25px;
+	position: relative;
+	float: left;
+	left: -1px;
+	top: 0px;
+}
+.resorts-right-side .date-list .month .header{
+	background: url("../images/backgrounds/date-month.png") scroll no-repeat 0 0 transparent;
+	position: absolute;
+	height: 27px;
+	width: 270px;
+	padding: 5px 15px 0px;
+	
+	color: #fff;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 1px rgba(0,0,0, 0.75);
+}
+.resorts-right-side .date-list .lesson{
+	background: url("../images/dot-fdfdfd.jpg") repeat-x scroll 0 0 transparent;
+	border-top: 1px solid #e0e0e0;
+	height: 42px;
+	width: 268px;
+	float: left;
+	padding: 8px 15px 0px;                                            
+}
+
+.skiing-snowboarding-courses{
+	background: url("../images/ski-board-banner.jpg") scroll no-repeat 0 0 transparent;
+	float: left;
+	padding-top: 66px;
+	height: 81px;
+	width: 302px;
+}
+.skiing-snowboarding-courses .skiing-courses{
+	background: url("../images/headers/banner-ski.jpg") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 41px;
+	width: 150px;
+}
+.skiing-snowboarding-courses .snowboarding-courses{
+	background: url("../images/headers/banner-snowboard.jpg") scroll no-repeat 0 0 transparent;
+	float: right;
+	height: 0;
+	overflow: hidden;
+	padding-top: 41px;
+	width: 150px;
+}
+
+.free-borochure-container{
+	float: left;
+	position: relative;
+	height: 144px;
+	width: 100%;
+}
+.free-borochure-container .free-borochure{
+	background: url("../images/request-brochure.png") scroll no-repeat 0 0 transparent;
+	position: absolute;
+	top: 0px;
+	left: -3px;
+	height: 86px;
+	width: 158px;
+	padding: 48px 40px 0 110px;
+	
+	color: #004386;
+	line-height: 18px;
+	font-size: 12px;
+}
+
+.lets-talk-container{
+	float: left;
+	position: relative;
+	height: 147px;
+	width: 100%;
+}
+.lets-talk-container .lets-talk{
+	background: url("../images/blue-banner.png") scroll no-repeat 0 0 transparent;
+	position: absolute;
+	top: 0px;
+	left: -1px;
+	height: 127px;
+	width: 303px;
+	
+	color: #004386;
+	line-height: 18px;
+	font-size: 12px;
+}
+.lets-talk-container .lets-talk .heading{
+	background: url("../images/headers/lets-talk.jpg") no-repeat scroll center 19px transparent;
+    height: 0;
+	overflow: hidden;
+	padding-top: 54px;
+    width: 100%;
+	float: left;
+}
+.lets-talk-container .lets-talk .links{
+    float: left;
+	padding: 16px 17px 0 27px;
+    width: 257px;
+}
+.lets-talk-container .lets-talk .basecamp{
+	background: url("../images/headers/small-logo.png") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 35px;
+	width: 34px;
+}
+.lets-talk-container .lets-talk .facebook{
+    background: url("../images/headers/facebook-chat.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 0;
+    margin-left: 24px;
+    overflow: hidden;
+    padding-top: 30px;
+    width: 101px;
+}
+.lets-talk-container .lets-talk .skype{
+	background: url("../images/headers/skype.png") scroll no-repeat 0 0 transparent;
+	float: right;
+	height: 0;
+
+	overflow: hidden;
+	padding-top: 38px;
+	width: 86px;
+}
+
+.meet-the-team-container{
+	float: left;
+	position: relative;
+	height: 145px;
+	width: 100%;
+}
+.meet-the-team{
+	background: url("../images/office.png") scroll no-repeat 0 0 transparent;
+	position: absolute;
+	top: 0px;
+	left: -1px;
+	height: 125px;
+	width: 301px;
+}
+.meet-the-team .header-container{
+	float: left;
+	padding: 15px 0 0 20px;
+	width: 281px;
+}
+.meet-the-team .header{
+	background: url("../images/headers/meet-the-team.png") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 46px;
+	width: 255px;
+}
+.meet-the-team .find-out-more{
+	float: left;
+	padding: 18px 0 0 72px;
+}
+.meet-the-team .find-out-more-btn{
+	background: url("../images/buttons/find-out-more.png") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 33px;
+	width: 157px;
+}
+.meet-the-team-container .find-out-more-btn:hover{
+	background-position: 0 -33px;
+}
+
+.content .resorts {
+	background: url("../images/backgrounds/resorts-content-y.jpg") repeat-y 0 0 scroll transparent;
+	float: left;
+	width: 921px;
+}
+.content .resorts .content{
+	background: url("../images/backgrounds/resorts-content-top.jpg") repeat-y 0 0 scroll transparent;
+	float: left;
+	width: 921px;
+	overflow: hidden;
+	padding-top: 22px;padding-left: 26px;width:894px;
+}
+.content .resorts .bottom{
+	background: url("../images/backgrounds/resorts-content-bottom.jpg") repeat-y 0 0 scroll transparent;
+	float: left;
+	width: 921px;
+	overflow: hidden;
+	height: 10px;
+}
+.block-row-aligner{
+	float: left;
+	position: relative;
+	left: 50%;
+}
+.resorts-row{
+	float: left;
+	position: relative;
+	left: -50%;
+}
+.resort-container .new .new-icon{
+	background: url("../images/new.png") scroll no-repeat 0 0 transparent;
+	height: 57px;
+	width: 56px;
+	position: absolute;
+	right: 0px;
+	top:0px;
+}
+.resort-container {
+	float: left;
+	width: 273px;
+	height: 304px;
+	padding: 0 8px;
+}
+.resort-container .resort{
+	background: url("../images/backgrounds/resort.png") scroll no-repeat 0 0 transparent;
+	width: 265px;
+	height: 279px;
+	padding: 4px;
+	position: relative;
+}
+.resort .heading{
+	float: left;
+	padding: 14px 0 0 17px;
+	width: 231px;
+	
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+}
+.resort .logo{
+	text-align: center;
+	padding-top: 10px;
+	float: left;
+	width: 100%;
+	height: 90px;
+}
+.resort .features{
+	float: left;
+	width: 100%;
+}
+.resort .features ul{
+	float: left;
+	padding-left: 40px;
+	line-height: 20px;
+	font-size: 12px;
+	width: 225px;
+	height: 88px;
+}
+.resort .features ul li{
+	background: url("../images/tick.png") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 20px;
+	padding: 0px 0px 0px 25px;
+	margin: 0px;
+	width: 200px;
+}
+.resort .view-resort{
+	float: left;
+	padding: 11px 59px 0;
+}
+.resort .view-resort-btn{
+	background: url("../images/buttons/view-resort.png") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 33px;
+	width: 147px;
+}
+.resort .view-resort-btn:hover{
+	background-position: 0 -33px;
+}
+
+.big-bar-container{
+	margin-top: 30px;
+	background: url("../images/backgrounds/big-bar.jpg") scroll no-repeat 0 0 transparent;
+	height: 128px;
+	width: 920px;
+	float: left;
+	position: relative;
+}
+.big-bar{
+	background: url("../images/backgrounds/big-bar.jpg") scroll no-repeat 0 0 transparent;
+	height: 129px;
+	width: 930px;
+	position: absolute;
+	top: -1px;
+	left: -5px;
+}
+.big-bar .left-side{
+	float: left;
+	padding: 16px 0 0 26px;
+	width: 500px;
+}
+.big-bar .right-side{
+	float: right;
+	padding: 37px 44px 0 0;
+	width: 324px;
+}
+.big-bar .not-shure-which-resort{
+	background: url("../images/headers/not-shure-which-resort.jpg") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 27px;
+	width: 100%;
+}
+.big-bar .chat-with-team{
+	background: url("../images/headers/chat-with-team.jpg") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 26px;
+	width: 100%;
+}
+.big-bar .chat-on-facebook-btn{
+	float: left;
+	height: 34px;
+	width: 190px;
+}
+.big-bar .chat-on-facebook-btn{
+	background: url("../images/buttons/chat-on-facebook.jpg") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 34px;
+	width: 190px;
+}
+.big-bar .call-44{
+	float: left;
+height: 26px;
+overflow: hidden;
+padding-left: 23px;
+width: 216px;
+font-family: "DIN Medium", "Trebuchet MS", "Sans-serif", Serif;
+color: #F36;
+line-height: 25px;
+font-size: 18px;
+padding-top: 5px;
+}
+.big-bar .call-44 span{
+	color: #004386;
+}
+.big-bar .free-brochure-request-2{
+	background: url("../images/headers/free-brochure-request-2.jpg") scroll no-repeat 1px 0px transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 31px;
+	width: 240px;
+}
+.big-bar .email-form .input-field{
+	border-width: 1px 0px 1px 1px;
+	border-style: solid;
+	border-color: #a6e8ff;
+	float: left;
+	height: 31px;
+	width: 227px
+}
+.big-bar .email-form .request-btn{
+	background: url("../images/buttons/request.jpg") scroll no-repeat 0 0 transparent;
+	border: none;
+	float: right;
+	height: 33px;
+	width: 96px;
+}
+.big-bar .email-form .request-btn:hover{
+	background-position: 0 -33px;
+}
+
+.resorts .top{
+	background: url("../images/backgrounds/resorts-top.jpg") scroll no-repeat 0 30px #fff;
+	float: left;
+	height: 317px;
+	width: 921px;
+	padding-top: 30px;
+	position: relative;
+}
+.resorts .top .heading{
+	background: url("../images/headers/resorts-white.jpg") scroll no-repeat 30px 29px transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 65px;
+	padding-left: 30px;
+	width: 224px;
+}
+.resorts .seasonal .heading{
+	background: url("../images/headers/seasonal-accomodation.jpg") scroll no-repeat 30px 29px transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 65px;
+	padding-left: 30px;
+	width: 501px;
+}
+.resorts .maps{
+	float: left;
+	padding: 0 25px;
+	height: 204px;
+	width: 871px;
+	overflow: hidden;
+}
+.resorts .seasonal .maps{
+float: left;
+padding: 0 105px;
+height: 204px;
+width: 681px;
+overflow: hidden;
+}
+.resorts .maps .map{
+	float: left;
+	padding: 0 5px;
+	position: relative;
+}
+.resorts .maps img{
+	float: left;
+}
+.resorts .maps .map .map-point{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.resorts .maps .map .point{
+	background: url("../images/point-icon.png") scroll no-repeat 0 0 transparent;
+	height: 27px;
+	width: 26px;
+	position: absolute;
+}
+.resorts .maps .map .point-name{
+	height: 40px;
+	width: 132px;
+	position: absolute;
+}
+.resorts .maps .map .point-name a{
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 40px;
+	width: 132px;
+}
+
+.map .whistler .point{
+top: 105px;
+left: 123px;
+}
+.map .kicking-horse .point{
+	top: 78px;
+	left: 157px;
+}
+.map .banff .point{
+top: 115px;
+left: 157px;
+}
+.map .meribel .point{
+top: 130px;
+left: 153px;
+}
+.map .verbier .point{
+top: 95px;
+left: 153px;
+}
+.map .bariloche .point{
+top: 95px;
+left: 45px;
+}
+.map .val-dlsere .point{
+top: 60px;
+left: 153px;
+}
+
+.map .whistler .point-name{
+background: url("../images/headers/icon-whistler.png") scroll no-repeat 0 0 transparent;
+top: 100px;
+left: -15px;
+}
+.map .kicking-horse .point-name{
+background: url("../images/headers/icon-kicking-horse.png") scroll no-repeat 0 0 transparent;
+top: 57px;
+left: 187px;
+}
+.map .banff .point-name{
+background: url("../images/headers/icon-banff.png") scroll no-repeat 0 0 transparent;
+top: 125px;
+left: 188px;
+}
+.map .meribel .point-name{
+background: url("../images/headers/icon-meribel.png") scroll no-repeat 0 0 transparent;
+top: 89px;
+left: 16px;
+}
+.map .verbier .point-name{
+background: url("../images/headers/icon-verbier.png") scroll no-repeat 0 0 transparent;
+top: 122px;
+left: 183px;
+}
+.map .bariloche .point-name{
+background: url("../images/headers/icon-bariloche.png") scroll no-repeat 0 0 transparent;
+top: 165px;
+left: 50px;
+}
+.map .val-dlsere .point-name{
+	background: url("../images/headers/icon-val-dlsere.png") scroll no-repeat 0 0 transparent;
+	top: 52px;
+	left: 183px;
+}
+
+.map .whistler .point-name a{
+background: url("../images/headers/icon-whistler.png") scroll no-repeat 0 0 transparent;
+}
+.map .kicking-horse .point-name a{
+background: url("../images/headers/icon-kicking-horse.png") scroll no-repeat 0 0 transparent;
+}
+.map .banff .point-name a{
+background: url("../images/headers/icon-banff.png") scroll no-repeat 0 0 transparent;
+}
+.map .meribel .point-name a{
+background: url("../images/headers/icon-meribel.png") scroll no-repeat 0 0 transparent;
+}
+.map .verbier .point-name a{
+background: url("../images/headers/icon-verbier.png") scroll no-repeat 0 0 transparent;
+}
+.map .bariloche .point-name a{
+background: url("../images/headers/icon-bariloche.png") scroll no-repeat 0 0 transparent;
+}
+.map .val-dlsere .point-name a{
+	background: url("../images/headers/icon-val-dlsere.png") scroll no-repeat 0 0 transparent;
+}
+
+.resorts .top .bottom-line{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	
+	padding: 0 25px;
+	width: 871px;
+}
+.resorts .top .bottom-line .head{
+	background: none;
+	font-family: "Trebuchet MS",Sans-serif;
+	color: white;
+	line-height: 18px;
+	font-size: 16px;
+	padding-top: 20px;
+	height: 18px;
+	width: 150px;
+}
+.resorts .top .bottom-line span{
+	float: left;
+	padding-left: 10px;
+}
+.resorts .top .bottom-line .skiing-icon{
+	height: 54px;
+	width: 54px;
+	margin-top: 1px;
+}
+.resorts .top .bottom-line .skiing-icon a{
+	background: url("../images/buttons/skiing-icon.png") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 54px;
+	width: 54px;
+}
+.resorts .top .bottom-line .skiing-icon a:hover{
+	background-position: 0 -54px;
+}
+.resorts .top .bottom-line .skiing-icon .active{
+	background-position: 0 -108px;
+}
+.resorts .top .bottom-line .snowboarding-icon{
+	float: left;
+	height: 54px;
+	width: 38px;
+	margin-top: 1px;
+}
+.resorts .top .bottom-line .snowboarding-icon a{
+	background: url("../images/buttons/snowboarding-icon.png") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 54px;
+	width: 38px;
+}
+.resorts .top .bottom-line .snowboarding-icon a:hover{
+	background-position: 0 -54px;
+}
+.resorts .top .bottom-line .snowboarding-icon .active{
+	background-position: 0 -108px;
+}
+
+.resorts .maps .right{
+	float: right;
+}
+.resorts .maps .canada{
+	padding-top: 27px;
+}
+.resorts .maps .france{
+	padding-top: 0px;
+}
+.resorts .maps .argentina{
+	padding-top: 2px;
+}
+
+.course-left-side{
+	float: left;
+	width: 410px;
+}
+.course-left-side .course-banner{
+	float: left;
+	width: 410px;
+	height: 300px;
+	position: relative;
+}
+.course-left-side .course-banner .banner-image{
+	float: left;
+	width: 409px;
+	height: 278px;
+}
+.course-left-side .course-banner .banner-text{
+	position: absolute;
+	top: 130px;
+	left: 25px;
+}
+.course-right-side{
+
+	float: right;
+	width: 450px;
+}
+.course-details-bar{
+	background: url("../images/backgrounds/small-details-bar.jpg") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 48px;
+	width: 380px;
+	padding: 0 15px;
+}
+.course-details-bar li{
+	padding: 5px 85px 0 0;
+	float: left;
+}
+.course-details-bar .last{
+	padding-right: 0px;
+	float: right;
+}
+.course-details-bar a{
+	color: #FF3366;
+}
+
+.course-media-bar{
+	background: url("../images/backgrounds/big-details-bar.jpg") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 325px;
+	width: 375px;
+	padding: 18px 0 0 35px;
+}
+.course-media-bar .video-container{
+	float: left;
+}
+.course-media-bar .video-container .video{
+	background: url("../images/backgrounds/small-video-container.jpg") scroll no-repeat 0 0 transparent;
+	float: left;
+	padding: 6px;
+	height: 92px;
+	width: 140px;
+    position: relative;
+	padding-right: 41px;
+}
+.course-media-bar .video-container .video img {
+    float: left;
+    height: 82px;
+    width: 140px;
+}
+.course-media-bar .video-container .video .watch-small {
+    height: 26px;
+	left: 26px;
+	position: absolute;
+	top: 36px;
+	width: 98px;
+}
+
+.blog-left-side{
+	float: left;
+	width: 560px;
+}
+.blog-left-side .empty{
+	font-size: 16px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.blog-post{
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #e4e3e3;
+	padding-top: 20px;
+	padding-bottom: 7px;
+	position:relative;
+}
+.post-head{
+	float: left;
+	width: 100%;
+	padding-bottom: 20px;
+}
+.post-head .post-title{
+	color: #004386;
+	font-size: 24px;
+}
+.post-subtitle{
+	float: left;
+	width: 100%;
+	color: #004386;
+	font-size: 18px;
+	line-height: 50px;
+}
+.post-head .post-date{
+	color: #b2b2b2;
+	font-size: 13px;
+	line-height: 32px;
+}
+.post-head .post-author{
+	color: #b2b2b2;
+	font-size: 13px;
+	line-height: 32px;
+}
+.post-head .post-author a {
+	color: #f36;
+	font-size: 13px;
+	line-height: 20px;
+}
+.post-media-container{
+	float: left;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+.media-aligner{
+	float: left;
+	left: 50%;
+	position: relative;
+}
+.post-media-container .post-media{
+	float: left;
+	top: 0px;
+	left: -50%;
+	position: relative;
+}
+.post-media-container .image-container{
+	float: left;
+	clear: right;
+	padding: 1px;
+	border: 1px solid #dadada;
+	max-width: 556px;
+	position: relative;
+}
+.post-media-container .image-container img{
+	border: 1px solid #dedede;
+	max-width: 554px;float: left;
+}
+.post-media-container .image-controls{
+	width: 100%;
+	text-align: right;
+	position: absolute;
+	top: -20px;
+}
+.post-media-container .image-controls a{
+	color: #f36;
+	font-size: 12px;
+	line-height: 20px;
+}
+.post-content{
+	float: left;
+	width: 100%;
+	padding-bottom: 20px;
+	
+	font-size: 12px;
+	line-height: 20px;
+}
+.post-content a{
+	color: #f36;
+	font-size: 12px;
+	line-height: 20px;
+}
+.post-controls{
+	float: left;
+	width: 100%;
+	padding: 24px 0 7px 0;
+}
+.post-controls .comments-count{
+	background: url("../images/comments-count.png") scroll no-repeat 0 0 transparent;
+	float: left;
+
+	height: 23px;
+	width: 34px;
+	padding-top: 1px;
+	color: #fff;
+	text-align: center;
+}
+.post-controls .discuss{
+	float: left;
+	padding: 0 10px 0 5px;
+	color: #f36;
+	font-size: 12px;
+	line-height: 21px;
+	font-family: "DIN Medium", "Trebucher MS", "Sans-serif", "Serif";
+}
+.post-controls .twitter{
+	float: left;
+}
+.post-controls .fb-likes{
+	float: left;
+}
+
+.post-tags{
+	width: 100%;
+	float: left;
+	
+	color: #333;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: "Trebuchet MS", Sans-serif, serif;
+}
+.post-tags span,
+.post-tags span a{
+	font-size: 12px;
+	line-height: 20px;
+	color: #959595;
+	font-style: italic;
+	font-family: Arial;
+}
+
+.fb-comments-container{
+	float: left;
+	width: 100%;
+}
+
+.pagination .pag-cnt{
+	float: left;
+	color: #b2b2b2;
+	font-size: 12px;
+	line-height: 36px;
+}
+.pagination .pag-nav{
+	float: right;
+	height: 36px;
+}
+.pagination .pag-nav .prev a,
+.pagination .pag-nav .next a{
+	color: #f36;
+	font-size: 12px;
+	line-height: 36px;
+}
+.pagination .pag-nav .prev{
+	float: left;
+	padding-right: 40px;
+}
+.pagination .pag-nav .next{
+	float: right;
+	padding-left: 40px;
+}
+.pagination ul{
+	float: left;
+}
+.pagination li{
+	float: left;
+	padding: 0 7px;
+}
+.pagination ul li a{
+	color: #ffa5bc;
+	font-size: 12px;
+	line-height: 36px;
+}
+.pagination ul li .active{
+	color: #f36;
+}
+
+.blog-right-side{
+	background: url("../images/backgrounds/blog-left.jpg") scroll no-repeat 0 0 transparent;
+	float: right;
+	width: 302px;
+	padding: 30px 0 0 18px;
+	min-height: 2000px;
+}
+.blog-right-side .author-box{
+	background: url("../images/backgrounds/author-box.png") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 154px;
+	width: 288px;
+	padding: 13px 0 0 12px;
+}
+.blog-right-side .author-photo{
+	background: url("../images/backgrounds/author-container.jpg") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 84px;
+	width: 84px;
+	padding: 3px;
+}
+.blog-right-side .author-photo:hover{
+	background-position: 0 -90px;
+}
+.blog-right-side .author-photo img{
+	float: left;
+	height: 84px;
+	width: 84px; 
+}
+.blog-right-side .author-desc{
+	float: left;
+	width: 180px;
+	padding-left: 8px;
+	
+	line-height: 18px;
+	font-size: 11px;
+}
+.blog-right-side .author-desc a{
+	color: #f36;
+	line-height: 20px;
+	font-size: 12px;
+}
+
+.authors{
+	padding: 20px 0;
+	float: left;
+	width: 315px;
+	position:relative;
+}
+.authors .heading{
+	background: url("../images/headers/authors.png") scroll no-repeat 0 0 transparent;
+	float: left;
+	width: 293px;
+	height: 0;
+	overflow: hidden;
+	padding-top: 14px;
+}
+.authors .author-pic{
+	float: left;
+	height: 90px;
+	width: 90px;
+	padding: 15px 15px 0 0;
+	position: relative;
+}
+.authors .author{
+	background: url("../images/backgrounds/author-container.jpg") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 84px;
+	width: 78px;
+	padding: 3px;
+	position:relative;
+}
+.authors .author img{
+	float: left;
+	height: 84px;
+	width: 84px; 
+}
+.authors .author:hover{
+	background-position: 0 -90px;
+}
+.authors .author-shadow {
+    background: url("../images/backgrounds/author-container.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 90px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 90px;
+	z-index:2;
+}
+.authors .author-shadow:hover{
+	background-position: 0 -90px;
+	cursor:pointer;
+}
+.authors .author-name{
+	background: none repeat scroll 0 0 black;
+    border-radius: 0 3px 0 0;
+    bottom: 3px;
+    color: white;
+    left: 3px;
+    padding: 0 3px;
+    position: absolute;
+}
+.authors .author-edit{
+	background: none repeat scroll 0 0 white;
+    border-radius: 0 0 0 6px;
+    height: 22px;
+    position: absolute;
+    right: -7px;
+    top: 3px;
+    width: 37px;
+}
+.authors .feature-blogger{
+	float:left;
+	margin-top:10px;
+	width:100%;
+}
+.authors .feature-blogger a{
+	background: url("../images/icons/gear-select.png") no-repeat scroll 0 0 transparent;
+    color: #FF3366;
+    float: left;
+    font-weight: bold;
+    height: 18px;
+    line-height: 18px;
+    padding-left: 20px;
+}
+.email-signup{
+	background: url("../images/backgrounds/email-box.png") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 49px;
+	width: 291px;
+	padding: 45px 0 0 11px;
+	margin-bottom: 20px;
+	position:relative;
+}
+.email-signup .block-edit{
+	background: none repeat scroll 0 0 white;
+    border-radius: 6px;
+    height: 22px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 31px;
+}
+.email-signup .block-edit div.contextual-links-wrapper {
+	right: -2px;
+    top: 1px;
+}
+.email-signup .email-input{
+	float: left;
+	border: 1px solid #123b68;
+	border-right: none;
+	background-color: #fff;
+	width: 195px;
+	padding: 0 5px;
+	height: 31px;
+	font-size: 13px;
+	line-height: 25px;
+}
+.email-signup .submit-btn{
+	background: url("../images/buttons/email-submit.png") scroll no-repeat 0 0 transparent;
+	border: 0px;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 33px;
+	width: 73px;
+}
+.email-signup .submit-btn:hover{
+	background-position: 0 -33px;
+}
+
+.categories{
+	float: left;
+	border: 1px solid #d0d0d0;
+	behavior: url("border-radius.htc");
+    border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-bottom-radius: 5px;
+	background: url("../images/backgrounds/categories.jpg") scroll repeat-x 0 0 #fff;
+	padding: 14px 0 20px 9px;
+	width: 288px;
+	margin-bottom: 20px;
+}
+.categories .email-input{
+	float: left;
+	border: 1px solid #d6d6d6;
+	border-right: none;
+	background-color: #fff;
+	width: 195px;
+	padding: 0 5px;
+	height: 31px;
+	font-size: 13px;
+	line-height: 25px;
+}
+.categories .submit-btn{
+	background: url("../images/buttons/category-search.png") scroll no-repeat 0 0 transparent;
+	border: 0px;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 37px;
+	width: 75px;
+}
+.categories .submit-btn:hover{
+	background-position: 0 -37px;
+}
+.categories table{
+	float: left;
+	margin: 10px 20px 0px;
+	line-height: 22px;
+	font-size: 12px;
+	color: #f36;
+}
+.categories table th{
+	padding-bottom: 10px;
+}
+.categories table a{
+	line-height: 22px;
+	font-size: 12px;
+}
+.categories .cats h2{
+	background: url("../images/headers/categories.png") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 14px;
+	width: 106px;
+}
+.categories .archive h2{
+	background: url("../images/headers/archive.png") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 14px;
+	width: 74px;
+}
+
+.most-commented{
+	float: left;
+	width: 300px;
+	padding-bottom: 40px;
+}
+.most-commented h2{
+	background: url("../images/headers/most-commented.png") scroll no-repeat 0 0 transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 18px;
+	width: 196px;
+	margin: 10px 0;
+}
+.most-commented .article{
+	margin-bottom: -10px;
+	float: left;
+	width: 300px;
+	color: #000;
+	font-style: italic;
+	font-family: "Trebuchet MS", Sans-serif, serif;
+	line-height: 18px;
+	font-size: 13px;
+	position: relative;
+	padding: 12px 32px 12px 12px;
+}
+.most-commented .red{
+	background-color: rgba(244, 77, 77, 0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccf44d4d, endColorstr=#ccf44d4d);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccf44d4d, endColorstr=#ccf44d4d)";
+	width: 233px;
+}
+.most-commented .orange{
+	background-color: rgba(249, 104, 50, 0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccf96832, endColorstr=#ccf96832);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccf96832, endColorstr=#ccf96832)";
+	width: 226px;
+}
+.most-commented .yellow{
+	background-color: rgba(254, 224, 72, 0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccfee048, endColorstr=#ccfee048);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccfee048, endColorstr=#ccfee048)";
+	width: 216px;
+}
+.most-commented .green{
+	background-color: rgba(191, 229, 51, 0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccbee432, endColorstr=#ccbee432);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccbee432, endColorstr=#ccbee432)";
+	width: 206px;
+}
+.most-commented .blue{
+	background-color: rgba(51, 201, 251, 0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc33c9fb, endColorstr=#cc33c9fb);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc33c9fb, endColorstr=#cc33c9fb)";
+	width: 151px;
+}
+.most-commented .comments-cnt{
+	background: url("../images/comments-count-black.png") scroll no-repeat 0 0 transparent;
+	position: absolute;
+	height: 23px;
+	width: 34px;
+	padding-top: 1px;
+	color: #fff;
+	text-align: center;
+	font-style: normal;
+	top: 20px;
+	right: -15px;
+}
+
+.facebook-activity{
+	/*background: url("../images/facebook-activity.png") scroll no-repeat 0 0 transparent;*/
+	float: left;
+	width: 293px;
+	padding: 2px;
+	border:1px solid #dadada;
+	border-radius:5px;
+}
+.facebook-activity h2{
+	background: url("../images/headers/facebook-activity.png") scroll no-repeat -3px 0 transparent;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 50px;
+	width: 295px;
+}
+
+.author-info{
+	position: absolute;
+	display: none;
+	background: url("../images/backgrounds/author-details.png") scroll no-repeat 0 0 transparent;
+	padding: 13px 12px;
+	width: 353px;
+	height: 169px;
+	z-index: 10;
+}
+.author-info .photo{
+	float: left;
+	width: 84px;
+	height: 84px;
+	border: 1px solid #0a2744;
+}
+.author-info .photo{
+	float: left;
+	width: 84px;
+	height: 84px;
+}
+.author-info .description{
+	float: left;
+	width: 255px;
+	padding-left: 9px;
+}
+.author-info div{
+	float: left;
+	width: 255px;
+	font-family: "Trebuchet MS", Sans-serif, serif;
+}
+.author-info .name{
+	line-height: 20px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+}
+.author-info .resort{
+	padding-top: 4px;
+	line-height: 20px;
+	font-size: 13px;
+	color: #94c9ff;
+}
+.author-info .bio{
+	padding-top: 4px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #fff;
+}
+.author-info .ski{
+	padding-top: 4px;
+	line-height: 12px;
+	font-size: 12px;
+	color: #fff;
+}
+.author-info .surf{
+	padding-top: 4px;
+	line-height: 12px;
+	font-size: 12px;
+	color: #fff;
+}
+.author-info .more {
+	margin-top:6px;
+}
+.author-info .more a{
+	padding-top: 4px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #f36;
+}
+
+.author-info .close-button{
+	background: url(../images/buttons/close.png) no-repeat scroll 0 0 transparent;
+    height: 0;
+    overflow: hidden;
+    padding-top: 19px;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    width: 19px;
+}
+
+.gear-select{position:relative;}
+.gear-select a{float:left;background:url(../images/icons/gear-select.png) no-repeat 0 0 transparent;width:16px;height:0;overflow:hidden;padding-top:16px;position:absolute;top:-14px;left:-22px;}
+
+.wrapper div.contextual-links-wrapper{z-index:5;}
+.wrapper .blog-post div.contextual-links-wrapper{top:22px;right:0px;z-index:5;}
+
+.wrapper div.contextual-links-wrapper a {display:block;}
+
+.filter-wrapper{display:none;}
+.ckeditor_links{display:none;}
+
+.wysiwyg-compat a{float:none;height:auto;width:auto;font-size:inherit;color:#FF3366;}
+.wysiwyg-compat strong{float:none;height:auto;width:auto;font-size:inherit;font-weight:bold;}
+.wysiwyg-compat em{float:none;height:auto;width:auto;font-size:inherit;font-style:italic;}
+.wysiwyg-compat u{float:none;height:auto;width:auto;text-decoration:underline;font-size:inherit;}
+.wysiwyg-compat strike{float:none;height:auto;width:auto;text-decoration:line-through;font-size:inherit;}
+.wysiwyg-compat sup{float:none;height:auto;width:auto;vertical-align:super;font-size:inherit;}
+.wysiwyg-compat sub{float:none;height:auto;width:auto;vertical-align:super;font-size:inherit;}
+.wysiwyg-compat ol{float:none;height:auto;width:auto;padding-left:14px;list-style-type:decimal;list-style-image:none;list-style-position:inside;font-size:inherit;}
+.wysiwyg-compat ul{float:none;height:auto;width:auto;padding-left:5px;list-style-type:disc;list-style-image:none;list-style-position:inside;font-size:inherit;}
+.wysiwyg-compat blockquote{float:none;height:auto;width:auto;padding:10px 20px;font-size:inherit;}
+.wysiwyg-compat .rteindent1{float:none;height:auto;width:auto;margin-left:40px;font-size:inherit;}
+.wysiwyg-compat .rteleft{float:none;height:auto;width:auto;text-align:left;font-size:inherit;}
+.wysiwyg-compat .rtecenter{float:none;height:auto;width:auto;text-align:center;font-size:inherit;}
+.wysiwyg-compat .rteright{float:none;height:auto;width:auto;text-align:right;font-size:inherit;}
+.wysiwyg-compat hr{float:none;height:1px;width:auto;width:100%;}
+.wysiwyg-compat img{float:none;height:auto;width:auto;border:0;}
+.wysiwyg-compat h1{float:none;height:auto;width:auto;font-size:20px;padding:10px 0;}
+.wysiwyg-compat h2{float:none;height:auto;width:auto;font-size:18px;padding:10px 0;}
+.wysiwyg-compat h3{float:none;height:auto;width:auto;font-size:16px;padding:10px 0;}
+.wysiwyg-compat h4{float:none;height:auto;width:auto;font-size:14px;padding:10px 0;}
+.wysiwyg-compat h5{float:none;height:auto;width:auto;font-size:12px;padding:10px 0;}
+.wysiwyg-compat h6{float:none;height:auto;width:auto;font-size:10px;padding:10px 0;}
+.wysiwyg-compat pre{float:none;height:auto;width:auto;font-family:mono-space;font-size:inherit;}
+.wysiwyg-compat address{float:none;height:auto;width:auto;font-style:italic;font-size:inherit;}
+.wysiwyg-compat div{float:none;height:auto;width:auto;margin:0;padding:0;}

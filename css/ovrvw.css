@@ -1,0 +1,84 @@
+
+.course-content .courses-right-side .columns .column-l{width:100%;}
+.course-content .courses-right-side .columns .column-r{width:100%;}
+.course-content .courses-right-side .columns .column-r .views-row{float:left;width:49%;}
+.course-content .courses-right-side .columns .column-r .views-row .info .img-fl{float: left; height: 65px; padding: 0; width: 100%}
+.course-content .courses-right-side .columns .column-r .views-row .info .img-fr{float: left; height: 65px; padding: 0; width: 100%}
+.course-content .courses-right-side .columns .column-r .views-row .info .img-fr .field-item img{margin-top:14px;}
+.course-content .courses-right-side .columns .courses-hdr{font-size:18px;display:none;}
+.courses-right-side .icon{width:38px;}
+
+.course-content .courses-right-side .columns .info h4{color: #004386; font-size: 17px; font-weight: 700;margin-bottom: 0; padding: 0;margin:6px 0;}
+.course-content .courses-right-side .columns .info h4 a{color: #004386; font-size: 17px; font-weight: 700;margin-bottom: 0; padding: 0;margin:6px 0;}
+.course-content .courses-right-side .columns .info a h4{color: #004386; font-size: 17px; font-weight: 700;margin-bottom: 0; padding: 0;margin:6px 0;}
+
+.course-content .five-reasons-to-go-with-hdr{width:591px;background: url(../images/headers/5-reasons-to-go-with-new.jpg) no-repeat scroll 0 0 transparent;}
+.course-content .five-reasons-list{width:530px;height:233px;background: url(../images/backgrounds/5-reasons-new.jpg) no-repeat scroll 0 0 transparent;}
+.course-content .more-this-way{width:551px;background: url(../images/backgrounds/more-new.jpg) no-repeat scroll 0 0 transparent;padding:12px 20px 0;}
+.course-content .list .item .text{padding-top:4px;}
+.course-content .five-reasons-list .item{padding:10px 0;}
+
+.not-front .courses-banner{background: url("../images/backgrounds/header-inner.jpg") no-repeat scroll 0 0 transparent;padding:60px 30px;width:860px;height:380px;}
+.not-front .courses-banner div.text{height:160px;}
+
+.courses-banner .lower-section{display:block;float:left;width:100%;margin-top:67px;}
+.courses-banner .lower-section .resorts-icons{float:left;width:400px;padding-top:4px;}
+.courses-banner .lower-section .resorts-icons .views-row{display:none;}
+.courses-banner .lower-section .resorts-icons .views-row .info{padding:10px 18px 22px;width:auto;}
+.courses-banner .lower-section .resorts-icons .views-row .info img{height:52px;}
+.courses-banner .lower-section .resorts-icons .views-row .resort-info-text{display:none;}
+.courses-banner .lower-section .resorts-icons .views-row-1{display:block;}
+.courses-banner .lower-section .resorts-icons .views-row-3{display:block;}
+.courses-banner .lower-section .resorts-icons .views-row-4{display:block;}
+.courses-banner .lower-section .blog-banner{float:right;width:443px;height:0;padding-top:86px;overflow:hidden;background: url(../images/backgrounds/blog-banner.png) no-repeat scroll 0 0 transparent;}
+.courses-banner .brochure-request-form{display:block;float:left;width:100%;}
+.courses-banner .brochure-request-form .subtitle{float:left;width:256px;height:0;padding-top:20px;overflow:hidden;background: url(../images/headers/free-brochure-request-title-new.png) no-repeat scroll 0 0 transparent;} 
+.courses-banner .brochure-request-form .brochures{float:left;width:72px;height:0;padding-top:50px;overflow:hidden;background: url(../images/backgrounds/free-brochure-request-book-new.png) no-repeat scroll 0 0 transparent;margin-top: -25px;} 
+.courses-banner .brochure-request-form .email-input { border-right: medium none; color: #222222; float: left; font-size: 16px; font-weight: bold; height: 29px; line-height: 25px; margin-top: 1px; padding-left: 5px; width: 222px; } .courses-banner .brochure-request-form .request-btn{background: url(../images/buttons/request-new.png) no-repeat scroll 0 0 transparent; border: medium none; float: left; height: 33px; width: 96px;} 
+
+.free-brochure-banner-small{display:block;float:left;width:100%;height:0;padding-top:100px;overflow:hidden;background: url(../images/backgrounds/free-brochure-banner-new.jpg) no-repeat scroll 0 0 transparent;}
+.request-brochure-box{display:block;float:left;width:301px;height:0;padding-top:135px;overflow:hidden;background: url(../images/backgrounds/request-brochure-box-new.jpg) no-repeat scroll 0 0 transparent;}
+.call-now-box { background: url("../images/backgrounds/call-now-box-new.jpg") no-repeat scroll 0 4px transparent; display: block; float: left; height: 135px; overflow: hidden; padding-left: 53px; padding-top: 49px; width: 246px; }
+.call-now-box .telephone { color: #004386; font-size: 17px; font-weight: 700; margin-bottom: 7px; padding: 0; width: 192px; text-align: center; float: left; }
+
+.node-type-course-overview .free-borochure-container{display:none;}
+
+.course-content .courses-right-side .big-subtitle{font-size:22px;margin-top: 20px;}
+.course-content .courses-right-side .big-subtitle .icon{display:block;margin-top: -7px;background: url(../images/icons/icon-small-new.jpg) no-repeat scroll 0 4px transparent;width:28px;}
+.course-content .courses-right-side .title .icon{display:block;}
+
+.dob-title{float:left;color:#fff;line-height: 25px;}
+.dob-field {
+    float: left;
+    width: 50px !important;
+    margin-left: 8px !important;
+}
+
+.inputarea{height:80px !important;}
+textarea{color: #666666;
+    font-family: Arial,serif;
+    font-size: 11px;
+    font-weight: normal;}
+
+/* Delete when live */
+.courses-right-side .icon{display:none;}
+.coursse-content .courses-right-side .columns .icon{display:none;}
+.booking-n-enquiries-container{display:block;}
+.column-l .big-subtitle{display:none;}
+.courses-right-side .video-container{display:none;}
+.course-content .courses-right-side .columns .column-l .views-row{display:none;}
+.not-front .courses-banner .no-padding{display:none;}
+.not-front .courses-banner .next-course{display:none;}
+.courses-banner .nex-course-coundown-container{display:none;}
+
+
+.lightbox-container .done .terms{display:none;}
+.lightbox-container .done .bottom{display:none;}
+.lightbox-container .booking-complete{display:none;}
+.lightbox-container .booking-complete h1{ float: left; font-size: 22px; margin: 10px 0; text-align: center; width: 100%; }
+.lightbox-container .booking-complete .booking-complete-amount{ float: left; font-size: 15px; margin: 10px 0; text-align: center; width: 70%; padding: 0 15%; }
+.lightbox-container .booking-complete .bottom-section{     float: left;     width: 100%;     margin-top: 20px; }
+.lightbox-container .booking-complete .phone-us-container{ float: left; width: 50%;color:#004386;font-size:14px;text-align:center; text-transform:uppercase;} 
+.lightbox-container .booking-complete .phone-us-container .phone{color:#fc3265;} 
+.lightbox-container .booking-complete .pay-online-container{ float: left; width: 50%; } 
+.lightbox-container .booking-complete .pay-online-container a{ float: left; width: 195px;height:0;padding-top:36px;background:url(../images/buttons/pay-online.jpg) no-repeat 0 0 transparent;overflow:hidden; } 

@@ -1,0 +1,48 @@
+body{background:none;}
+.outer-wrapper{background:none;overflow: hidden;}
+.header .top{display:none;}
+.footer{display:none;}
+.courses-banner{display:none;}
+.contextual-links-wrapper{display:none;}
+.wrapper{width:810px;}
+.course-content .courses-right-side{width:490px;}
+.free-brochure-banner-small{background:url("../images/backgrounds/free-brochure-banner-new-small.jpg") no-repeat scroll 0 0 transparent}
+
+.course-content .five-reasons-to-go-with-hdr { background: url("../images/headers/5-reasons-to-go-with-new-small.jpg") no-repeat scroll -2px 0 transparent; width: 591px; } 
+.course-content .five-reasons-list { background: url("../images/backgrounds/5-reasons-new-small.jpg") repeat-y scroll 0 0 transparent; height: 233px; width: 429px; }
+.course-content .more-this-way { background: url("../images/backgrounds/more-new-small.jpg") no-repeat scroll 0 0 transparent; padding: 12px 20px 0; width: 551px; }
+.request-brochure-box { background: url("../images/backgrounds/request-brochure-box-new-small.jpg") no-repeat scroll 0 0 transparent; width: 247px; }
+.call-now-box { background: url("../images/backgrounds/call-now-box-new-small.jpg") no-repeat scroll 0 4px transparent; padding-left: 30px; width: 213px; }
+#toolbar{display:none !important;}
+
+.fb-video{float:left;width:100%;margin-top:20px;}
+.fb-video .embed-video{width:488px !important;height:300px !important;}
+.fb-intor-text{float:left;margin-top:16px;}
+
+.content .resorts{width:810px;}
+.content .resorts .top{width:810px; height: 292px;background: url("../images/backgrounds/resorts-top-small.jpg") no-repeat scroll -3px 0 #FFFFFF;}
+.content .resorts .content{width:790px;padding-left: 20px;}
+.content .resorts .bottom{width:810px;}
+
+
+.resorts .maps {width:750px;}
+.resort-small-2{display:none;}
+
+.resort-container{width:auto;padding:0 3px;}
+.resort-container .resort{width:240px;}
+.resort .heading{width:205px;}
+.resort .features{width:205px;}
+.resort .features ul{width: 205px;padding-left: 20px;}
+.resort .features ul li{height:auto;width:auto;font-size: 11px;}
+.resort .view-resort {padding: 11px 44px 0;}
+.resorts .maps .map .map-point{z-index:1;}
+.resort-container .resort {background: url("../images/backgrounds/resort-small.png") no-repeat scroll 0 0 transparent;}
+
+.big-bar-container{width:810px;}
+.big-bar{background: url("../images/backgrounds/big-bar-small.jpg") no-repeat scroll 1px 0 transparent;}
+.big-bar .not-shure-which-resort{display:none;}
+.big-bar .chat-with-team{display:none;}
+.big-bar .free-brochure-request-2{display:none;}
+.big-bar .left-side{padding-top:75px;width:419px;}
+.big-bar .right-side {padding: 73px 135px 0 0; width: 324px; }
+.big-bar .call-44{padding-left:14px;width:215px;font-size:17px;}
