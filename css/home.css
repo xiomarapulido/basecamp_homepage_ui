@@ -30,7 +30,7 @@
 
 .content{clear:both;float:left;width:100%;}
 .content .banner{background:url(../images/backgrounds/header.jpg) no-repeat scroll 0 0 transparent;clear:left;float:left;height:462px;margin-top:24px;width:920px;padding:0;}
-.content .banner .left{float:left;width:395px;padding:40px 0 0 30px;height:220px;}
+.content .banner .left{float:left;width:395px;padding:40px 0 0 30px;height:220px; margin-top: 15px;}
 
 .content .banner .buttons{clear:left;float:left;margin-top:22px;width:389px;}
 .content .banner .right{float:right;padding:57px 26px 0 0;}
@@ -49,7 +49,7 @@
 .content .banner .bottom-right{float:right;padding-right:23px;width:352px;}
 .content .banner .bottom-right .subtitle{background:url(../images/headers/free-brochure-request.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:64px;width:333px;}
 
-.content .title{color:#004386;float:left;font-size:24px;font-weight:700;line-height:30px;text-align:center;width:100%;padding:20px 0;}
+.content .title{color:white;float:left;font-size:33px;font-weight:700;line-height:30px;text-align:center;width:100%;padding:20px 0;}
 .content .title span{color:#F36;}
 .content .previews{background:url(../images/backgrounds/video-previews.jpg) no-repeat scroll 196px 25px transparent;clear:both;float:left;padding-top:25px;position:relative;width:100%;}
 .content .preview-container{background:url(../images/backgrounds/video-preview.jpg) no-repeat scroll 0 0 transparent;float:left;height:256px;position:relative;width:228px;}
@@ -227,7 +227,7 @@
 .header-left-cont .top-nav .admin:hover{text-decoration:underline;color:#FF3366;}
 .header-left-cont .top-nav .last{background:none;}
 
-.content .banner .title{text-align:left;margin-bottom:0;padding:0;padding-top:22px;}
+.content .banner .title{text-align:left;margin-bottom:10px;padding:0;padding-top:15px;}
 .content .banner .info{width:100%;height:100px;padding-left:0;}
 .content .banner .left{position:relative;}
 .content .banner .left .contextual-links-wrapper{background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #AAAAAA;border-radius: 5px 5px 5px 5px;margin-right: 350px;margin-top: 28px;}

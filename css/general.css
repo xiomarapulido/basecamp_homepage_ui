@@ -1,0 +1,46 @@
+.button-booking {
+    background: linear-gradient(to bottom, #cd2b52, #e62e5c);
+    color: #1e2d5c;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 8px 16px;
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.button-booking:hover {
+    filter: brightness(85%);
+}
+
+.info-banner {
+    color: white;
+}
+
+.info-banner-text {
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.btm-img {
+    width: 180px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-right: 15px;
+}
+
+.btm-img:hover {
+    filter: brightness(85%);
+}
