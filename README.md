@@ -24,10 +24,6 @@ basecamp_homepage_ui/
 └── README.md
 ```
 
-## 📸 Design Preview
-
-*You can include a screenshot of the final result here (optional).*
-
 ## 🔍 How to View the Project
 
 Open the `index.html` file directly in your browser, or use a local development server (e.g. Live Server extension in VS Code).
