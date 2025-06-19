@@ -18,7 +18,7 @@
 .header .top .header-right-cont{float:left;height:148px;width:204px;}
 .header .logo{float:left;padding-top:20px;}
 .header .logo a{background:url(../images/headers/logo.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:85px;width:325px;}
-.header .tagline{color:#F36;float:left;font-size:16px;font-style:italic;line-height:25px;text-shadow:0 1px 1px rgba(0,1,1,0.46);width:343px;padding:32px 0 0 40px;}
+.header .tagline{color:#F36;float:left;font-size:14px;font-style:italic;line-height:25px;text-shadow:0 1px 1px rgba(0,1,1,0.46);width:343px;padding:40px 0 0 40px;}
 .header .tagline a{color: #FF3366;font-size: 16px;font-style: italic;line-height: 25px;text-shadow: 0 1px 1px rgba(0, 1, 1, 0.46);}
 
 .header .navigation{float:left;height:20px;line-height:20px;width:716px;margin:0;padding:0;}
