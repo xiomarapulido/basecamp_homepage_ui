@@ -29,7 +29,7 @@
 .header .phone{color:#FFF;float:right;font-family:"DIN Medium","Trebuchet MS",Sans-serif,Serif;font-size:22px;font-weight:400;line-height:25px;padding-top:6px;text-align:right;text-shadow:0 1px 1px rgba(0,0,0,0.45);}
 
 .content{clear:both;float:left;width:100%;}
-.content .banner{background:url(../images/backgrounds/header.jpg) no-repeat scroll 0 0 transparent;clear:left;float:left;height:462px;margin-top:24px;width:920px;padding:0;}
+.content .banner{background:url(../images/backgrounds/header.jpg) no-repeat scroll 0 0 transparent;clear:left;float:left;height:462px;margin-top:24px;width:920px;padding:0; margin-bottom: 25px;}
 .content .banner .left{float:left;width:395px;padding:40px 0 0 30px;height:220px; margin-top: 15px;}
 
 .content .banner .buttons{clear:left;float:left;margin-top:22px;width:389px;}
@@ -45,7 +45,7 @@
 .content .banner .bottom-left{float:left;width:510px;padding:28px 0 0 21px;}
 .content .banner .bottom-left .subtitle{background:url(../images/headers/basecamp-resorts.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:25px;width:190px;}
 .content .banner .bottom-left ul{float:left;list-style:none outside none;width:100%;padding:0;}
-.content .banner .bottom-left li{background:url(../images/top-bullet.png) no-repeat scroll 1px 9px transparent;color:#F36;float:left;font-size:13px;height:24px;line-height:24px;width:140px;padding:0 0 0 15px;}
+.content .banner .bottom-left li{background:url(../images/top-bullet.png) no-repeat scroll 1px 9px transparent;color:#F36;float:left;font-size:13px;height:24px;line-height:24px;width:130px;padding:0 0 0 15px;}
 .content .banner .bottom-right{float:right;padding-right:23px;width:352px;}
 .content .banner .bottom-right .subtitle{background:url(../images/headers/free-brochure-request.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:64px;width:333px;}
 
@@ -77,7 +77,7 @@
 .course-bar .search{background:url(../images/bar-seperator.jpg) no-repeat scroll 128px 0 transparent;float:left;height:57px;width:95px;padding:0 17px 0 18px;}
 .course-bar .search-btn{background:url(../images/buttons/search.jpg) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:28px;margin-top:15px;width:95px;}
 .course-bar .search-btn:hover{background-position:0 -28px;}
-.course-bar .call-now{background:url(../images/headers/call-now.png) no-repeat scroll 0 0 transparent;float:right;height:0;margin:10px 35px 0 0;overflow:hidden;padding-right:44px;padding-top:37px;width:94px;}
+.course-bar .call-now{background:url(../images/headers/call-now.jpg) no-repeat scroll 0 0 transparent;float:right;height:0;margin:10px 35px 0 0;overflow:hidden;padding-right:44px;padding-top:37px;width:94px;}
 
 .content .social-media .blog{float:left;width:360px;}
 .social-media .blog .blog-header{background:url(../images/headers/recent-blog-posts.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;margin-top:2px;overflow:hidden;padding-top:50px;width:238px;}
@@ -248,7 +248,7 @@
 .field .list-column .heading {color:#004386;font-size:18px;float:left;margin:0;height:30px;width:100%;font-weight:bold;padding:5px 0 0 0;}
 .field .list-column .heading:hover{text-decoration:none;}
 
-a {color: #FF3366; cursor: pointer; font-family: "Trebuchet MS",Sans-serif; font-size: 11px; text-decoration: none; }
+a {color: #FF3366; cursor: pointer; font-family: "Trebuchet MS",Sans-serif; font-size: 13px; text-decoration: none; }
 .videos-ltbx #load-videos-list {float: left; height: 402px; overflow: hidden; padding: 0 0; width: 167px;margin-top: 29px; }
 .videos-ltbx .items {float: left; height: 10000px; padding: 0 0; width: 167px; margin-top:0px;}
 .videos-ltbx .item {width: 155px; }

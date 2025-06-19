@@ -44,3 +44,59 @@
 .btm-img:hover {
     filter: brightness(85%);
 }
+
+.img-brochure {
+    width: 95px;
+    margin-top: -7px;
+    margin-left: -87px;
+    position: absolute;
+}
+
+.title-info {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline;
+    color: #004386;
+
+    a {
+        font-size: 24px;
+        font-weight: bold;
+        display: inline;
+        color: #FF3366;
+    }
+
+}
+
+.wrapper-text-right-container {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    .strong {
+        font-weight: bold;
+    }
+}
+
+
+#info-banner-text {
+    line-height: 0.6;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.btnEmail {
+    padding: 9px 0 9px 8px;
+    width: 220px;
+    float: left;
+    font-size: 12px;
+    border: 1px solid #A4E7FF;
+    border-right: none;
+    margin-top: 1px;
+}
+
+.img-send {
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.img-send:hover {
+    filter: brightness(85%);
+}
