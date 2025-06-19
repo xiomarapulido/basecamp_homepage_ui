@@ -1,81 +1,115 @@
+/* =======================================
+   ROOT VARIABLES
+   ======================================= */
+:root {
+    /* Colors */
+    --color-primary-start: #cd2b52;
+    --color-primary-end: #e62e5c;
+    --color-text-main: #1e2d5c;
+    --color-title: #004386;
+    --color-link: #ff3366;
+    --color-border-email: #a4e7ff;
+    --color-white: #ffffff;
+
+    /* Font Sizes */
+    --font-small: 12px;
+    --font-medium: 13px;
+    --font-large: 18px;
+    --font-xlarge: 24px;
+
+    /* Fonts */
+    --font-main: Arial, sans-serif;
+
+    /* Effects */
+    --hover-brightness: brightness(85%);
+    --text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* =======================================
+     BUTTON STYLES
+     ======================================= */
 .button-booking {
-    background: linear-gradient(to bottom, #cd2b52, #e62e5c);
-    color: #1e2d5c;
-    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, var(--color-primary-start), var(--color-primary-end));
+    color: var(--color-text-main);
+    font-family: var(--font-main);
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: var(--font-medium);
     padding: 8px 16px;
     border: none;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 8px 8px;
+    box-shadow: var(--box-shadow);
     letter-spacing: 0.5px;
     white-space: nowrap;
     display: inline-block;
     text-align: center;
     cursor: pointer;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    text-shadow: var(--text-shadow);
 }
 
 .button-booking:hover {
-    filter: brightness(85%);
+    filter: var(--hover-brightness);
 }
 
+/* =======================================
+     BANNER INFO
+     ======================================= */
 .info-banner {
-    color: white;
+    color: var(--color-white);
 }
 
 .info-banner-text {
     line-height: 1.5;
-    font-size: 18px;
+    font-size: var(--font-large);
     font-weight: lighter;
 }
 
+/* =======================================
+     IMAGE BUTTONS AND ELEMENTS
+     ======================================= */
 .btm-img {
     width: 180px;
     cursor: pointer;
-    margin-top: 40px;
-    margin-right: 15px;
+    margin: 40px 15px 0 0;
 }
 
-.btm-img:hover {
-    filter: brightness(85%);
+.btm-img:hover,
+.img-send:hover,
+.btn-facebook-logo:hover {
+    filter: var(--hover-brightness);
 }
 
 .img-brochure {
     width: 95px;
-    margin-top: -7px;
-    margin-left: -87px;
+    margin: -7px 0 0 -87px;
     position: absolute;
 }
 
+/* =======================================
+     TITLES AND TEXT CONTAINERS
+     ======================================= */
 .title-info {
-    font-size: 24px;
+    font-size: var(--font-xlarge);
     font-weight: bold;
     display: inline;
-    color: #004386;
+    color: var(--color-title);
+}
 
-    a {
-        font-size: 24px;
-        font-weight: bold;
-        display: inline;
-        color: #FF3366;
-    }
-
+.title-info a {
+    font-size: var(--font-xlarge);
+    font-weight: bold;
+    display: inline;
+    color: var(--color-link);
 }
 
 .wrapper-text-right-container {
-    margin-top: 15px;
-    margin-bottom: 20px;
-
-    .strong {
-        font-weight: bold;
-    }
+    margin: 15px 0 20px;
 }
 
+.wrapper-text-right-container .strong {
+    font-weight: bold;
+}
 
 #info-banner-text {
     line-height: 0.6;
@@ -83,12 +117,15 @@
     margin-bottom: 5px;
 }
 
+/* =======================================
+     EMAIL FIELD AND BUTTON
+     ======================================= */
 .btnEmail {
     padding: 9px 0 9px 8px;
     width: 220px;
     float: left;
-    font-size: 12px;
-    border: 1px solid #A4E7FF;
+    font-size: var(--font-small);
+    border: 1px solid var(--color-border-email);
     border-right: none;
     margin-top: 1px;
 }
@@ -98,10 +135,9 @@
     cursor: pointer;
 }
 
-.img-send:hover {
-    filter: brightness(85%);
-}
-
+/* =======================================
+     CONTENT BOXES
+     ======================================= */
 #content-sample-aut1 {
     width: 265px;
 }
@@ -112,40 +148,17 @@
 
 .cloud-tweet {
     width: 275px;
-
-    a {
-        font-size: 11px;
-    }
 }
 
+.cloud-tweet a {
+    font-size: 11px;
+}
+
+/* =======================================
+     IMAGES & LOGOS
+     ======================================= */
 .wrapper-facebook-img {
     width: 250px;
-}
-
-.ski-instructor-courses {
-    margin-left: 10px;
-}
-
-.snowboard-instructor-courses {
-    margin-left: -10px;
-}
-
-.ul-navigation {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    a {
-        color: white;
-        font-size: 14px;
-        text-transform: uppercase;
-    }
-
-    .separator {
-        color: black;
-        margin: 0 5px;
-    }
 }
 
 .btn-facebook-logo {
@@ -155,19 +168,49 @@
     cursor: pointer;
 }
 
-.btn-facebook-logo:hover {
-    filter: brightness(85%);
+/* =======================================
+     COURSE SPACING
+     ======================================= */
+.ski-instructor-courses {
+    margin-left: 10px;
 }
 
+.snowboard-instructor-courses {
+    margin-left: -10px;
+}
+
+/* =======================================
+     NAVIGATION MENU
+     ======================================= */
+.ul-navigation {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ul-navigation a {
+    color: var(--color-white);
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.ul-navigation .separator {
+    color: black;
+    margin: 0 5px;
+}
+
+/* =======================================
+     FORM SELECT WITH CUSTOM ARROW
+     ======================================= */
 .form-select-arrow {
-    background-color: #fff;
+    background-color: var(--color-white);
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: none;
-    padding-right: 1rem;
-    background:  #F6F6F6 url(../images/buttons/arrow.png) no-repeat;
+    background: #f6f6f6 url(../images/buttons/arrow.png) no-repeat;
     background-size: 20px;
     background-position: right 0px center;
+    padding-right: 1rem;
     cursor: pointer;
 }
