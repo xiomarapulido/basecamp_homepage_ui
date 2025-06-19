@@ -70,6 +70,7 @@
 .wrapper-text-right-container {
     margin-top: 15px;
     margin-bottom: 20px;
+
     .strong {
         font-weight: bold;
     }
@@ -99,4 +100,32 @@
 
 .img-send:hover {
     filter: brightness(85%);
+}
+
+#content-sample-aut1 {
+    width: 265px;
+}
+
+#content-sample-aut2 {
+    width: 275px;
+}
+
+.cloud-tweet {
+    width: 275px;
+
+    a {
+        font-size: 11px;
+    }
+}
+
+.wrapper-facebook-img{
+    width: 250px;
+}
+
+.ski-instructor-courses{
+    margin-left: 10px;
+}
+
+.snowboard-instructor-courses{
+    margin-left: -10px;
 }
