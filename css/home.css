@@ -18,7 +18,7 @@
 .header .top .header-right-cont{float:left;height:148px;width:204px;}
 .header .logo{float:left;padding-top:20px;}
 .header .logo a{background:url(../images/headers/logo.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:85px;width:325px;}
-.header .tagline{color:#F36;float:left;font-size:16px;font-style:italic;line-height:25px;text-shadow:0 1px 1px rgba(0,1,1,0.46);width:343px;padding:32px 0 0 40px;}
+.header .tagline{color:#F36;float:left;font-size:14px;font-style:italic;line-height:25px;text-shadow:0 1px 1px rgba(0,1,1,0.46);width:343px;padding:40px 0 0 40px;}
 .header .tagline a{color: #FF3366;font-size: 16px;font-style: italic;line-height: 25px;text-shadow: 0 1px 1px rgba(0, 1, 1, 0.46);}
 
 .header .navigation{float:left;height:20px;line-height:20px;width:716px;margin:0;padding:0;}
@@ -29,8 +29,8 @@
 .header .phone{color:#FFF;float:right;font-family:"DIN Medium","Trebuchet MS",Sans-serif,Serif;font-size:22px;font-weight:400;line-height:25px;padding-top:6px;text-align:right;text-shadow:0 1px 1px rgba(0,0,0,0.45);}
 
 .content{clear:both;float:left;width:100%;}
-.content .banner{background:url(../images/backgrounds/header.jpg) no-repeat scroll 0 0 transparent;clear:left;float:left;height:462px;margin-top:24px;width:920px;padding:0;}
-.content .banner .left{float:left;width:395px;padding:40px 0 0 30px;height:220px;}
+.content .banner{background:url(../images/backgrounds/header.jpg) no-repeat scroll 0 0 transparent;clear:left;float:left;height:462px;margin-top:24px;width:920px;padding:0; margin-bottom: 25px;}
+.content .banner .left{float:left;width:395px;padding:40px 0 0 30px;height:220px; margin-top: 15px;}
 
 .content .banner .buttons{clear:left;float:left;margin-top:22px;width:389px;}
 .content .banner .right{float:right;padding:57px 26px 0 0;}
@@ -45,11 +45,11 @@
 .content .banner .bottom-left{float:left;width:510px;padding:28px 0 0 21px;}
 .content .banner .bottom-left .subtitle{background:url(../images/headers/basecamp-resorts.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:25px;width:190px;}
 .content .banner .bottom-left ul{float:left;list-style:none outside none;width:100%;padding:0;}
-.content .banner .bottom-left li{background:url(../images/top-bullet.png) no-repeat scroll 1px 9px transparent;color:#F36;float:left;font-size:13px;height:24px;line-height:24px;width:140px;padding:0 0 0 15px;}
+.content .banner .bottom-left li{background:url(../images/top-bullet.png) no-repeat scroll 1px 9px transparent;color:#F36;float:left;font-size:13px;height:24px;line-height:24px;width:130px;padding:0 0 0 15px;}
 .content .banner .bottom-right{float:right;padding-right:23px;width:352px;}
 .content .banner .bottom-right .subtitle{background:url(../images/headers/free-brochure-request.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;overflow:hidden;padding-top:64px;width:333px;}
 
-.content .title{color:#004386;float:left;font-size:24px;font-weight:700;line-height:30px;text-align:center;width:100%;padding:20px 0;}
+.content .title{color:white;float:left;font-size:33px;font-weight:700;line-height:30px;text-align:center;width:100%;padding:20px 0;}
 .content .title span{color:#F36;}
 .content .previews{background:url(../images/backgrounds/video-previews.jpg) no-repeat scroll 196px 25px transparent;clear:both;float:left;padding-top:25px;position:relative;width:100%;}
 .content .preview-container{background:url(../images/backgrounds/video-preview.jpg) no-repeat scroll 0 0 transparent;float:left;height:256px;position:relative;width:228px;}
@@ -73,11 +73,11 @@
 .course-bar .find-a-course{background:url(../images/headers/find-a-course.jpg) no-repeat scroll 17px 0 transparent;float:left;height:0;margin-top:18px;overflow:hidden;padding-left:17px;padding-top:20px;width:144px;}
 .course-bar .courses{float:left;}
 .course-bar .courses .select-container{float:left;margin-top:18px;padding-left:14px;width:194px;}
-.course-bar .courses .select-container select{width:194px;}
+.course-bar .courses .select-container select{width:194px; border-radius: 5px;border-radius: 5px;padding-top: 2px;padding-bottom: 2px;padding-left: 5px;}
 .course-bar .search{background:url(../images/bar-seperator.jpg) no-repeat scroll 128px 0 transparent;float:left;height:57px;width:95px;padding:0 17px 0 18px;}
 .course-bar .search-btn{background:url(../images/buttons/search.jpg) no-repeat scroll 0 0 transparent;border:medium none;float:left;height:28px;margin-top:15px;width:95px;}
 .course-bar .search-btn:hover{background-position:0 -28px;}
-.course-bar .call-now{background:url(../images/headers/call-now.png) no-repeat scroll 0 0 transparent;float:right;height:0;margin:10px 35px 0 0;overflow:hidden;padding-right:44px;padding-top:37px;width:94px;}
+.course-bar .call-now{background:url(../images/headers/call-now.jpg) no-repeat scroll 0 0 transparent;float:right;height:0;margin:10px 35px 0 0;overflow:hidden;padding-right:44px;padding-top:37px;width:94px;}
 
 .content .social-media .blog{float:left;width:360px;}
 .social-media .blog .blog-header{background:url(../images/headers/recent-blog-posts.jpg) no-repeat scroll 0 0 transparent;float:left;height:0;margin-top:2px;overflow:hidden;padding-top:50px;width:238px;}
@@ -102,22 +102,22 @@
 .twitter .tweet .cloud-content{padding:5px 10px;}
 .twitter .tweet .time{color:#F36;float:right;text-align:right;width:100%;margin-top:14px;}
 .content .social-media .facebook{float:right;width:240px;}
-.content .certification{float:left;margin-top:30px;width:100%;}
+.content .certification{float:left;width:100%;}
 .content .certification .field{background:url(../images/backgrounds/blue-field.jpg) no-repeat scroll 0 0 transparent;height:198px;width:449px;padding:0 4px;}
 .content .certification .qualifications{float:left;}
 .content .certification .qualifications .heading{background:url(../images/headers/worldwide-recognised-qualifications.jpg) no-repeat scroll 17px 0 transparent;float:left;height:0;margin-top:17px;overflow:hidden;padding-left:17px;padding-top:33px;width:414px;}
-.content .certification .qualifications .logos{background:url(../images/qualifications2.jpg) no-repeat scroll 12px 0 transparent;float:left;height:80px;margin-top:37px;width:100%;}
+.content .certification .qualifications .logos{background:url(../images/qualifications.jpg) no-repeat scroll 12px 0 transparent;float:left;height:80px;margin-top:37px;width:100%;}
 .content .certification .peace-of-mind{float:right;}
 .content .certification .peace-of-mind .heading{background:url(../images/headers/peace-of-mind-when-booking.jpg) no-repeat scroll 17px 0 transparent;float:left;height:0;margin-top:17px;overflow:hidden;padding-left:17px;padding-top:33px;width:326px;}
 .content .certification .peace-of-mind .logos{background:url(../images/peace-of-mind.jpg) no-repeat scroll 65px 0 transparent;float:left;height:106px;margin-top:13px;width:100%;}
-.footer {background: url("../images/backgrounds/footer.png") repeat-x scroll 0 0 transparent;float: left;padding-top: 50px;width: 100%;}
+.footer {background: url("../images/backgrounds/footer.png") repeat-x scroll 0 0 transparent;float: left;padding-top: 23px;width: 100%;background-size: auto 355px;}
 .footer .wrapper{width:922px;}
 .footer .contact-bar{background:url(../images/backgrounds/bar.png) no-repeat scroll 0 0 transparent;clear:left;float:left;height:57px;width:100%;padding:0;}
 .contact-bar .give-us-a-call{color:#F36;float:left;font-family:"DIN Medium","Trebuchet MS",sans-serif,serif;font-size:26px;height:21px;line-height:26px;padding-left:17px;padding-top:16px;text-shadow:0 1px 1px rgba(0,0,0,0.34);width:560px;}
 .contact-bar .give-us-a-call span{color:#FFF;}
 .contact-bar .send-message{float:right;margin-top:12px;padding-right:13px;}
-.footer .field{background:url(../images/backgrounds/footer-field.jpg) repeat-x scroll 0 0 #FFF;border:1px solid #DDD;border-radius:6px 6px 6px 6px;clear:both;float:left;margin-top:30px;width:870px;padding:0 26px 12px;}
-.field .list-column{float:left;padding:20px 30px 0 0;}
+.footer .field{background:url(../images/backgrounds/footer-field.jpg) repeat-x scroll 0 0 #FFF;border:1px solid #DDD;border-radius:6px 6px 6px 6px;clear:both;float:left;margin-top:27px;width:870px;padding:0 26px;}
+.field .list-column{float:left;padding:12px 30px 0 0;}
 .field .list-column .heading{float:left;height:0;overflow:hidden;padding-top:30px;width:100%;}
 .field .resorts{width:145px;}
 .field .resorts h2{background:url(../images/headers/resorts.jpg) no-repeat scroll 0 0 transparent;}
@@ -130,17 +130,17 @@
 .field .list-column li a{color:#F36;font-size:12px;line-height:24px;}
 .field .social{float:right;padding-top:20px;width:146px;}
 .social a{float:left;height:0;margin-bottom:4px;overflow:hidden;}
-.social .fb-small{background:url(../images/fb-footer.jpg) no-repeat scroll 0 0 transparent;padding-top:67px;width:68px; }
-.social .tw-small{background:url(../images/tw-footer.jpg) no-repeat scroll 1px 0 transparent;padding-top:67px;width:68px;margin-left: 10px;}
-.social .yt-small{background:url(../images/yt-footer.jpg) no-repeat scroll 0 0 transparent;padding-top:62px;width:148px;}
-.social .li-small{background:url(../images/li-footer.jpg) no-repeat scroll 0 0 transparent;padding-top:44px;width:148px;}
-.footer .logos{background:url(../images/logos.jpg) no-repeat scroll 0 0 transparent;clear:both;float:left;height:80px;margin-top:30px;width:922px;}
+.social .fb-small{background:url(../images/fb-small.jpg) no-repeat scroll 0 0 transparent;padding-top:44px;width:148px;;margin-left: 35px; }
+.social .tw-small{background:url(../images/tw-small.jpg) no-repeat scroll 1px 0 transparent;padding-top:35px;width:148px;margin-left: 35px;}
+.social .yt-small{background:url(../images/yt-small.jpg) no-repeat scroll 0 0 transparent;padding-top:52px;width:148px;;margin-left: 45px;}
+.social .li-small{background:url(../images/li-small.jpg) no-repeat scroll 0 0 transparent;padding-top:40px;width:148px;;margin-left: 50px;}
+.footer .logos{background:url(../images/logos.jpg) no-repeat scroll 0 0 transparent;clear:both;float:right;height:80px;margin-top:30px;width:980px;}
 .footer .bottom{clear:both;color:#959595;float:left;line-height:25px;width:100%;margin:25px 0;}
 .footer .bottom a{color:#959595;line-height:25px;}
-.footer .bottom .copyright-links{float:left;text-align: center;width: 100%;padding-bottom: 25px;}
+.footer .bottom .copyright-links{float:left;width: 100%;padding-bottom: 25px;}
 .footer .bottom .copyright-links a{color:#FF3366;font-size:12px;}
 .footer .bottom .copyright-links .developers a{color:#959595;font-size:12px;}
-.footer .bottom .developers{display:inline;}
+.footer .bottom .developers{display:inline;float: right;}
 .footer .bottom .ticket-to-ride-container{height:75px;margin: 0 auto;width: 252px;}
 .footer .bottom .ticket-to-ride-container a{ background: url("../images/ticket-to-ride-group.jpg") no-repeat scroll 0 0 transparent;font-size: 12px;height: 45px;line-height: 20px;float:left;padding: 30px 0 0;text-align: center;width: 252px;display:inline-block;}
 .footer .bottom .ticket-to-ride-container a:hover{text-decoration:none;}
@@ -227,7 +227,7 @@
 .header-left-cont .top-nav .admin:hover{text-decoration:underline;color:#FF3366;}
 .header-left-cont .top-nav .last{background:none;}
 
-.content .banner .title{text-align:left;margin-bottom:0;padding:0;padding-top:22px;}
+.content .banner .title{text-align:left;margin-bottom:10px;padding:0;padding-top:15px;}
 .content .banner .info{width:100%;height:100px;padding-left:0;}
 .content .banner .left{position:relative;}
 .content .banner .left .contextual-links-wrapper{background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #AAAAAA;border-radius: 5px 5px 5px 5px;margin-right: 350px;margin-top: 28px;}
@@ -248,7 +248,7 @@
 .field .list-column .heading {color:#004386;font-size:18px;float:left;margin:0;height:30px;width:100%;font-weight:bold;padding:5px 0 0 0;}
 .field .list-column .heading:hover{text-decoration:none;}
 
-a {color: #FF3366; cursor: pointer; font-family: "Trebuchet MS",Sans-serif; font-size: 11px; text-decoration: none; }
+a {color: #FF3366; cursor: pointer; font-family: "Trebuchet MS",Sans-serif; font-size: 13px; text-decoration: none; }
 .videos-ltbx #load-videos-list {float: left; height: 402px; overflow: hidden; padding: 0 0; width: 167px;margin-top: 29px; }
 .videos-ltbx .items {float: left; height: 10000px; padding: 0 0; width: 167px; margin-top:0px;}
 .videos-ltbx .item {width: 155px; }
@@ -275,6 +275,7 @@ a {color: #FF3366; cursor: pointer; font-family: "Trebuchet MS",Sans-serif; font
 .footer .logos a{float:left;overflow:hidden;height:0;padding-top:63px;}
 .footer .logos .louise{width:120px;margin-left:50px;background: url("../images/logos/footer/lake-louise.jpg") no-repeat scroll 0 0 transparent;}
 .footer .logos .whistler{width:193px;margin-left:30px;background: url("../images/logos/footer/whistler.jpg") no-repeat scroll 0 0 transparent;}
+.footer .logos .kickinghorse{width:88px;margin-left:30px;background: url("../images/logos/footer/kicking-horse-small.png") no-repeat scroll 0 0 transparent;}
 .footer .logos .val{width:163px;margin-left:30px;background: url("../images/logos/footer/val-disere.jpg") no-repeat scroll 0 0 transparent;}
 .footer .logos .meribel{width:75px;margin-left:40px;background: url("../images/logos/footer/meribel.jpg") no-repeat scroll 0 0 transparent;}
 .footer .logos .bariloche{width:105px;margin-left:55px;background: url("../images/logos/footer/bariloche.jpg") no-repeat scroll 0 0 transparent;}
