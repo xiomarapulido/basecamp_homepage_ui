@@ -118,14 +118,56 @@
     }
 }
 
-.wrapper-facebook-img{
+.wrapper-facebook-img {
     width: 250px;
 }
 
-.ski-instructor-courses{
+.ski-instructor-courses {
     margin-left: 10px;
 }
 
-.snowboard-instructor-courses{
+.snowboard-instructor-courses {
     margin-left: -10px;
+}
+
+.ul-navigation {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    a {
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .separator {
+        color: black;
+        margin: 0 5px;
+    }
+}
+
+.btn-facebook-logo {
+    position: absolute;
+    width: 220px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.btn-facebook-logo:hover {
+    filter: brightness(85%);
+}
+
+.form-select-arrow {
+    background-color: #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    padding-right: 1rem;
+    background:  #F6F6F6 url(../images/buttons/arrow.png) no-repeat;
+    background-size: 20px;
+    background-position: right 0px center;
+    cursor: pointer;
 }
